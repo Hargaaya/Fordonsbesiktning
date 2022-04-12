@@ -1,0 +1,803 @@
+[
+  {
+    "Id": "1",
+    "Name": "Stomme",
+    "Image": "https://images.instamotor.com/web/blog/2017/Jul/OK2Z8-1500942175250.png",
+    "Subsystems": [
+      {
+        "Id": "1.1",
+        "Name": "Bärande Konstruktion",
+        "Subsystems": [
+          {
+            "Id": "1.1.1",
+            "Name": "Ram"
+          },
+          {
+            "Id": "1.1.2",
+            "Name": "Balkprofil"
+          },
+          {
+            "Id": "1.1.3",
+            "Name": "Plåtyta"
+          }
+        ]
+      },
+
+      {
+        "Id": "1.2",
+        "Name": "Infästning",
+        "Subsystems": []
+      },
+      {
+        "Id": "1.3",
+        "Name": "Skydd",
+        "Subsystems": [
+          {
+            "Id": "1.3.1",
+            "Name": "Underkörningsskydd"
+          },
+          {
+            "Id": "1.3.2",
+            "Name": "Sidoskydd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Hjulsystem",
+    "Image": "https://www.delphiautoparts.com/sites/default/files/styles/600px_wide/public/2019-04/tsm_macpherson_rgb_600.jpg",
+    "Subsystems": [
+      {
+        "Id": "2.1",
+        "Name": "Hjul",
+        "Subsystems": [
+          {
+            "Id": "2.1.1",
+            "Name": "Däck"
+          },
+          {
+            "Id": "2.1.2",
+            "Name": "Fälg"
+          },
+          {
+            "Id": "2.1.3",
+            "Name": "Hjullager"
+          },
+          {
+            "Id": "2.1.5",
+            "Name": "Däcktrycksövervakning"
+          }
+        ]
+      },
+
+      {
+        "Id": "2.2",
+        "Name": "Fjädersystem",
+        "Subsystems": [
+          {
+            "Id": "2.2.1",
+            "Name": "Fjädring"
+          },
+          {
+            "Id": "2.2.2",
+            "Name": "Fjädersäte"
+          },
+          {
+            "Id": "2.2.3",
+            "Name": "Stötdämpare"
+          },
+          {
+            "Id": "2.2.4",
+            "Name": "Fjäderben"
+          }
+        ]
+      },
+
+      {
+        "Id": "2.3",
+        "Name": "Axel/Länkage",
+        "Subsystems": [
+          {
+            "Id": "2.3.1",
+            "Name": "Axel"
+          },
+          {
+            "Id": "2.3.2",
+            "Name": "Tvärstag"
+          },
+          {
+            "Id": "2.3.3",
+            "Name": "Länkarm"
+          },
+          {
+            "Id": "2.3.4",
+            "Name": "Spindelled"
+          },
+          {
+            "Id": "2.3.5",
+            "Name": "Spindeltapp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Drivsystem",
+    "Image": "https://static.turbosquid.com/Preview/001324/685/VX/_600.jpg",
+    "Subsystems": [
+      {
+        "Id": "3.1",
+        "Name": "Kraftkälla",
+        "Subsystems": [
+          {
+            "Id": "3.1.1",
+            "Name": "Motor"
+          },
+          {
+            "Id": "3.1.2",
+            "Name": "Bränslesystem"
+          },
+          {
+            "Id": "3.1.3",
+            "Name": "Avgassystem"
+          },
+          {
+            "Id": "3.1.4",
+            "Name": "Elsystem"
+          },
+          {
+            "Id": "3.1.5",
+            "Name": "Hastighetsregulator"
+          },
+          {
+            "Id": "3.1.6",
+            "Name": "Hydraulsystem"
+          }
+        ]
+      },
+
+      {
+        "Id": "3.2",
+        "Name": "Drivning",
+        "Subsystems": [
+          {
+            "Id": "3.2.1",
+            "Name": "Växlingssystem"
+          },
+          {
+            "Id": "3.2.2",
+            "Name": "Kraftöverföring"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Bromssystem",
+    "Image": "https://static.turbosquid.com/Preview/2019/03/15__14_46_08/Car_Brakes_0000.jpgC75F6CB8-AB3F-460C-9FEF-03009D9F2CA0Large.jpg",
+    "Subsystems": [
+      {
+        "Id": "4.1",
+        "Name": "Färdbroms - Prestanda",
+        "Subsystems": [
+          {
+            "Id": "4.1.1",
+            "Name": "Retardation"
+          }
+        ]
+      },
+
+      {
+        "Id": "4.2",
+        "Name": "Färdbroms - Funktion",
+        "Subsystems": [
+          {
+            "Id": "4.2.1",
+            "Name": "Bromskraftsfördelning"
+          },
+          {
+            "Id": "4.2.2",
+            "Name": "Systemfunktion"
+          },
+          {
+            "Id": "4.2.3",
+            "Name": "Rörelsereserv"
+          },
+          {
+            "Id": "4.2.4",
+            "Name": "Hjulbroms"
+          },
+          {
+            "Id": "4.2.5",
+            "Name": "Tillsatsbroms"
+          },
+          {
+            "Id": "4.2.6",
+            "Name": "Katastrofbroms"
+          }
+        ]
+      },
+
+      {
+        "Id": "4.3",
+        "Name": "Färdbroms - Manövrering",
+        "Subsystems": [
+          {
+            "Id": "4.3.1",
+            "Name": "Reglage"
+          },
+          {
+            "Id": "4.3.2",
+            "Name": "Huvudcylinder"
+          }
+        ]
+      },
+
+      {
+        "Id": "4.4",
+        "Name": "Färdbroms - Transmission",
+        "Subsystems": [
+          {
+            "Id": "4.4.1",
+            "Name": "Bromsledning"
+          },
+          {
+            "Id": "4.4.2",
+            "Name": "Länksystem"
+          },
+          {
+            "Id": "4.4.3",
+            "Name": "Bromshävarm"
+          },
+          {
+            "Id": "4.4.4",
+            "Name": "Bromscylinder"
+          },
+          {
+            "Id": "4.4.5",
+            "Name": "Bromsventil"
+          },
+          {
+            "Id": "4.4.6",
+            "Name": "Uttag"
+          }
+        ]
+      },
+
+      {
+        "Id": "4.5",
+        "Name": "Färdbroms - Reglering",
+        "Subsystems": [
+          {
+            "Id": "4.5.1",
+            "Name": "Lastkännande ventil"
+          },
+          {
+            "Id": "4.5.2",
+            "Name": "ABS-system"
+          },
+          {
+            "Id": "4.5.3",
+            "Name": "Påskjutsanordning"
+          }
+        ]
+      },
+
+      {
+        "Id": "4.6",
+        "Name": "Färdbroms - Energiförsörjning",
+        "Subsystems": [
+          {
+            "Id": "4.6.1",
+            "Name": "Tryckluftsystem"
+          },
+          {
+            "Id": "4.6.2",
+            "Name": "Frysskydd"
+          },
+          {
+            "Id": "4.6.3",
+            "Name": "Vakuumsystem"
+          },
+          {
+            "Id": "4.6.4",
+            "Name": "Varningsanordning"
+          }
+        ]
+      },
+
+      {
+        "Id": "4.7",
+        "Name": "Parkeringsbroms",
+        "Subsystems": [
+          {
+            "Id": "4.7.1",
+            "Name": "Bromsfunktion"
+          },
+          {
+            "Id": "4.7.2",
+            "Name": "Transmission"
+          },
+          {
+            "Id": "4.7.3",
+            "Name": "Hjulbroms"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Styrsystem",
+    "Image": "https://www.3dcadbrowser.com/th/1/62/62082.jpg",
+    "Subsystems": [
+      {
+        "Id": "5.1",
+        "Name": "Styrsystem",
+        "Subsystems": [
+          {
+            "Id": "5.1.1",
+            "Name": "Ratt"
+          },
+          {
+            "Id": "5.1.3",
+            "Name": "Rattaxel"
+          },
+          {
+            "Id": "5.1.4",
+            "Name": "Styrväxel"
+          },
+          {
+            "Id": "5.1.5",
+            "Name": "Systemfunktion"
+          },
+          {
+            "Id": "5.1.6",
+            "Name": "Kulvändkrans"
+          }
+        ]
+      },
+
+      {
+        "Id": "5.2",
+        "Name": "Länkage",
+        "Subsystems": [
+          {
+            "Id": "5.2.1",
+            "Name": "Arm/Stag"
+          },
+          {
+            "Id": "5.2.2",
+            "Name": "Styrled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Karosseri",
+    "Image": "https://img-new.cgtrader.com/items/1830291/cdfe8f3695/large/car-door-structure-01-3d-model-max-fbx.jpg",
+    "Subsystems": [
+      {
+        "Id": "6.1",
+        "Name": "Karossens utsida",
+        "Subsystems": [
+          {
+            "Id": "6.1.1",
+            "Name": "Dörr"
+          },
+          {
+            "Id": "6.1.2",
+            "Name": "Främre huv"
+          },
+          {
+            "Id": "6.1.3",
+            "Name": "Kaross"
+          },
+          {
+            "Id": "6.1.4",
+            "Name": "Stänkskärm"
+          },
+          {
+            "Id": "6.1.5",
+            "Name": "Ruta"
+          },
+          {
+            "Id": "6.1.6",
+            "Name": "Parkeringsstöd"
+          }
+        ]
+      },
+
+      {
+        "Id": "6.2",
+        "Name": "Personutrymme",
+        "Subsystems": [
+          {
+            "Id": "6.2.1",
+            "Name": "Säkerhetsbälte"
+          },
+          {
+            "Id": "6.2.2",
+            "Name": "Förar-/passagerarplats"
+          },
+          {
+            "Id": "6.2.3",
+            "Name": "Utrustning"
+          },
+          {
+            "Id": "6.2.4",
+            "Name": "Kollektivtrafikutrustning"
+          },
+          {
+            "Id": "6.2.5",
+            "Name": "Utrustning för funktionshindrad"
+          }
+        ]
+      },
+
+      {
+        "Id": "6.3",
+        "Name": "Lasthantering",
+        "Subsystems": [
+          {
+            "Id": "6.3.1",
+            "Name": "Lastutrymme"
+          },
+          {
+            "Id": "6.3.2",
+            "Name": "Pågyggnadsram"
+          },
+          {
+            "Id": "6.3.3",
+            "Name": "Lastbegränsande anordning"
+          },
+          {
+            "Id": "6.3.4",
+            "Name": "Lastsäkringsutrustning"
+          },
+          {
+            "Id": "6.3.5",
+            "Name": "Lastanordning"
+          }
+        ]
+      },
+
+      {
+        "Id": "6.4",
+        "Name": "Extra utrustning",
+        "Subsystems": [
+          {
+            "Id": "6.4.1",
+            "Name": "Tillbehör"
+          }
+        ]
+      },
+
+      {
+        "Id": "6.5",
+        "Name": "Gasolkontroll",
+        "Subsystems": []
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Kommunikation",
+    "Image": "https://static.turbosquid.com/Preview/2014/05/25__07_45_27/headlight_1.jpgc3d82439-cfbc-4341-be08-d414e514bee7Larger.jpg",
+    "Subsystems": [
+      {
+        "Id": "7.1",
+        "Name": "Sikthjälpmedel",
+        "Subsystems": [
+          {
+            "Id": "7.1.1",
+            "Name": "Rengörare"
+          },
+          {
+            "Id": "7.1.2",
+            "Name": "Backspegel"
+          },
+          {
+            "Id": "7.1.3",
+            "Name": "Huvudstrålkastate för hel- och halvljus"
+          },
+          {
+            "Id": "7.1.4",
+            "Name": "Dimstrålkastare"
+          },
+          {
+            "Id": "7.1.5",
+            "Name": "Fjärrstrålkastare"
+          },
+          {
+            "Id": "7.1.6",
+            "Name": "Backningsstrålkastare"
+          },
+          {
+            "Id": "7.1.7",
+            "Name": "Arbetsbelysning"
+          }
+        ]
+      },
+
+      {
+        "Id": "7.2",
+        "Name": "Markeringar",
+        "Subsystems": [
+          {
+            "Id": "7.2.1",
+            "Name": "Positionslykta"
+          },
+          {
+            "Id": "7.2.2",
+            "Name": "Sidomarkering"
+          },
+          {
+            "Id": "7.2.3",
+            "Name": "Skyltlykta"
+          },
+          {
+            "Id": "7.2.4",
+            "Name": "Reflex"
+          },
+          {
+            "Id": "7.2.5",
+            "Name": "Bakre dimlykta"
+          },
+          {
+            "Id": "7.2.6",
+            "Name": "Varsellykta"
+          },
+          {
+            "Id": "7.2.7",
+            "Name": "Annan lykta"
+          }
+        ]
+      },
+
+      {
+        "Id": "7.3",
+        "Name": "Signaler",
+        "Subsystems": [
+          {
+            "Id": "7.3.1",
+            "Name": "Körriktningsvisare"
+          },
+          {
+            "Id": "7.3.2",
+            "Name": "Stopplykta"
+          },
+          {
+            "Id": "7.3.3",
+            "Name": "Signalanordning"
+          },
+          {
+            "Id": "7.3.4",
+            "Name": "Varningstriangel"
+          },
+          {
+            "Id": "7.3.5",
+            "Name": "Larmanordning"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Instrumentering",
+    "Image": "https://preview.free3d.com/img/2014/11/2206005039414117993/ww7km0ic-900.jpg",
+    "Subsystems": [
+      {
+        "Id": "8.1",
+        "Name": "Färdinstrument",
+        "Subsystems": [
+          {
+            "Id": "8.1.1",
+            "Name": "Hastighetsmätare"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Ovrigt",
+    "Image": "https://static.turbosquid.com/Preview/2018/11/28__15_45_44/license_render2.jpg2580B878-309B-4AFA-BE58-05B2E9388409Large.jpg",
+    "Subsystems": [
+      {
+        "Id": "9.1",
+        "Name": "Kopplingsanordning",
+        "Subsystems": [
+          {
+            "Id": "9.1.1",
+            "Name": "Kulkoppling"
+          },
+          {
+            "Id": "9.1.2",
+            "Name": "Bygelkoppling"
+          },
+          {
+            "Id": "9.1.3",
+            "Name": "Krokkoppling"
+          },
+          {
+            "Id": "9.1.4",
+            "Name": "Vändskiva"
+          },
+          {
+            "Id": "9.1.5",
+            "Name": "Dragbalk"
+          },
+          {
+            "Id": "9.1.6",
+            "Name": "Släpvagnskontakt"
+          },
+          {
+            "Id": "9.1.7",
+            "Name": "Kulhandske"
+          },
+          {
+            "Id": "9.1.8",
+            "Name": "Dragögla"
+          },
+          {
+            "Id": "9.1.9",
+            "Name": "Dragstång"
+          },
+          {
+            "Id": "9.1.10",
+            "Name": "Tapp"
+          },
+          {
+            "Id": "9.1.11",
+            "Name": "Kopplingsklasskylt"
+          },
+          {
+            "Id": "9.1.12",
+            "Name": "Multifunktionskoppling"
+          }
+        ]
+      },
+
+      {
+        "Id": "9.2",
+        "Name": "Trafikfarliga anordningar",
+        "Subsystems": [
+          {
+            "Id": "9.2.1",
+            "Name": "Utskjutande detalj"
+          }
+        ]
+      },
+
+      {
+        "Id": "9.3",
+        "Name": "Registeruppgift",
+        "Subsystems": [
+          {
+            "Id": "9.3.1",
+            "Name": "Identitet"
+          },
+          {
+            "Id": "9.3.2",
+            "Name": "Ändring"
+          }
+        ]
+      },
+
+      {
+        "Id": "9.4",
+        "Name": "Provkörning",
+        "Subsystems": [
+          {
+            "Id": "9.4.1",
+            "Name": "Funktioner"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "13",
+    "Name": "Brandskyddskontroll",
+    "Image": "https://i.ytimg.com/vi/om8_4lFLAOE/maxresdefault.jpg",
+    "Subsystems": []
+  },
+  {
+    "Id": "30",
+    "Name": "Miljokontroll",
+    "Image": "https://res.cloudinary.com/yourmechanic/image/upload/dpr_auto,f_auto,q_auto/v1/article_images/gas_fumes",
+    "Subsystems": [
+      {
+        "Id": "30.1",
+        "Name": "Avgasrening - Utrustning, Injustering och funktion",
+        "Subsystems": [
+          {
+            "Id": "30.1.1",
+            "Name": "Vevhusventilation"
+          },
+          {
+            "Id": "30.1.2",
+            "Name": "Katalysator"
+          },
+          {
+            "Id": "30.1.3",
+            "Name": "Syresensor"
+          },
+          {
+            "Id": "30.1.4",
+            "Name": "EGR-system"
+          },
+          {
+            "Id": "30.1.5",
+            "Name": "Luftpump"
+          },
+          {
+            "Id": "30.1.6",
+            "Name": "Pulsair-system"
+          },
+          {
+            "Id": "30.1.7",
+            "Name": "Avdunstning"
+          },
+          {
+            "Id": "30.1.9",
+            "Name": "Ombordsdiagnossystem (OBD)"
+          },
+          {
+            "Id": "30.1.10",
+            "Name": "System som använder förbrukningsbart reagens"
+          },
+          {
+            "Id": "30.1.11",
+            "Name": "Partikelfilter"
+          }
+        ]
+      },
+
+      {
+        "Id": "30.2",
+        "Name": "Avgaser bensindriven",
+        "Subsystems": [
+          {
+            "Id": "30.2.1",
+            "Name": "Tomgång"
+          },
+          {
+            "Id": "30.2.2",
+            "Name": "Förhöjd tomgång"
+          }
+        ]
+      },
+
+      {
+        "Id": "30.3",
+        "Name": "Avgaser dieseldriven",
+        "Subsystems": [
+          {
+            "Id": "30.3.1",
+            "Name": "Mätning"
+          }
+        ]
+      },
+
+      {
+        "Id": "30.4",
+        "Name": "Köldmedie",
+        "Subsystems": [
+          {
+            "Id": "30.4.1",
+            "Name": "Kontrollrapport"
+          }
+        ]
+      }
+    ]
+  }
+]
