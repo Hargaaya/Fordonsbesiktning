@@ -10,15 +10,80 @@
         "Subsystems": [
           {
             "Id": "1.1.1",
-            "Name": "Ram"
+            "Name": "Ram",
+            "Control": [
+              {
+                "Type": "Fastsättning",
+                "Info": "Med fastsättning avses även gummikuddar och liknande som används för fastsättning av t.ex. fram-/bakvagnsram."
+              },
+              {
+                "Type": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "underifrån och från sidan. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg. Upptäcks skador som tyder på skevhet görs jämförelsemätning. Slutlig bedömning sker efter provkörning där skevhetens inverkan på körbarheten ska vara avgörande."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              },
+              {
+                "Type": "Mätning",
+                "Info": "utförs vid tveksamhet om bedömning."
+              }
+            ],
+            "Assessment": "Med rostskada menas mjukrost eller godsbortfall på grund av skadan. Mjukrost i form av sådan jäsning eller skiktning som förekommer t.ex. mellan ramfläns och förstärkning ska i normalfallet endast bedömas i kombination med annan skada, t.ex. sprickor. Övriga skador som ska bedömas förutom sprickor är deformationer. Omfattningen på en rostskada i separat ram bestäms genom att uppskatta skadans inverkan på ramens bärighet. Vid bedömning av godsbortfall räknas ramens flänsar var för sig."
           },
           {
             "Id": "1.1.2",
-            "Name": "Balkprofil"
+            "Name": "Balkprofil",
+            "Control": [
+              {
+                "Type": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "underifrån, under främre huv, och från utsidan via hjulhus och dörröppning. Upptäcks skador som tyder på skevhet görs jämförelsemätning. Slutlig bedömning sker efter provkörning där skevhetens inverkan på körbarheten ska vara avgörande"
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              },
+              {
+                "Type": "Mätning",
+                "Info": "utförs vid tveksamhet om bedömning."
+              }
+            ],
+            "Assessment": "Med rostskada i balkprofil menas rosthål och områden med påtaglig mjukrost. Närbelägna rostskador ska sammanräknas även om mindre områden med frisk plåt (upp till ca 15 cm) finns mellan rostskadorna. Är avståndet klart > 15 cm bedöms varje skada för sig. Övriga skador som ska bedömas är sprickor och deformationer. Körförbud ges då skadorna är så omfattande att det finns risk för haveri eller att komponenter lossnar."
           },
           {
             "Id": "1.1.3",
-            "Name": "Plåtyta"
+            "Name": "Plåtyta",
+            "Control": [
+              {
+                "Type": "Skador",
+                "Info": "på golv, hjulhus, mellanvägg och reservhjulslåda. Med golv avses golv i person-/ bagageutrymme och motorrum. Skador som enbart påverkar täthet mot avgaser i förar-/passagerarutrymme, se vidare 6.2.2 Förar/passagerarplats."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "underifrån, under främre huv, och frånsidan via hjulhus."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              },
+              {
+                "Type": "Mätning",
+                "Info": "utförs vid tveksamhet om bedömning."
+              }
+            ],
+            "Assessment": "Mätning avser en rostskadas utbredning. Utbredning av en rostskada i balk bestäms genom att beräkna både skadans andel av balktvärsnittets omkrets, och skadans längd i cm. Bedömningen ska baseras på det alternativ som ger den största omfattningen. Utbredningen på en rostskadad plåtyta (golv, hjulhus, mellanvägg) beräknas genom att skadans största utbredning i två riktningar mäts och adderas. Närbelägna rostskador ska sammanräknas även om mindre områden med frisk plåt (inom 15 cm) finns mellan skadorna."
           }
         ]
       },
@@ -26,7 +91,27 @@
       {
         "Id": "1.2",
         "Name": "Infästning",
-        "Subsystems": []
+        "Subsystems": [],
+        "Control": [
+          {
+            "Type": "Skador"
+          }
+        ],
+        "Method": [
+          {
+            "Type": "Okulärkontroll",
+            "Info": "av infästningar synliga underifrån, under främre huv, från utsidan via hjulhus och dörröppning. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg."
+          },
+          {
+            "Type": "Rostskadekontroll",
+            "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+          },
+          {
+            "Type": "Mätning",
+            "Info": "utförs vid tveksamhet om bedömning. Mätning avser rostskadans avstånd från infästningspunkt."
+          }
+        ],
+        "Assessment": "Infästningsområdet omfattar kraftupptagande material ca 15 cm omkring infästningspunkten. Observera att plåtyta kan finnas t.ex. i närheten av en förstärkning utan att den har betydelse för infästningen. Viktiga infästningsområden ska bedömas utan hänsyn till procentuell försvagning. Med detta avses infästningar där stora krafter verkar på ett fåtal infästningspunkter såsom infästning av draganordning, säkerhetsbälte och hjulsystem."
       },
       {
         "Id": "1.3",
@@ -34,11 +119,49 @@
         "Subsystems": [
           {
             "Id": "1.3.1",
-            "Name": "Underkörningsskydd"
+            "Name": "Underkörningsskydd",
+            "Control": [
+              {
+                "Type": "Fastsättning",
+                "Info": "skador kontrolleras på alla fordon som har skydd."
+              },
+              {
+                "Type": "Placering",
+                "Info": "kontrolleras på lastbilar och släpvagnar, dock inte: lastbil och släpvagn konstruerad med stor markfrigång för huvudsaklig användning i terräng, lastbil och släpvagn som uteslutande används av statlig brandkår eller kommunal brandstyrka vid räddningstjänst, lastbilschassi under transport från tillverkare eller återförsäljare till påbyggnadsfirma, lastbil och släpvagn som är särskilt inrättat för bärgning och bogsering av skadade fordon och som är utrustat med fast upphängningsanordning, lastbil som har anordning för påhängsvagn, lastbil och släpvagn där skyddet med hänsyn till fordonets konstruktion eller ändamål skulle medföra avsevärda olägenheter, dolly för påhängsvagn, fordon av 1973 års modell eller tidigare, eller, lastbil och släpvagn med en totalvikt av högst 3 500 kg registrerade före 1 juli 2010."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstaterats."
+              }
+            ]
           },
           {
             "Id": "1.3.2",
-            "Name": "Sidoskydd"
+            "Name": "Sidoskydd",
+            "Control": [
+              {
+                "Type": "Fastsättning",
+                "Info": "skador kontrolleras på alla fordon som har skydd."
+              },
+              {
+                "Type": "Placering",
+                "Info": "kontrolleras på lastbil och släpvagn årsmodell 1988 eller senare, dock inte brandbil med karosserikod 75 eller 95 och som har drivning på både fram- och bakaxel, släpvagn som används av statlig brandkår eller kommunal brandstyrka vid räddningstjänst, påhängsvagn med flyttbara bakre axlar om avståndet från ett tvärgående plan genom centrum av kopplingstappen i dess bakersta läge till centrum av den främsta axeln i dess främre läge är < 3,9 m, dragbil för påhängsvagn utan lastutrymme, släpvagn som används för transporter där den gemensamma lasten är förbindelsen mellan dragande fordon och släpvagnen, eller dolly för påhängsvagn. "
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              }
+            ]
           }
         ]
       }
@@ -55,19 +178,117 @@
         "Subsystems": [
           {
             "Id": "2.1.1",
-            "Name": "Däck"
+            "Name": "Däck",
+            "Control": [
+              {
+                "Type": "Skador",
+                "Info": "i slitbana och däcksidor."
+              },
+              {
+                "Type": "Mönsterdjup",
+                "Info": "mäts i slitbanans huvudmönster inom de mittre tre-fjärdedelarna (75 %) av slitbanans bredd."
+              },
+              {
+                "Type": "Dubbat-Odubbat",
+                "Info": "På lätta fordon med enkelmonterade hjul får inte finnas dubbade och odubbade däck blandat. På lätta och tunga bilar får vid dubbelmonterade hjul ett av de dubbelmonterade däcken vara odubbat om de dubbade däcken är symmetriskt placerade. Tunga fordon får inte finnas dubbade och odubbade däck på samma axel i annat fall än vad som gäller för dubbelmonterade hjul. På tung bil med boggi- eller trippelaxel behöver endast hjulen på en av de ingående axlarna ha dubbdäck."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "underifrån och från utsidan. Vid kontroll ska däcket roteras ett hjulvarv på axel som lyfts. Slitagevarnare används som referens vid kontroll av mönsterdjup."
+              },
+              {
+                "Type": "Mätning",
+                "Info": "av mönsterdjup sker vid tveksamhet om bedömning."
+              }
+            ]
           },
           {
             "Id": "2.1.2",
-            "Name": "Fälg"
+            "Name": "Fälg",
+            "Control": [
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Hjulfrigång"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "i samband med kontroll av däck. Hjulfrigång kontrolleras när hjulen vrids mellan fulla rattutslag på axel som lyfts. Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt."
+              }
+            ]
           },
           {
             "Id": "2.1.3",
-            "Name": "Hjullager"
+            "Name": "Hjullager",
+            "Control": [
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador",
+                "Info": "Missljud"
+              },
+              {
+                "Type": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Ljudkontroll vid maskinell hjulspinning",
+                "Info": "till ca 40 km/h sker på tunga bilars samtliga hjul som inte är drivande, och tunga släpfordons samtliga hjul. Finns ljud som bedöms komma från ett hjullager görs kompletterande kontroll genom att känna på axel eller annan 'fast' punkt nära lagret. Bedömning ”påtagligt missljud” görs först när tydliga vibrationer konstateras (i kombination med missljud). Ljudkontroll vid hjulspinning på släpvagnar med en totalvikt av högst 3 500 kg bör ske genom maskinell hjulspinning."
+              },
+              {
+                "Type": "Ljudkontroll",
+                "Info": "vid enkel provkörning/provkörning görs på alla bilar. Upptäcks missljud vid körning som bedöms bero på skadat hjullager, utförs hjulspinning på hjul utan drivning, för att fastställa bedömning."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "utförs på samtliga axlar, genom att krafter ansätts växelvis på hjul som kan lyftas. Kan axeln inte lyftas kontrolleras glapp med hjälp av framvagnsplatta/kraftplatta. På tunga fordon (T > 7 ton) påförs kraften med hjälp av verktyg (spett) och anbringad så att hjulets underkant pressas inåt. Observera att på tunga fordon med skivbromsar kan det vara mycket svårt att upptäcka glapp i hjullager. Upptäcks (utan särskild kontroll) att navkåpa saknas eller är lös ska anmärkning ske enligt nedan."
+              }
+            ]
           },
           {
             "Id": "2.1.5",
-            "Name": "Däcktrycksövervakning"
+            "Name": "Däcktrycksövervakning",
+            "Control": [
+              {
+                "Type": "Funktion"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Täthet"
+              },
+              {
+                "Info": "Gäller tung bil och tung släpvagn med utrustning för reglering av däcktrycket (uppgift om utrustning för däcktrycksövervakning ska vara noterat i Trafikregistret under ”Övriga uppgifter”)."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "av komponenter och ledningar. Vrid och tryck på luftledningarnas roterande anslutningar vid hjulen för att kontrollera kärvning, glapp och att inte läckage finns eller uppstår när anslutningens läge ändras."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Info": "av att däcktrycket kan ändras genom att på displayen i hytten ändra inställning av körförhållande t.ex. från 'landsväg olastad' till 'grusväg olastad', och varningsanordning för punktering genom att på ventillådans utsida öppna ventilen för framaxeln (vanlig däckventil) så att däcktrycket på framaxeln sänks och att varningssignal därmed avges."
+              },
+              {
+                "Type": "Täthetskontroll",
+                "Info": "genom att lyssna efter läckage."
+              }
+            ]
           }
         ]
       },
@@ -78,19 +299,130 @@
         "Subsystems": [
           {
             "Id": "2.2.1",
-            "Name": "Fjädring"
+            "Name": "Fjädring",
+            "Control": [
+              {
+                "Type": "Funktion"
+              },
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Glapp"
+              },
+              {
+                "Type": "Täthet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "underifrån, från sidan samt från sidan via hjulhus."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med verktyg utförs då rostangrepp konstateras på komponenter i pneumatiskt och hydrauliskt system."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Info": "sker genom att okulärt bedöma fjäderväg och olikheter mellan höger och vänster sida samt genom kontroll vid enkel provkörning. Vid kontroll och bedömning av fjädringsväg gäller följande: Vid tjänstevikt ska fjädringsväg finnas såväl uppåt som nedåt. När fordonet lyfts i karossen ska fjädrarna stå kvar på sin plats utan risk att komma ur läge."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "på fjäderlagringar utförs genom att lagringen avlastas med verktyg. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg. Om fjäderdetaljers inbördes läge tyder på felfria lagringar får kontrollen begränsas till okulärkontroll."
+              }
+            ]
           },
           {
             "Id": "2.2.2",
-            "Name": "Fjädersäte"
+            "Name": "Fjädersäte",
+            "Control": [
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Fastsättning"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              }
+            ]
           },
           {
             "Id": "2.2.3",
-            "Name": "Stötdämpare"
+            "Name": "Stötdämpare",
+            "Control": [
+              {
+                "Type": "Funktion"
+              },
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Kärvning"
+              },
+              {
+                "Type": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "av fastsättning och glapp då framvagnsplattan/kraftplattan används eller då bilen gungas. På tunga bilar görs kontroll av glapp med verktyg om kraftplatta saknas och glapp kan misstänkas."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Info": "sker vid nedkörning i bromsprovare och enkel provkörning. Vid misstanke om svag dämpverkan (exempelvis läckage) görs, om möjligt, kontroll genom att gunga på fordonet"
+              }
+            ]
           },
           {
             "Id": "2.2.4",
-            "Name": "Fjäderben"
+            "Name": "Fjäderben",
+            "Control": [
+              {
+                "Type": "Funktion"
+              },
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Kärvning"
+              },
+              {
+                "Type": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "underifrån, under främre huv och från sidan via hjulhus."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Info": "på fjäderbenslagring sker genom att tendenser till kärvning observeras när hjulet vrids mellan fulla rattutslag på axel som lyfts. (Undvik slag i ändläget). Kontroll görs också vid enkel provkörning."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "på fjäderben och fjäderbensfastsättning utförs med hjälp av framvagnsplatta eller manuellt med upplyft axel genom att krafter påförs hjulet. Konstruktionen på vissa fastsättningar är sådan att glapp kan uppkomma vid centrallyft. Kontroll sker då i körläge. Glappkontroll på fjäderben i bakvagn får ske utan att axeln är upplyft."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              }
+            ]
           }
         ]
       },
@@ -101,23 +433,141 @@
         "Subsystems": [
           {
             "Id": "2.3.1",
-            "Name": "Axel"
+            "Name": "Axel",
+            "Control": [
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Glapp"
+              },
+              {
+                "Type": "Täthet"
+              },
+              {
+                "Type": "Hjulinställning"
+              },
+              {
+                "Type": "Funktion"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "av axel och axellagring. På boggilyft kontrolleras förekomst av oljeläckage samt att upplyftbar axel går att sänka."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "utförs på axel som lyfts. Avlastning görs med domkraft eller brytverktyg. Bil och tung släpvagn kontrolleras också med hjälp av framvagnsplatta/kraftplatta."
+              },
+              {
+                "Type": "Mätning",
+                "Info": "av hjulskränkning sker vid osäkerhet om bedömning."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              }
+            ]
           },
           {
             "Id": "2.3.2",
-            "Name": "Tvärstag"
+            "Name": "Tvärstag",
+            "Control": [
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "sker med hjälp av framvagnsplatta/kraftplatta eller brytverktyg."
+              }
+            ]
           },
           {
             "Id": "2.3.3",
-            "Name": "Länkarm"
+            "Name": "Länkarm",
+            "Control": [
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "av fastsättning och skador på länkarm, länkarmsstag och länkarmslagring."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "utförs på länkarmslagringar som enkelt kan avlastas. Kontrollen görs manuellt med upplyft axel eller med hjälp av framvagnsplatta/kraftplatta. Lagringar som inte enkelt kan avlastas kontrolleras enbart okulärt genom att lagringens centrering bedöms. Saknas kraftplatta kontrolleras tung släpvagn genom att vagnen bromsas och gungas med dragbilen."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+              }
+            ]
           },
           {
             "Id": "2.3.4",
-            "Name": "Spindelled"
+            "Name": "Spindelled",
+            "Control": [
+              {
+                "Type": "Fastsättning"
+              },
+              {
+                "Type": "Skador"
+              },
+              {
+                "Type": "Glapp"
+              },
+              {
+                "Type": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Info": "av ledens fastsättning och även monteringssätt vid nymonterad led. Observera att en kulled kan ha stort slitage utan att motsvarande glapp märks p.g.a. att smuts eller rost ”packats” i leden. Därför ska kulans läge i kulhuset kontrolleras genom att ledens längd bedöms. Tätning på permanentsmord kulled kontrolleras beträffande skador."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Info": "Vid kontroll av glapp i en spindelled får inga större krafter verka i leden, dvs. den ska vara avlastad. Att hjulets tyngd påverkar leden utgör inget hinder för kontroll. Konstruktionen och vissa detaljer i hjulupphängningen såsom krängningshämmare, länkarmsstag och gasstötdämpare kan på vissa bilmodeller försvåra en effektiv avlastning. Undre icke tyngdbärande led kontrolleras på framvagnsplatta/kraftplatta. Kontroll kan även ske med centralt upplyft axel. Radiellt glapp kontrolleras med växelvisa krafter på hjuletanbringade för hand eller med verktyg. Axiellt glapp kontrolleras med brytverktyg genom att länkarmen pressas uppåt och nedåt. Övre icke tyngdbärande led kontrolleras radiellt med kraften anbringad på hjulet för hand, med framvagnsplatta/kraftplatta eller med verktyg. Är krängningshämmare monterad på övre länkarm kontrolleras leden även i axiell riktning genom att med brytverktyg anbringa krafter uppåt och nedåt. Undre tyngdbärande led kontrolleras axiellt med brytverktyg. Krafter ansätts både uppåt och nedåt. Axeln ska om möjligt vara upplyft. Övre tyngdbärande led kontrolleras axiellt med brytverktyg. Axeln ska om möjligt vara upplyft och krafter ansätts under hjulet."
+              }
+            ]
           },
           {
             "Id": "2.3.5",
-            "Name": "Spindeltapp"
+            "Name": "Spindeltapp",
+            "Control": [
+              {
+                "Type": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Glappkontroll",
+                "Info": "avser axiellt och radiellt glapp och görs om möjligt med upplyft axel. Växelvisa krafter påförs upptill och nedtill på hjulet. På tunga bilar används brytverktyg. Axiella krafter påförs genom att lyfta under hjulet med brytverktyg."
+              }
+            ]
           }
         ]
       }
