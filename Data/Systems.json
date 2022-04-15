@@ -13,25 +13,25 @@
             "Name": "Ram",
             "Control": [
               {
-                "Type": "Fastsättning",
-                "Info": "Med fastsättning avses även gummikuddar och liknande som används för fastsättning av t.ex. fram-/bakvagnsram."
+                "Point": "Fastsättning",
+                "Detail": "Med fastsättning avses även gummikuddar och liknande som används för fastsättning av t.ex. fram-/bakvagnsram."
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån och från sidan. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg. Upptäcks skador som tyder på skevhet görs jämförelsemätning. Slutlig bedömning sker efter provkörning där skevhetens inverkan på körbarheten ska vara avgörande."
+                "Description": "underifrån och från sidan. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg. Upptäcks skador som tyder på skevhet görs jämförelsemätning. Slutlig bedömning sker efter provkörning där skevhetens inverkan på körbarheten ska vara avgörande."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               },
               {
                 "Type": "Mätning",
-                "Info": "utförs vid tveksamhet om bedömning."
+                "Description": "utförs vid tveksamhet om bedömning."
               }
             ],
             "Assessment": "Med rostskada menas mjukrost eller godsbortfall på grund av skadan. Mjukrost i form av sådan jäsning eller skiktning som förekommer t.ex. mellan ramfläns och förstärkning ska i normalfallet endast bedömas i kombination med annan skada, t.ex. sprickor. Övriga skador som ska bedömas förutom sprickor är deformationer. Omfattningen på en rostskada i separat ram bestäms genom att uppskatta skadans inverkan på ramens bärighet. Vid bedömning av godsbortfall räknas ramens flänsar var för sig."
@@ -41,21 +41,21 @@
             "Name": "Balkprofil",
             "Control": [
               {
-                "Type": "Skador"
+                "Point": "Skador"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån, under främre huv, och från utsidan via hjulhus och dörröppning. Upptäcks skador som tyder på skevhet görs jämförelsemätning. Slutlig bedömning sker efter provkörning där skevhetens inverkan på körbarheten ska vara avgörande"
+                "Description": "underifrån, under främre huv, och från utsidan via hjulhus och dörröppning. Upptäcks skador som tyder på skevhet görs jämförelsemätning. Slutlig bedömning sker efter provkörning där skevhetens inverkan på körbarheten ska vara avgörande"
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               },
               {
                 "Type": "Mätning",
-                "Info": "utförs vid tveksamhet om bedömning."
+                "Description": "utförs vid tveksamhet om bedömning."
               }
             ],
             "Assessment": "Med rostskada i balkprofil menas rosthål och områden med påtaglig mjukrost. Närbelägna rostskador ska sammanräknas även om mindre områden med frisk plåt (upp till ca 15 cm) finns mellan rostskadorna. Är avståndet klart > 15 cm bedöms varje skada för sig. Övriga skador som ska bedömas är sprickor och deformationer. Körförbud ges då skadorna är så omfattande att det finns risk för haveri eller att komponenter lossnar."
@@ -65,22 +65,22 @@
             "Name": "Plåtyta",
             "Control": [
               {
-                "Type": "Skador",
-                "Info": "på golv, hjulhus, mellanvägg och reservhjulslåda. Med golv avses golv i person-/ bagageutrymme och motorrum. Skador som enbart påverkar täthet mot avgaser i förar-/passagerarutrymme, se vidare 6.2.2 Förar/passagerarplats."
+                "Point": "Skador",
+                "Detail": "på golv, hjulhus, mellanvägg och reservhjulslåda. Med golv avses golv i person-/ bagageutrymme och motorrum. Skador som enbart påverkar täthet mot avgaser i förar-/passagerarutrymme, se vidare 6.2.2 Förar/passagerarplats."
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån, under främre huv, och frånsidan via hjulhus."
+                "Description": "underifrån, under främre huv, och frånsidan via hjulhus."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               },
               {
                 "Type": "Mätning",
-                "Info": "utförs vid tveksamhet om bedömning."
+                "Description": "utförs vid tveksamhet om bedömning."
               }
             ],
             "Assessment": "Mätning avser en rostskadas utbredning. Utbredning av en rostskada i balk bestäms genom att beräkna både skadans andel av balktvärsnittets omkrets, och skadans längd i cm. Bedömningen ska baseras på det alternativ som ger den största omfattningen. Utbredningen på en rostskadad plåtyta (golv, hjulhus, mellanvägg) beräknas genom att skadans största utbredning i två riktningar mäts och adderas. Närbelägna rostskador ska sammanräknas även om mindre områden med frisk plåt (inom 15 cm) finns mellan skadorna."
@@ -94,21 +94,21 @@
         "Subsystems": [],
         "Control": [
           {
-            "Type": "Skador"
+            "Point": "Skador"
           }
         ],
         "Method": [
           {
             "Type": "Okulärkontroll",
-            "Info": "av infästningar synliga underifrån, under främre huv, från utsidan via hjulhus och dörröppning. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg."
+            "Description": "av infästningar synliga underifrån, under främre huv, från utsidan via hjulhus och dörröppning. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg."
           },
           {
             "Type": "Rostskadekontroll",
-            "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+            "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
           },
           {
             "Type": "Mätning",
-            "Info": "utförs vid tveksamhet om bedömning. Mätning avser rostskadans avstånd från infästningspunkt."
+            "Description": "utförs vid tveksamhet om bedömning. Mätning avser rostskadans avstånd från infästningspunkt."
           }
         ],
         "Assessment": "Infästningsområdet omfattar kraftupptagande material ca 15 cm omkring infästningspunkten. Observera att plåtyta kan finnas t.ex. i närheten av en förstärkning utan att den har betydelse för infästningen. Viktiga infästningsområden ska bedömas utan hänsyn till procentuell försvagning. Med detta avses infästningar där stora krafter verkar på ett fåtal infästningspunkter såsom infästning av draganordning, säkerhetsbälte och hjulsystem."
@@ -122,12 +122,12 @@
             "Name": "Underkörningsskydd",
             "Control": [
               {
-                "Type": "Fastsättning",
-                "Info": "skador kontrolleras på alla fordon som har skydd."
+                "Point": "Fastsättning",
+                "Detail": "skador kontrolleras på alla fordon som har skydd."
               },
               {
-                "Type": "Placering",
-                "Info": "kontrolleras på lastbilar och släpvagnar, dock inte: lastbil och släpvagn konstruerad med stor markfrigång för huvudsaklig användning i terräng, lastbil och släpvagn som uteslutande används av statlig brandkår eller kommunal brandstyrka vid räddningstjänst, lastbilschassi under transport från tillverkare eller återförsäljare till påbyggnadsfirma, lastbil och släpvagn som är särskilt inrättat för bärgning och bogsering av skadade fordon och som är utrustat med fast upphängningsanordning, lastbil som har anordning för påhängsvagn, lastbil och släpvagn där skyddet med hänsyn till fordonets konstruktion eller ändamål skulle medföra avsevärda olägenheter, dolly för påhängsvagn, fordon av 1973 års modell eller tidigare, eller, lastbil och släpvagn med en totalvikt av högst 3 500 kg registrerade före 1 juli 2010."
+                "Point": "Placering",
+                "Detail": "kontrolleras på lastbilar och släpvagnar, dock inte: lastbil och släpvagn konstruerad med stor markfrigång för huvudsaklig användning i terräng, lastbil och släpvagn som uteslutande används av statlig brandkår eller kommunal brandstyrka vid räddningstjänst, lastbilschassi under transport från tillverkare eller återförsäljare till påbyggnadsfirma, lastbil och släpvagn som är särskilt inrättat för bärgning och bogsering av skadade fordon och som är utrustat med fast upphängningsanordning, lastbil som har anordning för påhängsvagn, lastbil och släpvagn där skyddet med hänsyn till fordonets konstruktion eller ändamål skulle medföra avsevärda olägenheter, dolly för påhängsvagn, fordon av 1973 års modell eller tidigare, eller, lastbil och släpvagn med en totalvikt av högst 3 500 kg registrerade före 1 juli 2010."
               }
             ],
             "Method": [
@@ -136,7 +136,7 @@
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstaterats."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstaterats."
               }
             ]
           },
@@ -145,12 +145,12 @@
             "Name": "Sidoskydd",
             "Control": [
               {
-                "Type": "Fastsättning",
-                "Info": "skador kontrolleras på alla fordon som har skydd."
+                "Point": "Fastsättning",
+                "Detail": "skador kontrolleras på alla fordon som har skydd."
               },
               {
-                "Type": "Placering",
-                "Info": "kontrolleras på lastbil och släpvagn årsmodell 1988 eller senare, dock inte brandbil med karosserikod 75 eller 95 och som har drivning på både fram- och bakaxel, släpvagn som används av statlig brandkår eller kommunal brandstyrka vid räddningstjänst, påhängsvagn med flyttbara bakre axlar om avståndet från ett tvärgående plan genom centrum av kopplingstappen i dess bakersta läge till centrum av den främsta axeln i dess främre läge är < 3,9 m, dragbil för påhängsvagn utan lastutrymme, släpvagn som används för transporter där den gemensamma lasten är förbindelsen mellan dragande fordon och släpvagnen, eller dolly för påhängsvagn. "
+                "Point": "Placering",
+                "Detail": "kontrolleras på lastbil och släpvagn årsmodell 1988 eller senare, dock inte brandbil med karosserikod 75 eller 95 och som har drivning på både fram- och bakaxel, släpvagn som används av statlig brandkår eller kommunal brandstyrka vid räddningstjänst, påhängsvagn med flyttbara bakre axlar om avståndet från ett tvärgående plan genom centrum av kopplingstappen i dess bakersta läge till centrum av den främsta axeln i dess främre läge är < 3,9 m, dragbil för påhängsvagn utan lastutrymme, släpvagn som används för transporter där den gemensamma lasten är förbindelsen mellan dragande fordon och släpvagnen, eller dolly för påhängsvagn. "
               }
             ],
             "Method": [
@@ -159,7 +159,7 @@
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               }
             ]
           }
@@ -181,26 +181,26 @@
             "Name": "Däck",
             "Control": [
               {
-                "Type": "Skador",
-                "Info": "i slitbana och däcksidor."
+                "Point": "Skador",
+                "Detail": "i slitbana och däcksidor."
               },
               {
-                "Type": "Mönsterdjup",
-                "Info": "mäts i slitbanans huvudmönster inom de mittre tre-fjärdedelarna (75 %) av slitbanans bredd."
+                "Point": "Mönsterdjup",
+                "Detail": "mäts i slitbanans huvudmönster inom de mittre tre-fjärdedelarna (75 %) av slitbanans bredd."
               },
               {
-                "Type": "Dubbat-Odubbat",
-                "Info": "På lätta fordon med enkelmonterade hjul får inte finnas dubbade och odubbade däck blandat. På lätta och tunga bilar får vid dubbelmonterade hjul ett av de dubbelmonterade däcken vara odubbat om de dubbade däcken är symmetriskt placerade. Tunga fordon får inte finnas dubbade och odubbade däck på samma axel i annat fall än vad som gäller för dubbelmonterade hjul. På tung bil med boggi- eller trippelaxel behöver endast hjulen på en av de ingående axlarna ha dubbdäck."
+                "Point": "Dubbat-Odubbat",
+                "Detail": "På lätta fordon med enkelmonterade hjul får inte finnas dubbade och odubbade däck blandat. På lätta och tunga bilar får vid dubbelmonterade hjul ett av de dubbelmonterade däcken vara odubbat om de dubbade däcken är symmetriskt placerade. Tunga fordon får inte finnas dubbade och odubbade däck på samma axel i annat fall än vad som gäller för dubbelmonterade hjul. På tung bil med boggi- eller trippelaxel behöver endast hjulen på en av de ingående axlarna ha dubbdäck."
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån och från utsidan. Vid kontroll ska däcket roteras ett hjulvarv på axel som lyfts. Slitagevarnare används som referens vid kontroll av mönsterdjup."
+                "Description": "underifrån och från utsidan. Vid kontroll ska däcket roteras ett hjulvarv på axel som lyfts. Slitagevarnare används som referens vid kontroll av mönsterdjup."
               },
               {
                 "Type": "Mätning",
-                "Info": "av mönsterdjup sker vid tveksamhet om bedömning."
+                "Description": "av mönsterdjup sker vid tveksamhet om bedömning."
               }
             ]
           },
@@ -209,19 +209,19 @@
             "Name": "Fälg",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Hjulfrigång"
+                "Point": "Hjulfrigång"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "i samband med kontroll av däck. Hjulfrigång kontrolleras när hjulen vrids mellan fulla rattutslag på axel som lyfts. Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt."
+                "Description": "i samband med kontroll av däck. Hjulfrigång kontrolleras när hjulen vrids mellan fulla rattutslag på axel som lyfts. Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt."
               }
             ]
           },
@@ -230,28 +230,28 @@
             "Name": "Hjullager",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador",
-                "Info": "Missljud"
+                "Point": "Skador",
+                "Detail": "Missljud"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
               {
                 "Type": "Ljudkontroll vid maskinell hjulspinning",
-                "Info": "till ca 40 km/h sker på tunga bilars samtliga hjul som inte är drivande, och tunga släpfordons samtliga hjul. Finns ljud som bedöms komma från ett hjullager görs kompletterande kontroll genom att känna på axel eller annan 'fast' punkt nära lagret. Bedömning ”påtagligt missljud” görs först när tydliga vibrationer konstateras (i kombination med missljud). Ljudkontroll vid hjulspinning på släpvagnar med en totalvikt av högst 3 500 kg bör ske genom maskinell hjulspinning."
+                "Description": "till ca 40 km/h sker på tunga bilars samtliga hjul som inte är drivande, och tunga släpfordons samtliga hjul. Finns ljud som bedöms komma från ett hjullager görs kompletterande kontroll genom att känna på axel eller annan 'fast' punkt nära lagret. Bedömning ”påtagligt missljud” görs först när tydliga vibrationer konstateras (i kombination med missljud). Ljudkontroll vid hjulspinning på släpvagnar med en totalvikt av högst 3 500 kg bör ske genom maskinell hjulspinning."
               },
               {
                 "Type": "Ljudkontroll",
-                "Info": "vid enkel provkörning/provkörning görs på alla bilar. Upptäcks missljud vid körning som bedöms bero på skadat hjullager, utförs hjulspinning på hjul utan drivning, för att fastställa bedömning."
+                "Description": "vid enkel provkörning/provkörning görs på alla bilar. Upptäcks missljud vid körning som bedöms bero på skadat hjullager, utförs hjulspinning på hjul utan drivning, för att fastställa bedömning."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "utförs på samtliga axlar, genom att krafter ansätts växelvis på hjul som kan lyftas. Kan axeln inte lyftas kontrolleras glapp med hjälp av framvagnsplatta/kraftplatta. På tunga fordon (T > 7 ton) påförs kraften med hjälp av verktyg (spett) och anbringad så att hjulets underkant pressas inåt. Observera att på tunga fordon med skivbromsar kan det vara mycket svårt att upptäcka glapp i hjullager. Upptäcks (utan särskild kontroll) att navkåpa saknas eller är lös ska anmärkning ske enligt nedan."
+                "Description": "utförs på samtliga axlar, genom att krafter ansätts växelvis på hjul som kan lyftas. Kan axeln inte lyftas kontrolleras glapp med hjälp av framvagnsplatta/kraftplatta. På tunga fordon (T > 7 ton) påförs kraften med hjälp av verktyg (spett) och anbringad så att hjulets underkant pressas inåt. Observera att på tunga fordon med skivbromsar kan det vara mycket svårt att upptäcka glapp i hjullager. Upptäcks (utan särskild kontroll) att navkåpa saknas eller är lös ska anmärkning ske enligt nedan."
               }
             ]
           },
@@ -260,33 +260,33 @@
             "Name": "Däcktrycksövervakning",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Info": "Gäller tung bil och tung släpvagn med utrustning för reglering av däcktrycket (uppgift om utrustning för däcktrycksövervakning ska vara noterat i Trafikregistret under ”Övriga uppgifter”)."
+                "Detail": "Gäller tung bil och tung släpvagn med utrustning för reglering av däcktrycket (uppgift om utrustning för däcktrycksövervakning ska vara noterat i Trafikregistret under ”Övriga uppgifter”)."
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av komponenter och ledningar. Vrid och tryck på luftledningarnas roterande anslutningar vid hjulen för att kontrollera kärvning, glapp och att inte läckage finns eller uppstår när anslutningens läge ändras."
+                "Description": "av komponenter och ledningar. Vrid och tryck på luftledningarnas roterande anslutningar vid hjulen för att kontrollera kärvning, glapp och att inte läckage finns eller uppstår när anslutningens läge ändras."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "av att däcktrycket kan ändras genom att på displayen i hytten ändra inställning av körförhållande t.ex. från 'landsväg olastad' till 'grusväg olastad', och varningsanordning för punktering genom att på ventillådans utsida öppna ventilen för framaxeln (vanlig däckventil) så att däcktrycket på framaxeln sänks och att varningssignal därmed avges."
+                "Description": "av att däcktrycket kan ändras genom att på displayen i hytten ändra inställning av körförhållande t.ex. från 'landsväg olastad' till 'grusväg olastad', och varningsanordning för punktering genom att på ventillådans utsida öppna ventilen för framaxeln (vanlig däckventil) så att däcktrycket på framaxeln sänks och att varningssignal därmed avges."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "genom att lyssna efter läckage."
+                "Description": "genom att lyssna efter läckage."
               }
             ]
           }
@@ -302,37 +302,37 @@
             "Name": "Fjädring",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån, från sidan samt från sidan via hjulhus."
+                "Description": "underifrån, från sidan samt från sidan via hjulhus."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med verktyg utförs då rostangrepp konstateras på komponenter i pneumatiskt och hydrauliskt system."
+                "Description": "med verktyg utförs då rostangrepp konstateras på komponenter i pneumatiskt och hydrauliskt system."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "sker genom att okulärt bedöma fjäderväg och olikheter mellan höger och vänster sida samt genom kontroll vid enkel provkörning. Vid kontroll och bedömning av fjädringsväg gäller följande: Vid tjänstevikt ska fjädringsväg finnas såväl uppåt som nedåt. När fordonet lyfts i karossen ska fjädrarna stå kvar på sin plats utan risk att komma ur läge."
+                "Description": "sker genom att okulärt bedöma fjäderväg och olikheter mellan höger och vänster sida samt genom kontroll vid enkel provkörning. Vid kontroll och bedömning av fjädringsväg gäller följande: Vid tjänstevikt ska fjädringsväg finnas såväl uppåt som nedåt. När fordonet lyfts i karossen ska fjädrarna stå kvar på sin plats utan risk att komma ur läge."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "på fjäderlagringar utförs genom att lagringen avlastas med verktyg. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg. Om fjäderdetaljers inbördes läge tyder på felfria lagringar får kontrollen begränsas till okulärkontroll."
+                "Description": "på fjäderlagringar utförs genom att lagringen avlastas med verktyg. Tunga fordon kontrolleras när krafter påförs med kraftplatta eller verktyg. Om fjäderdetaljers inbördes läge tyder på felfria lagringar får kontrollen begränsas till okulärkontroll."
               }
             ]
           },
@@ -341,10 +341,10 @@
             "Name": "Fjädersäte",
             "Control": [
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               }
             ],
             "Method": [
@@ -353,7 +353,7 @@
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               }
             ]
           },
@@ -362,26 +362,26 @@
             "Name": "Stötdämpare",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av fastsättning och glapp då framvagnsplattan/kraftplattan används eller då bilen gungas. På tunga bilar görs kontroll av glapp med verktyg om kraftplatta saknas och glapp kan misstänkas."
+                "Description": "av fastsättning och glapp då framvagnsplattan/kraftplattan används eller då bilen gungas. På tunga bilar görs kontroll av glapp med verktyg om kraftplatta saknas och glapp kan misstänkas."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "sker vid nedkörning i bromsprovare och enkel provkörning. Vid misstanke om svag dämpverkan (exempelvis läckage) görs, om möjligt, kontroll genom att gunga på fordonet"
+                "Description": "sker vid nedkörning i bromsprovare och enkel provkörning. Vid misstanke om svag dämpverkan (exempelvis läckage) görs, om möjligt, kontroll genom att gunga på fordonet"
               }
             ]
           },
@@ -390,37 +390,37 @@
             "Name": "Fjäderben",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån, under främre huv och från sidan via hjulhus."
+                "Description": "underifrån, under främre huv och från sidan via hjulhus."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "på fjäderbenslagring sker genom att tendenser till kärvning observeras när hjulet vrids mellan fulla rattutslag på axel som lyfts. (Undvik slag i ändläget). Kontroll görs också vid enkel provkörning."
+                "Description": "på fjäderbenslagring sker genom att tendenser till kärvning observeras när hjulet vrids mellan fulla rattutslag på axel som lyfts. (Undvik slag i ändläget). Kontroll görs också vid enkel provkörning."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "på fjäderben och fjäderbensfastsättning utförs med hjälp av framvagnsplatta eller manuellt med upplyft axel genom att krafter påförs hjulet. Konstruktionen på vissa fastsättningar är sådan att glapp kan uppkomma vid centrallyft. Kontroll sker då i körläge. Glappkontroll på fjäderben i bakvagn får ske utan att axeln är upplyft."
+                "Description": "på fjäderben och fjäderbensfastsättning utförs med hjälp av framvagnsplatta eller manuellt med upplyft axel genom att krafter påförs hjulet. Konstruktionen på vissa fastsättningar är sådan att glapp kan uppkomma vid centrallyft. Kontroll sker då i körläge. Glappkontroll på fjäderben i bakvagn får ske utan att axeln är upplyft."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               }
             ]
           }
@@ -436,40 +436,40 @@
             "Name": "Axel",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Hjulinställning"
+                "Point": "Hjulinställning"
               },
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av axel och axellagring. På boggilyft kontrolleras förekomst av oljeläckage samt att upplyftbar axel går att sänka."
+                "Description": "av axel och axellagring. På boggilyft kontrolleras förekomst av oljeläckage samt att upplyftbar axel går att sänka."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "utförs på axel som lyfts. Avlastning görs med domkraft eller brytverktyg. Bil och tung släpvagn kontrolleras också med hjälp av framvagnsplatta/kraftplatta."
+                "Description": "utförs på axel som lyfts. Avlastning görs med domkraft eller brytverktyg. Bil och tung släpvagn kontrolleras också med hjälp av framvagnsplatta/kraftplatta."
               },
               {
                 "Type": "Mätning",
-                "Info": "av hjulskränkning sker vid osäkerhet om bedömning."
+                "Description": "av hjulskränkning sker vid osäkerhet om bedömning."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               }
             ]
           },
@@ -478,13 +478,13 @@
             "Name": "Tvärstag",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
@@ -493,7 +493,7 @@
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "sker med hjälp av framvagnsplatta/kraftplatta eller brytverktyg."
+                "Description": "sker med hjälp av framvagnsplatta/kraftplatta eller brytverktyg."
               }
             ]
           },
@@ -502,27 +502,27 @@
             "Name": "Länkarm",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av fastsättning och skador på länkarm, länkarmsstag och länkarmslagring."
+                "Description": "av fastsättning och skador på länkarm, länkarmsstag och länkarmslagring."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "utförs på länkarmslagringar som enkelt kan avlastas. Kontrollen görs manuellt med upplyft axel eller med hjälp av framvagnsplatta/kraftplatta. Lagringar som inte enkelt kan avlastas kontrolleras enbart okulärt genom att lagringens centrering bedöms. Saknas kraftplatta kontrolleras tung släpvagn genom att vagnen bromsas och gungas med dragbilen."
+                "Description": "utförs på länkarmslagringar som enkelt kan avlastas. Kontrollen görs manuellt med upplyft axel eller med hjälp av framvagnsplatta/kraftplatta. Lagringar som inte enkelt kan avlastas kontrolleras enbart okulärt genom att lagringens centrering bedöms. Saknas kraftplatta kontrolleras tung släpvagn genom att vagnen bromsas och gungas med dragbilen."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs då rostangrepp konstateras."
+                "Description": "med kontrollverktyg utförs då rostangrepp konstateras."
               }
             ]
           },
@@ -531,26 +531,26 @@
             "Name": "Spindelled",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Slitage"
+                "Point": "Slitage"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av ledens fastsättning och även monteringssätt vid nymonterad led. Observera att en kulled kan ha stort slitage utan att motsvarande glapp märks p.g.a. att smuts eller rost ”packats” i leden. Därför ska kulans läge i kulhuset kontrolleras genom att ledens längd bedöms. Tätning på permanentsmord kulled kontrolleras beträffande skador."
+                "Description": "av ledens fastsättning och även monteringssätt vid nymonterad led. Observera att en kulled kan ha stort slitage utan att motsvarande glapp märks p.g.a. att smuts eller rost ”packats” i leden. Därför ska kulans läge i kulhuset kontrolleras genom att ledens längd bedöms. Tätning på permanentsmord kulled kontrolleras beträffande skador."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "Vid kontroll av glapp i en spindelled får inga större krafter verka i leden, dvs. den ska vara avlastad. Att hjulets tyngd påverkar leden utgör inget hinder för kontroll. Konstruktionen och vissa detaljer i hjulupphängningen såsom krängningshämmare, länkarmsstag och gasstötdämpare kan på vissa bilmodeller försvåra en effektiv avlastning. Undre icke tyngdbärande led kontrolleras på framvagnsplatta/kraftplatta. Kontroll kan även ske med centralt upplyft axel. Radiellt glapp kontrolleras med växelvisa krafter på hjuletanbringade för hand eller med verktyg. Axiellt glapp kontrolleras med brytverktyg genom att länkarmen pressas uppåt och nedåt. Övre icke tyngdbärande led kontrolleras radiellt med kraften anbringad på hjulet för hand, med framvagnsplatta/kraftplatta eller med verktyg. Är krängningshämmare monterad på övre länkarm kontrolleras leden även i axiell riktning genom att med brytverktyg anbringa krafter uppåt och nedåt. Undre tyngdbärande led kontrolleras axiellt med brytverktyg. Krafter ansätts både uppåt och nedåt. Axeln ska om möjligt vara upplyft. Övre tyngdbärande led kontrolleras axiellt med brytverktyg. Axeln ska om möjligt vara upplyft och krafter ansätts under hjulet."
+                "Description": "vid kontroll av glapp i en spindelled får inga större krafter verka i leden, dvs. den ska vara avlastad. Att hjulets tyngd påverkar leden utgör inget hinder för kontroll. Konstruktionen och vissa detaljer i hjulupphängningen såsom krängningshämmare, länkarmsstag och gasstötdämpare kan på vissa bilmodeller försvåra en effektiv avlastning. Undre icke tyngdbärande led kontrolleras på framvagnsplatta/kraftplatta. Kontroll kan även ske med centralt upplyft axel. Radiellt glapp kontrolleras med växelvisa krafter på hjuletanbringade för hand eller med verktyg. Axiellt glapp kontrolleras med brytverktyg genom att länkarmen pressas uppåt och nedåt. Övre icke tyngdbärande led kontrolleras radiellt med kraften anbringad på hjulet för hand, med framvagnsplatta/kraftplatta eller med verktyg. Är krängningshämmare monterad på övre länkarm kontrolleras leden även i axiell riktning genom att med brytverktyg anbringa krafter uppåt och nedåt. Undre tyngdbärande led kontrolleras axiellt med brytverktyg. Krafter ansätts både uppåt och nedåt. Axeln ska om möjligt vara upplyft. Övre tyngdbärande led kontrolleras axiellt med brytverktyg. Axeln ska om möjligt vara upplyft och krafter ansätts under hjulet."
               }
             ]
           },
@@ -559,13 +559,13 @@
             "Name": "Spindeltapp",
             "Control": [
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
               {
                 "Type": "Glappkontroll",
-                "Info": "avser axiellt och radiellt glapp och görs om möjligt med upplyft axel. Växelvisa krafter påförs upptill och nedtill på hjulet. På tunga bilar används brytverktyg. Axiella krafter påförs genom att lyfta under hjulet med brytverktyg."
+                "Description": "avser axiellt och radiellt glapp och görs om möjligt med upplyft axel. Växelvisa krafter påförs upptill och nedtill på hjulet. På tunga bilar används brytverktyg. Axiella krafter påförs genom att lyfta under hjulet med brytverktyg."
               }
             ]
           }
@@ -587,23 +587,23 @@
             "Name": "Motor",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "i motorrum och underifrån av motorfästen och förekomst av oljeläckage från motor."
+                "Description": "i motorrum och underifrån av motorfästen och förekomst av oljeläckage från motor."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "av gasreglage vid enkel provkörning."
+                "Description": "av gasreglage vid enkel provkörning."
               }
             ]
           },
@@ -612,27 +612,27 @@
             "Name": "Bränslesystem",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av tank, ledningar, pump, filter m.m. i bränslesystem."
+                "Description": "av tank, ledningar, pump, filter m.m. i bränslesystem."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "med läcksökningsspray ska utföras på bilar med bränslesystem för metangas (biogas och naturgas) som drivmedel. Förutsättningen för kontroll (tillräckligt tryck) är att motorn kan köras i läge ”gasdrift”."
+                "Description": "med läcksökningsspray ska utföras på bilar med bränslesystem för metangas (biogas och naturgas) som drivmedel. Förutsättningen för kontroll (tillräckligt tryck) är att motorn kan köras i läge ”gasdrift”."
               },
               {
                 "Type": "Intyg",
-                "Info": "som visar att en kontroll avseende skador och fastsättning och täthet på tank och övriga bränslesystemet på fordon med bränslesystem för metangas (biogas och naturgas) som drivmedel, genomförts, får godtas. Intyget ska vara utfärdat av fordonstillverkaren eller av denne godkänd representant, eller av företag som har verksamhet inom efterkonvertering eller reparation eller kontroll av bränslesystem för gas. Intyget får vara högst 15 månader gammalt. Av intyget ska tydligt framgå vem eller vilken organisation som genomfört kontrollen, redovisat med namn och adress samt behörig person med ansvar för kontrollen, information som gör att det provade fordonet tydligt kan identifieras, datum för intygets utfärdande, samt datum för kontrollens genomförande, resultat av visuell kontroll, resultat av funktionskontroll, och resultat av läckagetest med läcksökningsspray"
+                "Description": "som visar att en kontroll avseende skador och fastsättning och täthet på tank och övriga bränslesystemet på fordon med bränslesystem för metangas (biogas och naturgas) som drivmedel, genomförts, får godtas. Intyget ska vara utfärdat av fordonstillverkaren eller av denne godkänd representant, eller av företag som har verksamhet inom efterkonvertering eller reparation eller kontroll av bränslesystem för gas. Intyget får vara högst 15 månader gammalt. Av intyget ska tydligt framgå vem eller vilken organisation som genomfört kontrollen, redovisat med namn och adress samt behörig person med ansvar för kontrollen, Detailrmation som gör att det provade fordonet tydligt kan identifieras, datum för intygets utfärdande, samt datum för kontrollens genomförande, resultat av visuell kontroll, resultat av funktionskontroll, och resultat av läckagetest med läcksökningsspray"
               }
             ],
             "Assessment": "Besiktningen ska avbrytas och fordonet underkännas när kontroll av bränsletanken för fordon som drivs med gas inte kan utföras av besiktningsorganet själva, på grund av att tanken är dold och att intyg enligt ovan saknas."
@@ -642,34 +642,34 @@
             "Name": "Avgassystem",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Ljudnivå"
+                "Point": "Ljudnivå"
               },
               {
-                "Type": "Slutrörsriktning"
+                "Point": "Slutrörsriktning"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av fastsättning och skador som tyder på otäthet. Vid läckage på fordon där avgassystemet används för uppvärmning utförs särskild täthetskontroll. Slutrörs riktning kontrolleras med avseende på risken för att avgaser tränger in i förar- eller passagerarutrymme. Kontroll av avgasers riktning på buss och tung lastbil sker enligt nationella krav."
+                "Description": "av fastsättning och skador som tyder på otäthet. Vid läckage på fordon där avgassystemet används för uppvärmning utförs särskild täthetskontroll. Slutrörs riktning kontrolleras med avseende på risken för att avgaser tränger in i förar- eller passagerarutrymme. Kontroll av avgasers riktning på buss och tung lastbil sker enligt nationella krav."
               },
               {
                 "Type": "Ljudkontroll",
-                "Info": "med motor på tomgång samt vid enkel provkörning utförs för att avslöja avgasläckage och hög ljudnivå. Vid anmärkning mot avgasläckage anges, i förekommande fall, att utsläppskontroll inte är utförd. Vid misstanke om för hög ljudnivå ska antingen mätning eller subjektiv kontroll ske enligt följande: Mätning utförs på bil, som har värden för ljudnivå vid stillastående , när avgasljudet uppfattas som påtagligt högre än vad som är normalt. Att mätning ska ske framgår av att det i fält 'Ljudnivå stilla' i registeruppgiften visas både värde och varvtal. Till detta värde ska 5 dB (A) läggas för att erhålla bilens gränsvärde. Subjektiv kontroll utförs på övriga bilar (som inte har uppgift om ”Ljudnivå stilla”) samt på de bilar som omfattas av kravet på mätning men som saknar uppgift om varvtal eller saknar varvräknare. Subjektiv bedömning sker genom avlyssning och underkännande sker först när det är helt uppenbart att ljudnivån är 'mycket högre än vad som är normalt för fordonsslaget i standardutförande'."
+                "Description": "med motor på tomgång samt vid enkel provkörning utförs för att avslöja avgasläckage och hög ljudnivå. Vid anmärkning mot avgasläckage anges, i förekommande fall, att utsläppskontroll inte är utförd. Vid misstanke om för hög ljudnivå ska antingen mätning eller subjektiv kontroll ske enligt följande: Mätning utförs på bil, som har värden för ljudnivå vid stillastående , när avgasljudet uppfattas som påtagligt högre än vad som är normalt. Att mätning ska ske framgår av att det i fält 'Ljudnivå stilla' i registeruppgiften visas både värde och varvtal. Till detta värde ska 5 dB (A) läggas för att erhålla bilens gränsvärde. Subjektiv kontroll utförs på övriga bilar (som inte har uppgift om ”Ljudnivå stilla”) samt på de bilar som omfattas av kravet på mätning men som saknar uppgift om varvtal eller saknar varvräknare. Subjektiv bedömning sker genom avlyssning och underkännande sker först när det är helt uppenbart att ljudnivån är 'mycket högre än vad som är normalt för fordonsslaget i standardutförande'."
               },
               {
                 "Type": "Mätning",
-                "Info": "ska utföras i form av förenklad ljudnivåkontroll på lämplig mätplats enligt kraven för stationär mätning (Bilaga 5). Mikrofonen ska placeras på samma höjd som avgasrörets mynning, dock lägst 0,2 m över marken, så avståndet mellan mikrofon och mynning är 0,5 m, och vinkeln 45° ± 5° bildas ut från bilens sida, utifrån avgasernas huvudriktning."
+                "Description": "ska utföras i form av förenklad ljudnivåkontroll på lämplig mätplats enligt kraven för stationär mätning (Bilaga 5). Mikrofonen ska placeras på samma höjd som avgasrörets mynning, dock lägst 0,2 m över marken, så avståndet mellan mikrofon och mynning är 0,5 m, och vinkeln 45° ± 5° bildas ut från bilens sida, utifrån avgasernas huvudriktning."
               },
               {
                 "Type": "Slutrörsriktning",
-                "Info": "På personbil och lätt lastbil får inte avgasrör mynna under utrymme för förare eller passagerare och inte heller under annan del av karosseriet, som är sammanbyggd med sådant utrymme. Avvikelser kan dock godtas om utförandet hos karosseri och avgasrör är sådant att det inte bedöms föreligga någon risk att avgaser under körning tränger in i utrymmet. "
+                "Description": "på personbil och lätt lastbil får inte avgasrör mynna under utrymme för förare eller passagerare och inte heller under annan del av karosseriet, som är sammanbyggd med sådant utrymme. Avvikelser kan dock godtas om utförandet hos karosseri och avgasrör är sådant att det inte bedöms föreligga någon risk att avgaser under körning tränger in i utrymmet. "
               }
             ],
             "Assessment": "Vid påtagligt läckage (2x) på avgassystem och godkända miljövärden vid avgasmätning på tomgång/förhöjd tomgång ska mätningen trots det betraktas som ogiltig. Följande text ska då anges på besiktningsprotokollet 'Avgassystem, påtagligt läckage, avgasmätning inte utförd' med bedömning 2. Observera att redan mycket små avgasläckage eller sprickor i avgassystem kan påverka lambdavärdet avsevärt uppåt. Upptäcks ett påtagligt läckage efter mätning görs bedömning av CO- och lambdavärde i de fall mätningen visar underkända värden. "
@@ -679,23 +679,23 @@
             "Name": "Elsystem",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "i motorrum och underifrån av ledningar och komponenter i elsystemet med avseende på fastsättning och skador som kan medföra risk för kortslutning."
+                "Description": "i motorrum och underifrån av ledningar och komponenter i elsystemet med avseende på fastsättning och skador som kan medföra risk för kortslutning."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "av tändlås."
+                "Description": "av tändlås."
               }
             ]
           },
@@ -704,42 +704,42 @@
             "Name": "Hastighetsregulator",
             "Control": [
               {
-                "Type": "Befintlighet",
-                "Info": "av installationsskylt eller hastighetsskylt på bilar av årsmodell 1988 och senare; buss med T > 10 000 kg samt lastbil med T > 12 000 kg, som är ibruktagna 2001-10 och senare för miljöklass 2 000/euro III enligt vägtrafikregistret; buss oavsett T samt lastbil med T > 3 500 kg, och som är ibruktagna 2005-01 och senare; alla bussar oavsett T samt alla lastbilar med T > 3 500 kg. Undantagna fordon är de som tillhör försvaret, används av räddningstjänsten, polisen eller för liknande verksamhet, är konstruerad för en hastighet < inställningsvärdet, används som normal tätortsbuss, eller används i vetenskapliga försök"
+                "Point": "Befintlighet",
+                "Detail": "av installationsskylt eller hastighetsskylt på bilar av årsmodell 1988 och senare; buss med T > 10 000 kg samt lastbil med T > 12 000 kg, som är ibruktagna 2001-10 och senare för miljöklass 2 000/euro III enligt vägtrafikregistret; buss oavsett T samt lastbil med T > 3 500 kg, och som är ibruktagna 2005-01 och senare; alla bussar oavsett T samt alla lastbilar med T > 3 500 kg. Undantagna fordon är de som tillhör försvaret, används av räddningstjänsten, polisen eller för liknande verksamhet, är konstruerad för en hastighet < inställningsvärdet, används som normal tätortsbuss, eller används i vetenskapliga försök"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av hastighetsregulatorns funktion/funktionsmöjlighet samt om skylt saknas eller är oläslig. "
+                "Description": "av hastighetsregulatorns funktion/funktionsmöjlighet samt om skylt saknas eller är oläslig. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "om hastigheten är felaktigt inställd."
+                "Description": "om hastigheten är felaktigt inställd."
               }
             ],
-            "Assessment": "Om hastighetsregulatorn uppenbart är ur funktion/saknas ska bristen åtgärdas av företag som ackrediterats för installation och inställning av hastighetsregulator. Föreläggs fordonet om kontrollbesiktning ska fordonsföraren informeras om att kontrollrapport från ackrediterad verkstad ska medföras till besiktningen. Kontrollrapport från ackrediterad verkstad ska vara daterad senare än polisen rapport om vägkontroll."
+            "Assessment": "Om hastighetsregulatorn uppenbart är ur funktion/saknas ska bristen åtgärdas av företag som ackrediterats för installation och inställning av hastighetsregulator. Föreläggs fordonet om kontrollbesiktning ska fordonsföraren Detailrmeras om att kontrollrapport från ackrediterad verkstad ska medföras till besiktningen. Kontrollrapport från ackrediterad verkstad ska vara daterad senare än polisen rapport om vägkontroll."
           },
           {
             "Id": "3.1.6",
             "Name": "Hydraulsystem",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Info": "Avser utrustning i hydraulsystem som inte finns upptagen i annat system och utrustning vars systemtillhörighet inte med säkerhet kan bestämmas.  "
+                "Detail": "Avser utrustning i hydraulsystem som inte finns upptagen i annat system och utrustning vars systemtillhörighet inte med säkerhet kan bestämmas.  "
               }
             ],
             "Method": [
               {
-                "Type": "Okulärkontroll"
+                "Description": "Okulärkontroll"
               }
             ]
           }
@@ -755,23 +755,23 @@
             "Name": "Växlingssystem",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning. På automatväxlad bil, T < 3 500 kg, görs startförsök vid backoch drivläge, med färdbromsen ansatt."
+                "Description": "vid enkel provkörning. På automatväxlad bil, T < 3 500 kg, görs startförsök vid backoch drivläge, med färdbromsen ansatt."
               },
               {
                 "Type": "Okulärkontroll",
-                "Info": " i motorrum och underifrån av skador och förekomst av oljeläckage från växellåda."
+                "Description": " i motorrum och underifrån av skador och förekomst av oljeläckage från växellåda."
               }
             ]
           },
@@ -780,29 +780,29 @@
             "Name": "Kraftöverföring",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av axlar och driv-/kardanaxelknutar beträffande fastsättning skador och glapp samt förekomst av oljeläckage från slutväxel. "
+                "Description": "av axlar och driv-/kardanaxelknutar beträffande fastsättning skador och glapp samt förekomst av oljeläckage från slutväxel. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning."
+                "Description": "vid enkel provkörning."
               }
             ]
           }
@@ -824,17 +824,17 @@
             "Name": "Retardation",
             "Control": [
               {
-                "Type": "Retardationsförmåga"
+                "Point": "Retardationsförmåga"
               }
             ],
             "Method": [
               {
                 "Type": "Bromskontroll",
-                "Info": "i rullbromsprovare utförs på släpvagnar och alla bilar som får köras i rullbromsprovare. Kontrollen ska göras vid så höga bromskrafter som möjligt men får inte överstiga 15 kN per enkelmonterat hjul. För dubbelmonterade däck och breddäck gäller 20 kN. Gränsvärdena är för att undvika däcksskador vid kontrollen. Medelbromskraft under ett hjulvarv ska ligga till grund för bedömning, med undantag om en multipunktsmetod används (fler än 2 mätpunkter enligt Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:78) om teknisk kontrollutrustning hos besiktningsorgan och kontrollorgan, senast ändrad genom TSFS 2017:57). Helt eller delvis hydraulisk transmission Den totala bromskraften bedöms med hänsyn till erforderlig pedalkraft. Vid tveksamhet om bromsförmågan ska en utökad kontroll göras vid provkörning. Bromssystem med pneumatiska bromscylindrar Sambandet mellan bromskraft – cylindertryck fastställs och uppräknas till garanterat tryck. Beräkningen kan utföras manuellt eller med datoriserad bromsprovare. Tryckmätare ansluts nära en bromscylinder efter de ventiler/anordningar som påverkar cylindertrycket. Strävan ska vara att nå ett cylindertryck som är minst 0,20 MPa och som ger en bromskraft nära hjulblockering utan att överskrida gällande däckskadegränser. Beräkning vid cylindertryck under 0,20 MPa, dock lägst 0,15 MPa, får endast ske när fordonets konstruktion eller andra, inte påverkbara förhållanden, förhindrar att ett högre cylindertryck uppnås. Lastsimulering ska användas för att uppnå acceptabla cylindertryck. Cylindertryck < 0,15 MPa får inte användas för beräkning/bedömning av effektivitet. Effektiviteten blir summan av alla hjuls extrapolerade bromskrafter dividerat med fordonets tyngdkraft eller, beträffande släpkärror och påhängsvagnar, den del av tyngdkraften som överförs till marken via fordonets axlar eller, om uppgifterna saknas, summan av fordonets garanterade axelbelastningar multiplicerat med g (9,81 m/s²). Bromskontroll genom retardationsprov får utföras på motordrivna fordon. Retardationsprov får även utföras på släp om sådan teknisk kontrollutrustning finns tillgänglig som gör det möjligt att genomföra prov. Underkännande får dock endast ske om provet genomförts på en betong- eller asfalterad bromssträcka på ca 50 m, som är plan, jämn och fri från sand eller annat löst material som försämrar friktionen. Retardationsmätare Montera och nollställ retardationsmätaren i fordonet. Välj en ingångshastighet till bromssträckan på 40–50 km/h. Bromsa så hårt det går utan att hjulen blockerar och avläs retardationen. Bromssträcka Fastställ fordonet hastighet, 40–50 km/h, och ansätt bromsen så hårt det går utan att hjulen blockerar. Mät effektiv bromssträcka. Ingångshastighet/ retardationskrav > uppmätt bromssträcka. "
+                "Description": "i rullbromsprovare utförs på släpvagnar och alla bilar som får köras i rullbromsprovare. Kontrollen ska göras vid så höga bromskrafter som möjligt men får inte överstiga 15 kN per enkelmonterat hjul. För dubbelmonterade däck och breddäck gäller 20 kN. Gränsvärdena är för att undvika däcksskador vid kontrollen. Medelbromskraft under ett hjulvarv ska ligga till grund för bedömning, med undantag om en multipunktsmetod används (fler än 2 mätpunkter enligt Transportstyrelsens föreskrifter och allmänna råd (TSFS 2010:78) om teknisk kontrollutrustning hos besiktningsorgan och kontrollorgan, senast ändrad genom TSFS 2017:57). Helt eller delvis hydraulisk transmission Den totala bromskraften bedöms med hänsyn till erforderlig pedalkraft. Vid tveksamhet om bromsförmågan ska en utökad kontroll göras vid provkörning. Bromssystem med pneumatiska bromscylindrar Sambandet mellan bromskraft – cylindertryck fastställs och uppräknas till garanterat tryck. Beräkningen kan utföras manuellt eller med datoriserad bromsprovare. Tryckmätare ansluts nära en bromscylinder efter de ventiler/anordningar som påverkar cylindertrycket. Strävan ska vara att nå ett cylindertryck som är minst 0,20 MPa och som ger en bromskraft nära hjulblockering utan att överskrida gällande däckskadegränser. Beräkning vid cylindertryck under 0,20 MPa, dock lägst 0,15 MPa, får endast ske när fordonets konstruktion eller andra, inte påverkbara förhållanden, förhindrar att ett högre cylindertryck uppnås. Lastsimulering ska användas för att uppnå acceptabla cylindertryck. Cylindertryck < 0,15 MPa får inte användas för beräkning/bedömning av effektivitet. Effektiviteten blir summan av alla hjuls extrapolerade bromskrafter dividerat med fordonets tyngdkraft eller, beträffande släpkärror och påhängsvagnar, den del av tyngdkraften som överförs till marken via fordonets axlar eller, om uppgifterna saknas, summan av fordonets garanterade axelbelastningar multiplicerat med g (9,81 m/s²). Bromskontroll genom retardationsprov får utföras på motordrivna fordon. Retardationsprov får även utföras på släp om sådan teknisk kontrollutrustning finns tillgänglig som gör det möjligt att genomföra prov. Underkännande får dock endast ske om provet genomförts på en betong- eller asfalterad bromssträcka på ca 50 m, som är plan, jämn och fri från sand eller annat löst material som försämrar friktionen. Retardationsmätare Montera och nollställ retardationsmätaren i fordonet. Välj en ingångshastighet till bromssträckan på 40–50 km/h. Bromsa så hårt det går utan att hjulen blockerar och avläs retardationen. Bromssträcka Fastställ fordonet hastighet, 40–50 km/h, och ansätt bromsen så hårt det går utan att hjulen blockerar. Mät effektiv bromssträcka. Ingångshastighet/ retardationskrav > uppmätt bromssträcka. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning utförs på alla motordrivna fordon. "
+                "Description": "vid enkel provkörning utförs på alla motordrivna fordon. "
               }
             ],
             "Assessment": "Finns referensbromskrafter lämnade av fordonstillverkaren tillgängliga, får bedömning av bromskraft ske mot dessa istället för mätning och beräkning av bromsarnas sammanlagda effektivitet. Ska anmärkning riktas mot effektivitet ska bromskontroll ske i bromsprovare."
@@ -851,18 +851,18 @@
             "Name": "Bromskraftsfördelning",
             "Control": [
               {
-                "Type": "Funktion",
-                "Info": "med avseende på bromskraftfördelning mellan hjulen på samma axel och mellan axlarna."
+                "Point": "Funktion",
+                "Detail": "med avseende på bromskraftfördelning mellan hjulen på samma axel och mellan axlarna."
               }
             ],
             "Method": [
               {
                 "Type": "Bromskontroll",
-                "Info": "Bromskraftfördelning kontrolleras i bromsprovare på alla fordon som får köras i bromsprovare. Fordon som inte kan köras i bromsprovare ska kontrolleras vid provkörning. Kontroll av bromskraftfördelning mellan hjulen på samma axel sker genom att bromsarna ansätts tills det mest bromsade hjulet uppnått en bromskraft i närheten av blockering eller maximalt 15 kN på enkelmonterat hjul, 20 kN på dubbelmonterat och breddäck. Låt bromskraften stabiliseras före avläsning. Medelbromskraft under ett hjulvarv ska ligga till grund för bedömning. Beräkningen utförs i datoriserad bromsprovare. Bromskrafter under 0,5 kN på lätta fordon eller bromskrafter vid manövertryck < 0,20 MPa alternativt < 5 kN på minst ett av hjulen på tunga fordon bör inte användas för bedömning av ojämn bromsverkan om inte skillnaden i bromskraft klart kan härledas till ett tekniskt fel i systemet. Observera att på bilar med differentialbroms eller automatisk differentialspärr kan broms- provarrullarnas olika starttider, eventuell skillnad i rullhastigheten eller skillnader i radie på däck eller rulle ge utslag som ojämn bromsverkan. Karaktäristiskt för sådana effekter är att direkt vid start av rullarna visas en ojämnhet/anliggning. Ett säkert tecken på att bilen har differentialbroms är att hjulet på andra sidan dras med i samma riktning när ett hjul roteras, vid upplyft axel och växel i friläge. Finns anledning att misstänka effekter från differentialbromsen som enda anledning till ojämn bromsverkan, ska ingen anmärkning göras. Bromskontroll utförs vid provkörning."
+                "Description": "Bromskraftfördelning kontrolleras i bromsprovare på alla fordon som får köras i bromsprovare. Fordon som inte kan köras i bromsprovare ska kontrolleras vid provkörning. Kontroll av bromskraftfördelning mellan hjulen på samma axel sker genom att bromsarna ansätts tills det mest bromsade hjulet uppnått en bromskraft i närheten av blockering eller maximalt 15 kN på enkelmonterat hjul, 20 kN på dubbelmonterat och breddäck. Låt bromskraften stabiliseras före avläsning. Medelbromskraft under ett hjulvarv ska ligga till grund för bedömning. Beräkningen utförs i datoriserad bromsprovare. Bromskrafter under 0,5 kN på lätta fordon eller bromskrafter vid manövertryck < 0,20 MPa alternativt < 5 kN på minst ett av hjulen på tunga fordon bör inte användas för bedömning av ojämn bromsverkan om inte skillnaden i bromskraft klart kan härledas till ett tekniskt fel i systemet. Observera att på bilar med differentialbroms eller automatisk differentialspärr kan broms- provarrullarnas olika starttider, eventuell skillnad i rullhastigheten eller skillnader i radie på däck eller rulle ge utslag som ojämn bromsverkan. Karaktäristiskt för sådana effekter är att direkt vid start av rullarna visas en ojämnhet/anliggning. Ett säkert tecken på att bilen har differentialbroms är att hjulet på andra sidan dras med i samma riktning när ett hjul roteras, vid upplyft axel och växel i friläge. Finns anledning att misstänka effekter från differentialbromsen som enda anledning till ojämn bromsverkan, ska ingen anmärkning göras. Bromskontroll utförs vid provkörning."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning utförs på alla bilar."
+                "Description": "vid enkel provkörning utförs på alla bilar."
               }
             ],
             "Assessment": "Bromskraftfördelning ska subjektivt bedömas på bilar med en totalvikt av högst 3 500 kg och när bromskraften på en enskild axel påtagligt understiger den bromskraft som axeln ska svara för. För bedömning av tryckluftbromsade fordon används protokollet från bromsprovet. Indikationer på felaktig bromskraftfördelning följs upp och bedöms vid provkörning. Även om retardationsförmågan bedöms tillräcklig ska anmärkning ske när bromskraften på enskild axel kraftigt understiger den bromskraft som axeln ska svara för. Om fordonets sneddragning kräver att föraren styr emot påtagligt vid normal ansättning av färdbromsen, för att bibehålla kursen rakt fram inom en zon som är 3,5 m bred, är sneddragningen att anse som påtaglig. "
@@ -872,30 +872,30 @@
             "Name": "Systemfunktion",
             "Control": [
               {
-                "Type": "Funktion",
-                "Info": "med avseende på följsamhet, förlust- och lossningstid"
+                "Point": "Funktion",
+                "Detail": "med avseende på följsamhet, förlust- och lossningstid"
               },
               {
-                "Type": "Täthet",
-                "Info": "med avseende på inre läckage (sjunkande pedal) och läckage på pneumatiskt system som inte kan hänföras till annan viss komponent ska noteras under denna rubrik."
+                "Point": "Täthet",
+                "Detail": "med avseende på inre läckage (sjunkande pedal) och läckage på pneumatiskt system som inte kan hänföras till annan viss komponent ska noteras under denna rubrik."
               }
             ],
             "Method": [
               {
                 "Type": "Bromskontroll",
-                "Info": "Vid bromskontroll observeras tendenser till lång ansättnings-/lossningstid för vidare uppföljning vid underredskontroll (igensatta/skadade ventiler)."
+                "Description": "vid bromskontroll observeras tendenser till lång ansättnings-/lossningstid för vidare uppföljning vid underredskontroll (igensatta/skadade ventiler)."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning görs på fordon som visar tendenser till lång ansättnings-/lossningstid."
+                "Description": "vid enkel provkörning görs på fordon som visar tendenser till lång ansättnings-/lossningstid."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom att tendenser observeras på sjunkande pedal vid högt och lågt tryck. Täthetskontroll ska följas av okulärkontroll för att avslöja eventuellt läckage. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt. Vid tveksamhet om vilket fordon som orsakar läckage, kopplas släpets slangar loss och ny kontroll utförs med enbart bilen. "
+                "Description": "på hydrauliskt system genomförs kontrollen genom att tendenser observeras på sjunkande pedal vid högt och lågt tryck. Täthetskontroll ska följas av okulärkontroll för att avslöja eventuellt läckage. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt. Vid tveksamhet om vilket fordon som orsakar läckage, kopplas släpets slangar loss och ny kontroll utförs med enbart bilen. "
               },
               {
                 "Type": "Läckage - Sjunkande pedal",
-                "Info": "På vissa bilar kan vakuumpumpens och bromsservons arbete uppfattas som inre läckage. Problemet märks tydligast på bilar med hög förstärkningsfaktor. Läckage konstateras säkrast i bromsprovare (kretsbortfall). Vid tveksamhet utförs täthetskontroll med avstängd motor och utan undertryck i bromsservon."
+                "Description": "på vissa bilar kan vakuumpumpens och bromsservons arbete uppfattas som inre läckage. Problemet märks tydligast på bilar med hög förstärkningsfaktor. Läckage konstateras säkrast i bromsprovare (kretsbortfall). Vid tveksamhet utförs täthetskontroll med avstängd motor och utan undertryck i bromsservon."
               }
             ]
           },
@@ -904,18 +904,18 @@
             "Name": "Rörelsereserv",
             "Control": [
               {
-                "Type": "Funktion - Rörelsereverv",
-                "Info": "Med pedalvägsreserv avses bromspedalens (-reglagets) rörelsereserv på hydrauliskt bromssystem. Med slaglängdsreserv avses tryckstångens kvarvarande rörelseutrymme efter bromsansättning på pneumatiskt bromssystem. Vid lång slagländ på ett fordon med automatjustering i bromshävarm, ska bristfälligheten antecknas under position 4.4.3 Bromshävarm. Med påskjutsreserv avses tryckstångens rörelsereserv på påskjutsbroms."
+                "Point": "Funktion",
+                "Detail": "Med pedalvägsreserv avses bromspedalens (-reglagets) rörelsereserv på hydrauliskt bromssystem. Med slaglängdsreserv avses tryckstångens kvarvarande rörelseutrymme efter bromsansättning på pneumatiskt bromssystem. Vid lång slagländ på ett fordon med automatjustering i bromshävarm, ska bristfälligheten antecknas under position 4.4.3 Bromshävarm. Med påskjutsreserv avses tryckstångens rörelsereserv på påskjutsbroms."
               }
             ],
             "Method": [
               {
                 "Type": "Bromskontroll",
-                "Info": "Pedalvägs-, spakvägs- och påskjutsreserv kontrolleras och bedöms vid den högsta bromskraft som uppnås under bromskontrollen. Vid tveksamhet sker bedömning av pedalvägsreserv vid körning."
+                "Description": "Pedalvägs-, spakvägs- och påskjutsreserv kontrolleras och bedöms vid den högsta bromskraft som uppnås under bromskontrollen. Vid tveksamhet sker bedömning av pedalvägsreserv vid körning."
               },
               {
                 "Type": "Okulärkontroll",
-                "Info": "av rörelsen på bromscylinderns trycktång. Rörelsen kan åstadkommas genom bromsning eller med hjälp av särskilt verktyg. Mätning av bromscylinders slaglängd görs vid tveksamhet om bedömning. Angivet värde för slaglängd gäller trycksatt system. "
+                "Description": "av rörelsen på bromscylinderns trycktång. Rörelsen kan åstadkommas genom bromsning eller med hjälp av särskilt verktyg. Mätning av bromscylinders slaglängd görs vid tveksamhet om bedömning. Angivet värde för slaglängd gäller trycksatt system. "
               }
             ]
           },
@@ -924,30 +924,30 @@
             "Name": "Hjulbroms",
             "Control": [
               {
-                "Type": "Funktion",
-                "Info": "vad avser följsamhet, pulserande bromsverkan och anliggande broms."
+                "Point": "Funktion",
+                "Detail": "vad avser följsamhet, pulserande bromsverkan och anliggande broms."
               },
               {
-                "Type": "Fastsättning",
-                "Info": ", skador, slitage på bromstrumma, bromsskiva, bromsbelägg, bromsok samt täthet på hjulbroms. På bromssköld kontrolleras skador som enbart påverkar fastsättning av bromskomponenter."
+                "Point": "Fastsättning",
+                "Detail": ", skador, slitage på bromstrumma, bromsskiva, bromsbelägg, bromsok samt täthet på hjulbroms. På bromssköld kontrolleras skador som enbart påverkar fastsättning av bromskomponenter."
               }
             ],
             "Method": [
               {
                 "Type": "Bromskontroll",
-                "Info": "Bromskontroll. Pulsering och följsamhet kontrolleras i rullbromsprovare genom att bromsen ansätts gradvis till ett så högt värde som möjligt utan hjulblockering. Konstant tryck behålls under ett hjulvarv. Påskjutsbroms och elbroms Kontroll av påskjutsbroms sker genom ansättning av bromsen med hjälp av särskilt verktyg. Den totala bromskraften bedöms med hänsyn till erforderlig manöverkraft på verktyget. Pulsering bedöms som skillnad mellan högsta och lägsta bromsvärde under ett hjulvarv vid den medelbromskraft som används för bedömning av retardationsförmåga. Indikationer från pulserande bromsverkan noteras för uppföljning vid underredskontroll och vid körning. Anliggning kontrolleras som avslutande moment. Observera att på bilar med differentialbroms eller automatisk differentialspärr kan bromsprovarrullarnas olika starttider, eventuell skillnad i rullhastigheten eller skillnader i radie på däck eller rullar ge utslag som anliggande broms."
+                "Description": "Bromskontroll. Pulsering och följsamhet kontrolleras i rullbromsprovare genom att bromsen ansätts gradvis till ett så högt värde som möjligt utan hjulblockering. Konstant tryck behålls under ett hjulvarv. Påskjutsbroms och elbroms Kontroll av påskjutsbroms sker genom ansättning av bromsen med hjälp av särskilt verktyg. Den totala bromskraften bedöms med hänsyn till erforderlig manöverkraft på verktyget. Pulsering bedöms som skillnad mellan högsta och lägsta bromsvärde under ett hjulvarv vid den medelbromskraft som används för bedömning av retardationsförmåga. Indikationer från pulserande bromsverkan noteras för uppföljning vid underredskontroll och vid körning. Anliggning kontrolleras som avslutande moment. Observera att på bilar med differentialbroms eller automatisk differentialspärr kan bromsprovarrullarnas olika starttider, eventuell skillnad i rullhastigheten eller skillnader i radie på däck eller rullar ge utslag som anliggande broms."
               },
               {
                 "Type": "Okulärkontroll",
-                "Info": "från in- och utsidan. Vid tecken på anliggande broms görs om möjligt kontroll med upplyft axel. "
+                "Description": "från in- och utsidan. Vid tecken på anliggande broms görs om möjligt kontroll med upplyft axel. "
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt. "
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning för kontroll och bedömning av pulsering görs på bilar."
+                "Description": "vid enkel provkörning för kontroll och bedömning av pulsering görs på bilar."
               }
             ]
           },
@@ -956,20 +956,20 @@
             "Name": "Tillsatsbroms",
             "Control": [
               {
-                "Type": "Funktionsmöjlighet"
+                "Point": "Funktionsmöjlighet"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "för att avslöja ändringar/skador som påverkar bromsens funktion. Har tillsatsbroms inte möjlighet att fungera får bilen ändå godkännas under förutsättning att särskilt reglage för anordningen demonterats och ingen notering finns kvar i vägtrafikregistret. "
+                "Description": "för att avslöja ändringar/skador som påverkar bromsens funktion. Har tillsatsbroms inte möjlighet att fungera får bilen ändå godkännas under förutsättning att särskilt reglage för anordningen demonterats och ingen notering finns kvar i vägtrafikregistret. "
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "på pneumatisk manövrering sker genom att lyssna efter läckage."
+                "Description": "på pneumatisk manövrering sker genom att lyssna efter läckage."
               }
             ]
           },
@@ -978,20 +978,20 @@
             "Name": "Katastrofbroms",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Funktionsmöjlighet"
+                "Point": "Funktionsmöjlighet"
               }
             ],
             "Method": [
               {
                 "Type": "Funktionskontroll",
-                "Info": "på pneumatiskt system genom att bromsslangar kopplas loss från dragbilen. Dra försiktigt med dragbilen för att kontrollera ansättningen. "
+                "Description": "på pneumatiskt system genom att bromsslangar kopplas loss från dragbilen. Dra försiktigt med dragbilen för att kontrollera ansättningen. "
               },
               {
                 "Type": "Okulärkontroll",
-                "Info": "av mekanisk katastrofbroms. Kontrollen begränsas till vajerns skick och möjlighet att fungera."
+                "Description": "av mekanisk katastrofbroms. Kontrollen begränsas till vajerns skick och möjlighet att fungera."
               }
             ]
           }
@@ -1007,36 +1007,36 @@
             "Name": "Reglage",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Info": "Med reglage avses pedal och handreglage för färdbroms, samt fotbromsventil i pneumatiskt bromssystem."
+                "Detail": "Med reglage avses pedal och handreglage för färdbroms, samt fotbromsventil i pneumatiskt bromssystem."
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "under främre huv och från undersidan av lätt åtkomlig fotbromsventil."
+                "Description": "under främre huv och från undersidan av lätt åtkomlig fotbromsventil."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning och i samband med bromskontroll."
+                "Description": "vid enkel provkörning och i samband med bromskontroll."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
               }
             ]
           },
@@ -1045,16 +1045,16 @@
             "Name": "Huvudcylinder",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
                 "Type": "Vätskenivå"
@@ -1063,15 +1063,15 @@
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "under främre huv och från undersidan av lätt åtkomlig huvudcylinder, bromsservo med ledningar och bromsvätskebehållare. "
+                "Description": "under främre huv och från undersidan av lätt åtkomlig huvudcylinder, bromsservo med ledningar och bromsvätskebehållare. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning och i samband med bromskontroll."
+                "Description": "vid enkel provkörning och i samband med bromskontroll."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "genom att tendenser till sjunkande pedal observeras vid högt och lågt tryck. "
+                "Description": "genom att tendenser till sjunkande pedal observeras vid högt och lågt tryck. "
               }
             ]
           }
@@ -1087,26 +1087,26 @@
             "Name": "Bromsledning",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Skaderisk"
+                "Point": "Skaderisk"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån, under främre huv och från sidan via hjulhus. Vrid hjulen mellan fulla hjulutslag och kontrollera skaderisk. Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt. "
+                "Description": "underifrån, under främre huv och från sidan via hjulhus. Vrid hjulen mellan fulla hjulutslag och kontrollera skaderisk. Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt. "
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
               }
             ]
           },
@@ -1115,33 +1115,33 @@
             "Name": "Länksystem",
             "Control": [
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Slitage"
+                "Point": "Slitage"
               },
               {
-                "Type": "Låsning"
+                "Point": "Låsning"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av stag, vajer, leder, nockaxel, hävarmar mm i färdbromssystem."
+                "Description": "av stag, vajer, leder, nockaxel, hävarmar mm i färdbromssystem."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "sker på fordon som har tryckluftbromsar med bromshävarmar. Krafter anbringas på bromshävarm med hjälp av verktyg. "
+                "Description": "sker på fordon som har tryckluftbromsar med bromshävarmar. Krafter anbringas på bromshävarm med hjälp av verktyg. "
               },
               {
                 "Type": "Mätning",
-                "Info": "av glapp i länksystem sker vid osäkerhet om bedömning."
+                "Description": "av glapp i länksystem sker vid osäkerhet om bedömning."
               }
             ]
           },
@@ -1150,33 +1150,33 @@
             "Name": "Bromshävarm",
             "Control": [
               {
-                "Type": "Funktionsmöjlighet"
+                "Point": "Funktionsmöjlighet"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Låsning"
+                "Point": "Låsning"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av bromshävarm, hävarmens fixpunkt och automatjusteringens funktionsmöjlighet."
+                "Description": "av bromshävarm, hävarmens fixpunkt och automatjusteringens funktionsmöjlighet."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "sker genom att krafter anbringas på bromshävarm med hjälp av verktyg."
+                "Description": "sker genom att krafter anbringas på bromshävarm med hjälp av verktyg."
               },
               {
                 "Type": "Mätning",
-                "Info": "av glapp - bromshävarm/fixpunkt - sker vid osäkerhet om bedömning "
+                "Description": "av glapp - bromshävarm/fixpunkt - sker vid osäkerhet om bedömning "
               }
             ]
           },
@@ -1185,27 +1185,27 @@
             "Name": "Bromscylinder",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "på pneumatiskt system genom att lyssna efter läckage med systemet trycksatt (Parkeringsbroms lossad - färdbroms ansatt)."
+                "Description": "på pneumatiskt system genom att lyssna efter läckage med systemet trycksatt (Parkeringsbroms lossad - färdbroms ansatt)."
               },
               {
                 "Type": "Mätning",
-                "Info": "av bromscylinders slaglängd görs vid tveksamhet om bedömning."
+                "Description": "av bromscylinders slaglängd görs vid tveksamhet om bedömning."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med verktyg utförs då rostangrepp konstateras. "
+                "Description": "med verktyg utförs då rostangrepp konstateras. "
               }
             ]
           },
@@ -1214,23 +1214,23 @@
             "Name": "Bromsventil",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av ventiler i hydrauliskt och pneumatiskt system (reläventil, snabblossningsventil, tryckbegränsningsventil m.m.). Kontroll underifrån, under främre huv och från sidan. "
+                "Description": "av ventiler i hydrauliskt och pneumatiskt system (reläventil, snabblossningsventil, tryckbegränsningsventil m.m.). Kontroll underifrån, under främre huv och från sidan. "
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
               }
             ]
           },
@@ -1239,30 +1239,30 @@
             "Name": "Uttag",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av mätuttag och bromsuttag. "
+                "Description": "av mätuttag och bromsuttag. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "görs i de fall mätuttag/bromsuttag används i samband med bromskontroll"
+                "Description": "görs i de fall mätuttag/bromsuttag används i samband med bromskontroll"
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
               }
             ]
           }
@@ -1278,26 +1278,26 @@
             "Name": "Lastkännande ventil",
             "Control": [
               {
-                "Type": "Funktionsmöjlighet"
+                "Point": "Funktionsmöjlighet"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av lätt kontrollerbar lastkännande ventil. På mekaniskt styrd ventil kontrolleras även länksystem. Observera att lastkännande ventil får vara bortkopplad, demonterad eller vara låst i fullastläge på tungt fordon t.o.m. 1994 års modell, och fordon med ABS-system oavsett totalvikt och typ av bromssystem t.o.m. 2009-04. "
+                "Description": "av lätt kontrollerbar lastkännande ventil. På mekaniskt styrd ventil kontrolleras även länksystem. Observera att lastkännande ventil får vara bortkopplad, demonterad eller vara låst i fullastläge på tungt fordon t.o.m. 1994 års modell, och fordon med ABS-system oavsett totalvikt och typ av bromssystem t.o.m. 2009-04. "
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
               }
             ],
             "Assessment": "Vid efterkontroll p.g.a. fel på lastkännande ventil ska demontering av ventilen inte godtas (bedöms med 2 om det inte gäller fall som beskrivs ovan). "
@@ -1307,29 +1307,25 @@
             "Name": "ABS-system",
             "Control": [
               {
-                "Type": "Funktionsmöjlighet",
-                "Info": "på varningsanordning och komponenter för ABS. Med ”ABS” avses samtliga elektroniska antilåssystem (t.ex. EBS). "
+                "Point": "Funktionsmöjlighet",
+                "Detail": "på varningsanordning och komponenter för ABS. Med ”ABS” avses samtliga elektroniska antilåssystem (t.ex. EBS). "
               },
               {
-                "Type": "Skador",
-                "Info": "på komponenter för ABS."
+                "Point": ["Skador", "Täthet"],
+                "Detail": "på komponenter för ABS."
               },
               {
-                "Type": "Täthet",
-                "Info": "på komponenter för ABS."
-              },
-              {
-                "Info": "Befintlighet, skador på särskilt kontaktdon för sammankoppling av elektroniskt antilåssystem. Avser separat kontakt av ISO-typ för sammankoppling av elektroniskt antilåssystem mellan dragande fordon och släpvagn. Särskilt kontaktdon för antilåssystem ska finnas på bil med; elektroniskt antilåssystem och släpvagnskoppling för T > 3 500 kg - årsmodell 2005 och senare, och släpvagn; T > 3 500 kg, elektroniskt antilåssystem - årsmodell 2005 och senare. "
+                "Detail": "Befintlighet, skador på särskilt kontaktdon för sammankoppling av elektroniskt antilåssystem. Avser separat kontakt av ISO-typ för sammankoppling av elektroniskt antilåssystem mellan dragande fordon och släpvagn. Särskilt kontaktdon för antilåssystem ska finnas på bil med; elektroniskt antilåssystem och släpvagnskoppling för T > 3 500 kg - årsmodell 2005 och senare, och släpvagn; T > 3 500 kg, elektroniskt antilåssystem - årsmodell 2005 och senare. "
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "Kontroll underifrån och från sidan av lätt kontrollerbara komponenter i ABS-system."
+                "Description": "kontroll underifrån och från sidan av lätt kontrollerbara komponenter i ABS-system."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "På hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
+                "Description": "på hydrauliskt system genomförs kontrollen genom okulärkontroll efter tryckprov. På pneumatiskt system genomförs kontrollen genom att lyssna efter läckage med systemet trycksatt."
               }
             ],
             "Assessment": "Om ABS-systemet griper in vid körning i låg hastighet utan att hjulen är nära blockeringsgränsen ska fordonet provköras. Finns reaktionen även vid hastigheter 40 – 50 km/h ska ABS-systemet underkännas. "
@@ -1339,36 +1335,24 @@
             "Name": "Påskjutsanordning",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Funktionsmöjlighet"
+                "Point": "Funktionsmöjlighet"
               },
               {
-                "Type": "Skador",
-                "Info": "på påskjutsanordning. Vid anmärkning mot sådan brist i svängningsdämparens fastsättning anges: Färdbroms svängningsdämpare, fastsättning/låsning bristfällig."
-              },
-              {
-                "Type": "Glapp",
-                "Info": "på påskjutsanordning. Vid anmärkning mot sådan brist i svängningsdämparens fastsättning anges: Färdbroms svängningsdämpare, fastsättning/låsning bristfällig."
-              },
-              {
-                "Type": "Kärvning",
-                "Info": "på påskjutsanordning. Vid anmärkning mot sådan brist i svängningsdämparens fastsättning anges: Färdbroms svängningsdämpare, fastsättning/låsning bristfällig."
-              },
-              {
-                "Type": "Fastsättning",
-                "Info": "på påskjutsanordning. Vid anmärkning mot sådan brist i svängningsdämparens fastsättning anges: Färdbroms svängningsdämpare, fastsättning/låsning bristfällig."
+                "Point": ["Skador", "Glapp", "Kärvning", "Fastsättning"],
+                "Detail": "på påskjutsanordning. Vid anmärkning mot sådan brist i svängningsdämparens fastsättning anges: Färdbroms svängningsdämpare, fastsättning/låsning bristfällig."
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av skador och backspärrens funktionsmöjlighet. Skador och kärvning kontrolleras också vid bromskontroll i bromsprovare. Glapp kontrolleras genom att med handkraft lyfta och trycka på kulhandsken (släpvagnen frånkopplad). "
+                "Description": "av skador och backspärrens funktionsmöjlighet. Skador och kärvning kontrolleras också vid bromskontroll i bromsprovare. Glapp kontrolleras genom att med handkraft lyfta och trycka på kulhandsken (släpvagnen frånkopplad). "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "av svängningsdämpare vid enkel provkörning eller genom att en medhjälpare ger akt på svängningsdämparens reaktion vid körning och bromsning (mycket låg hastighet). Tendenser på svag dämpverkan bedöms vid enkel provkörning. "
+                "Description": "av svängningsdämpare vid enkel provkörning eller genom att en medhjälpare ger akt på svängningsdämparens reaktion vid körning och bromsning (mycket låg hastighet). Tendenser på svag dämpverkan bedöms vid enkel provkörning. "
               }
             ]
           }
@@ -1384,40 +1368,40 @@
             "Name": "Tryckluftsystem",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Kapacitet"
+                "Point": "Kapacitet"
               },
               {
-                "Type": "Förekomst av olja/vatten"
+                "Point": "Förekomst av olja/vatten"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av fastsättning och skador på trycklufttank. "
+                "Description": "av fastsättning och skador på trycklufttank. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "från 1974 av dräneringsanordning genom att öppna trycklufttankens avtappningskran eller annan motsvarande anordning som kan öppnas utan verktyg. Kontrollera samtidigt förekomst av vatten/olja i tank. "
+                "Description": "från 1974 av dräneringsanordning genom att öppna trycklufttankens avtappningskran eller annan motsvarande anordning som kan öppnas utan verktyg. Kontrollera samtidigt förekomst av vatten/olja i tank. "
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "genom att lyssna efter läckage med matarsystemet trycksatt."
+                "Description": "genom att lyssna efter läckage med matarsystemet trycksatt."
               },
               {
                 "Type": "Mätning",
-                "Info": " av kompressors kapacitet sker vid tecken på för låg kapacitet. Mätningen utförs genom att från utgångstrycket 0,6 MPa i trycklufttankarna och med motorn på halva maxvarvtalet kontrollera tiden som åtgår för att uppnå 0,7 MPa. Eventuell släpvagn ska vid provet vara frånkopplad. "
+                "Description": " av kompressors kapacitet sker vid tecken på för låg kapacitet. Mätningen utförs genom att från utgångstrycket 0,6 MPa i trycklufttankarna och med motorn på halva maxvarvtalet kontrollera tiden som åtgår för att uppnå 0,7 MPa. Eventuell släpvagn ska vid provet vara frånkopplad. "
               }
             ]
           },
@@ -1426,20 +1410,20 @@
             "Name": "Frysskydd",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Vätskenivå"
+                "Point": "Vätskenivå"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "Vätskenivå kontrolleras på bil med lätt åtkomlig frysskyddsvätskebehållare. "
+                "Description": "Vätskenivå kontrolleras på bil med lätt åtkomlig frysskyddsvätskebehållare. "
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "görs på bil med lufttork genom att våttank eller kretstank öppnas och förekomst av vatten/olja observeras."
+                "Description": "görs på bil med lufttork genom att våttank eller kretstank öppnas och förekomst av vatten/olja observeras."
               }
             ]
           },
@@ -1448,17 +1432,17 @@
             "Name": "Vakuumsystem",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av fastsättning och skador."
+                "Description": "av fastsättning och skador."
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "genom att lyssna efter läckage."
+                "Description": "genom att lyssna efter läckage."
               }
             ]
           },
@@ -1467,17 +1451,17 @@
             "Name": "Varningsanordning",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av mätare för tryckluft/vakuum i samband med körning."
+                "Description": "av mätare för tryckluft/vakuum i samband med körning."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "av lågtrycksindikator (optisk eller akustisk signal) genom att trycket i en bromskrets sänks till 0,35 MPa."
+                "Description": "av lågtrycksindikator (optisk eller akustisk signal) genom att trycket i en bromskrets sänks till 0,35 MPa."
               }
             ]
           }
@@ -1493,18 +1477,18 @@
             "Name": "Bromsfunktion",
             "Control": [
               {
-                "Type": "Funktion",
-                "Info": "med avseende på parkeringsbromsens totala bromskraft, anliggning, rörelsereserv."
+                "Point": "Funktion",
+                "Detail": "med avseende på parkeringsbromsens totala bromskraft, anliggning, rörelsereserv."
               },
               {
-                "Type": "Funktion",
-                "Info": "på reservbroms avser bilar där parkeringsbroms används som reservbroms (parkeringsbroms på minst två axlar). Alla axlar med parkeringsbroms kontrolleras."
+                "Point": "Funktion",
+                "Detail": "på reservbroms avser bilar där parkeringsbroms används som reservbroms (parkeringsbroms på minst två axlar). Alla axlar med parkeringsbroms kontrolleras."
               }
             ],
             "Method": [
               {
                 "Type": "Bromskontroll",
-                "Info": "i rullbromsprovare utförs på bilar som får provas i rullbromsprovare och på släpvagnar där ansättningen kan ske successivt Mekaniskt manövrerad broms bedöms med hänsyn till erforderlig manöverkraft. Fjäderbromssystem bedöms med hänsyn till bromskraft/funktion. Elektriskt manövrerad broms ansätts snabbt med full kraft vilket kräver särskild uppmärksamhet för att snabbt kunna lossa bromsen. Anliggning kontrolleras som avslutande moment. Vid tecken på anliggning lyfts axeln (om möjligt) för kontroll. Vid ojämn bromsverkan på reservbromssystem görs bedömning vid enkel provkörning. "
+                "Description": "i rullbromsprovare utförs på bilar som får provas i rullbromsprovare och på släpvagnar där ansättningen kan ske successivt Mekaniskt manövrerad broms bedöms med hänsyn till erforderlig manöverkraft. Fjäderbromssystem bedöms med hänsyn till bromskraft/funktion. Elektriskt manövrerad broms ansätts snabbt med full kraft vilket kräver särskild uppmärksamhet för att snabbt kunna lossa bromsen. Anliggning kontrolleras som avslutande moment. Vid tecken på anliggning lyfts axeln (om möjligt) för kontroll. Vid ojämn bromsverkan på reservbromssystem görs bedömning vid enkel provkörning. "
               }
             ]
           },
@@ -1513,35 +1497,35 @@
             "Name": "Transmission",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Slitage"
+                "Point": "Slitage"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån."
+                "Description": "underifrån."
               },
               {
                 "Type": "Funktionskontroll"
               },
               {
                 "Type": "Täthetskontroll",
-                "Info": "på pneumatiskt system genom att med lossad parkeringsbroms lyssnar efter läckage. "
+                "Description": "på pneumatiskt system genom att med lossad parkeringsbroms lyssnar efter läckage. "
               }
             ]
           },
@@ -1550,19 +1534,19 @@
             "Name": "Hjulbroms",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Slitage"
+                "Point": "Slitage"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån och från sidan."
+                "Description": "underifrån och från sidan."
               }
             ],
             "Assessment": "Kan inte rörelsereserven säkert fastställas görs bedömning först då hela slaget utnyttjats. "
@@ -1585,16 +1569,16 @@
             "Name": "Ratt",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "och känn att ratten sitter fast. Har ratt bytts ut och körbarheten kan ifrågasättas görs kontroll vid enkel provkörning."
+                "Description": "och känn att ratten sitter fast. Har ratt bytts ut och körbarheten kan ifrågasättas görs kontroll vid enkel provkörning."
               }
             ]
           },
@@ -1603,26 +1587,26 @@
             "Name": "Rattaxel",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "från förarplats, under främre huv och från undersidan. Om möjligt - känn på detaljen."
+                "Description": "från förarplats, under främre huv och från undersidan. Om möjligt - känn på detaljen."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "sker genom att påföra krafter via ratt-/hjulvridning eller med framvagnsplattan. Vid misstanke om glapp eller lös medbringare ansätts krafter i rattaxelns längdriktning (via ratten)."
+                "Description": "sker genom att påföra krafter via ratt-/hjulvridning eller med framvagnsplattan. Vid misstanke om glapp eller lös medbringare ansätts krafter i rattaxelns längdriktning (via ratten)."
               }
             ]
           },
@@ -1631,40 +1615,40 @@
             "Name": "Styrväxel",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               },
               {
-                "Type": "Täthet"
+                "Point": "Täthet"
               },
               {
-                "Type": "Funktionsmöjlighet",
-                "Info": "på varningsanordning och komponenter för EPS."
+                "Point": "Funktionsmöjlighet",
+                "Detail": "på varningsanordning och komponenter för EPS."
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "underifrån, under främre huv och från sidan via hjulhus. Skador kontrolleras också genom att tendenser till kärvning/lagerskador observeras då hjulet vrids mellan fulla rattutslag på axel som lyfts (undvik slag i ändläge). Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt."
+                "Description": "underifrån, under främre huv och från sidan via hjulhus. Skador kontrolleras också genom att tendenser till kärvning/lagerskador observeras då hjulet vrids mellan fulla rattutslag på axel som lyfts (undvik slag i ändläge). Kontroll med fulla rattutslag på bil med flera styrbara axlar görs enbart om det enkelt går att lyfta de styrbara axlarna samtidigt."
               },
               {
                 "Type": "Glappkontroll",
-                "Info": " sker genom att vrida på ratten och genom att anbringa krafter på hjulet med handkraft eller med hjälp av framvagnsplattan. Även styrväxelns fastsättning kontrolleras i samband med glappkontroll. På bilar med styrservo bedöms glapp i styrväxel med motorn i gång."
+                "Description": " sker genom att vrida på ratten och genom att anbringa krafter på hjulet med handkraft eller med hjälp av framvagnsplattan. Även styrväxelns fastsättning kontrolleras i samband med glappkontroll. På bilar med styrservo bedöms glapp i styrväxel med motorn i gång."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning."
+                "Description": "vid enkel provkörning."
               }
             ]
           },
@@ -1673,19 +1657,19 @@
             "Name": "Systemfunktion",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": "Funktion"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               }
             ],
             "Method": [
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning. Avser brister som upptäcks vid körning eller hjulvridning och inte med säkerhet kan härledas till viss position/komponent"
+                "Description": "vid enkel provkörning. Avser brister som upptäcks vid körning eller hjulvridning och inte med säkerhet kan härledas till viss position/komponent"
               }
             ]
           },
@@ -1694,22 +1678,22 @@
             "Name": "Kulvändkrans",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Kärvning"
+                "Point": "Kärvning"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av skruvar och skador. Kontrollera rörelsen (ändring av spaltavstånd) i kulvändkrans samt kransens fastsättning genom att anbringa krafter vertikalt. Samtidigt kontrolleras även skador i ram och tvärbalkar. "
+                "Description": "av skruvar och skador. Kontrollera rörelsen (ändring av spaltavstånd) i kulvändkrans samt kransens fastsättning genom att anbringa krafter vertikalt. Samtidigt kontrolleras även skador i ram och tvärbalkar. "
               }
             ],
             "Assessment": "I de fall en kärvning kan antas vara orsakad av skador i rattlås (stöldskydd) ska övervägas om skadan kan innebära risk för funktionsbortfall i styrsystemet."
@@ -1726,27 +1710,27 @@
             "Name": "Arm/Stag",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av fastsättning och skador. På tunga fordon kontrolleras medstyrande axel när krafter ansätts med kraftplattan."
+                "Description": "av fastsättning och skador. På tunga fordon kontrolleras medstyrande axel när krafter ansätts med kraftplattan."
               },
               {
                 "Type": "Rostskadekontroll",
-                "Info": "med kontrollverktyg utförs på styrarm av plåtprofil när rostangrepp konstateras. "
+                "Description": "med kontrollverktyg utförs på styrarm av plåtprofil när rostangrepp konstateras. "
               },
               {
                 "Type": "Glappkontroll",
-                "Info": " av styrarmslagring sker genom att krafter ansätts växelvis i styrsystemet eller direkt på lagringen."
+                "Description": " av styrarmslagring sker genom att krafter ansätts växelvis i styrsystemet eller direkt på lagringen."
               }
             ]
           },
@@ -1755,26 +1739,26 @@
             "Name": "Styrled",
             "Control": [
               {
-                "Type": "Fastsättning"
+                "Point": "Fastsättning"
               },
               {
-                "Type": "Skador"
+                "Point": "Skador"
               },
               {
-                "Type": "Glapp"
+                "Point": "Glapp"
               },
               {
-                "Type": "Slitage"
+                "Point": "Slitage"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "av skador på styrleder och på permanentsmorda kulleders tätning. Kontroll av fastsättning sker okulärt i samband med glappkontroll. På kulled kontrolleras kulans läge i kulhuset genom att ledens längd bedöms. (Kulleder kan ha stort slitage utan att motsvarande glapp märks). "
+                "Description": "av skador på styrleder och på permanentsmorda kulleders tätning. Kontroll av fastsättning sker okulärt i samband med glappkontroll. På kulled kontrolleras kulans läge i kulhuset genom att ledens längd bedöms. (Kulleder kan ha stort slitage utan att motsvarande glapp märks). "
               },
               {
                 "Type": "Glappkontroll",
-                "Info": "avser axiellt och radiellt glapp. - Axiellt glapp kontrolleras genom att drag och tryckkrafter påförs leden med handkraft eller verktyg när hjulen är i körläge. Kontroll görs när kulans läge eller ledens konstruktion/skick ger anledning. - Radiellt glapp kontrolleras genom att leden utsätts för växelvisa sidokrafter med hjulen i rakt-fram-läge. Krafterna åstadkoms genom rattvridning eller genom att krafter anbringas på hjulet. Körläge eftersträvas."
+                "Description": "avser axiellt och radiellt glapp. - Axiellt glapp kontrolleras genom att drag och tryckkrafter påförs leden med handkraft eller verktyg när hjulen är i körläge. Kontroll görs när kulans läge eller ledens konstruktion/skick ger anledning. - Radiellt glapp kontrolleras genom att leden utsätts för växelvisa sidokrafter med hjulen i rakt-fram-läge. Krafterna åstadkoms genom rattvridning eller genom att krafter anbringas på hjulet. Körläge eftersträvas."
               }
             ]
           }
@@ -1796,52 +1780,129 @@
             "Name": "Dörr",
             "Control": [
               {
-                "Type": "Funktion"
+                "Point": ["Funktion", "Fastsättning", "Skador"],
+                "Detail": "på dörrgångjärn och dörrlås."
               },
               {
-                "Type": "Fastsättning"
-              },
-              {
-                "Type": "Skador"
-              },
-              {
-                "Type": "Täthet"
+                "Point": "Skador",
+                "Detail": "på dörr."
               }
             ],
             "Method": [
               {
-                "Type": "Okulärkontroll",
-                "Info": ""
+                "Type": "Okulärkontroll"
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": ""
-              },
-              {
-                "Type": "Täthetskontroll",
-                "Info": ""
+                "Description": "sker genom att dörren öppnas och stängs till halvlåst och hellåst läge. Vid indikation om brister på gångjärn görs kontroll genom att med något öppen dörr lyfta i dörren. Samtliga sidodörrar för förare och passagerare ska kunna öppnas. "
               }
             ]
           },
           {
             "Id": "6.1.2",
-            "Name": "Främre huv"
+            "Name": "Främre huv",
+            "Control": [
+              {
+                "Point": ["Funktion", "Fastsättning", "Skador", "Kärvning"],
+                "Detail": "på huvlås."
+              },
+              {
+                "Point": ["Fastsättning", "Skador"],
+                "Detail": "på huvgångjärn."
+              },
+              {
+                "Point": "Skador",
+                "Detail": "på huv."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av huvlås, säkerhetsspärr och reglage för huvlås. Kontrollera även återgång på reglage, lås och spärr. "
+              }
+            ]
           },
           {
             "Id": "6.1.3",
-            "Name": "Kaross"
+            "Name": "Kaross",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av karosseri och karosseridetaljer underifrån, fram-/bakifrån och från sidan."
+              }
+            ]
           },
           {
             "Id": "6.1.4",
-            "Name": "Stänkskärm"
+            "Name": "Stänkskärm",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Täckande funktion"
+              },
+              {
+                "Detail": "Observera att stänkskydd på dragbil för påhängsvagn och dolly med vändskiva kan sakna viss del ovanför axeln. Sådant upptill öppet skydd ska godtas eftersom det av utrymmesskäl kan vara svårt att montera heltäckande skydd. "
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Mätning",
+                "Description": "av stänkskydds höjd över marken sker vid osäkerhet om bedömning. "
+              }
+            ]
           },
           {
             "Id": "6.1.5",
-            "Name": "Ruta"
+            "Name": "Ruta",
+            "Control": [
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Genomsikt"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av repor/skador skador i förarens siktfält."
+              }
+            ],
+            "Assessment": "Anmärkning riktas mot färgat skikt/film (genomsikt) om bedömning görs att ljusgenomsläppligheten är för låg. "
           },
           {
             "Id": "6.1.6",
-            "Name": "Parkeringsstöd"
+            "Name": "Parkeringsstöd",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": " av stödben för tipp kran m.m. och stödhjul med avseende på risken för att stödben/stödhjul fälls ut eller faller ner under körning. "
+              }
+            ]
           }
         ]
       },
@@ -1852,15 +1913,83 @@
         "Subsystems": [
           {
             "Id": "6.2.1",
-            "Name": "Säkerhetsbälte"
+            "Name": "Säkerhetsbälte",
+            "Control": [
+              {
+                "Point": "Befintlighet",
+                "Detail": "kontrolleras på alla sittplatser i personbil och lastbil som ska ha säkerhetsbälten enligt 'Grund för bedömning'."
+              },
+              {
+                "Point": ["Fastsättning", "Skador", "Funktion"],
+                "Detail": "kontrolleras på alla sittplatser i personbil och lastbil som har säkerhetsbälten."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av skador och fastsättning. Större delen av bältesbandet rullas ut för kontroll. Fastsättning avser lätt kontrollerbara fästskruvar. "
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "- Upprullningsdon kontrolleras genom snabba ryck i bältesbandet. - Bälteslås kontrolleras genom att bältet kopplas i låsläge. Observera - Säkerhetsbälte kan ha enbart retardationskännande lås. - Säkerhetsbälte behövs inte för sittplats på längsgående säte, bakåtvänt säte eller klaffsits (≤ 2004). - Mittbälte bak ska inte krävas i vanlig personbil med tre pass bak när bilen är av 1983 års modell eller äldre. - Bälten bak kan ha en extra låsfunktion för fastsättning av bilbarnstol som gör att bältesbandet inte kan dras ut när låsfunktionen är aktiverad. Låsfunktionen aktiveras när bältesbandet dras till helt utdraget läge. När bandet rullas in hörs ett svagt klickande ljud som tecken på att säkerhetsbältet är i låsläge. Bälteslåset återgår till normal låsfunktion om bandet rullas in helt."
+              }
+            ]
           },
           {
             "Id": "6.2.2",
-            "Name": "Förar-/passagerarplats"
+            "Name": "Förar-/passagerarplats",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Täthet",
+                "Detail": "genom att kontrollera skador och eventuella ändringar som medför risk att avgaser tränger in i personutrymme."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av säten."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av spärranordning. Fällbart säte och fällbart ryggstöd ska ha självlåsande spärr och manöverdon som nås av passagerare för passage. - personbil 1971. - buss, lastbil 2004."
+              },
+              {
+                "Type": "Täthetskontroll",
+                "Description": "kontrolleras vid kontroll under huv och vid överredskontroll (exempelvis främre mellanvägg, lastdörr bak). Om otätheter misstänks utökas kontrollen med fullständig provkörning. "
+              }
+            ]
           },
           {
             "Id": "6.2.3",
-            "Name": "Utrustning"
+            "Name": "Utrustning",
+            "Control": [
+              {
+                "Point": ["Skaderisk", "Fastsättning"],
+                "Detail": "avser risk för personskada genom ändrad, monterad eller bristfälligt fastsatt utrustning."
+              },
+              {
+                "Point": "Befintlighet",
+                "Detail": "av brandsläckare i gengasdriven person- eller lastbil, indikering och varningsmärke för krockkudde i bil som har krockkudde på passagerarsidan (beteckning 'Airbag' eller 'SRS') och av stöldskydd."
+              },
+              {
+                "Point": "Funktionsmöjlighet",
+                "Detail": "av varningsanordningar."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "6.2.4",
@@ -1879,23 +2008,112 @@
         "Subsystems": [
           {
             "Id": "6.3.1",
-            "Name": "Lastutrymme"
+            "Name": "Lastutrymme",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Täthet"
+              },
+              {
+                "Detail": "Fordonsmonterade stödben för tippanordning m.m. bedöms enligt position 6.1.6 Parkeringsstöd. "
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "underifrån och från sidan av fastsättning, skador och täthet. Vid tecken på brister som gäller fastsättning görs kontroll genom att krafter påförs infästningspunkten med hjälp av verktyg. I kontroll av fastsättning ingår också tippbäraxel, tipplås och lås för lastbärare."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Description": "med verktyg utförs när rostangrepp konstaterats."
+              }
+            ],
+            "Assessment": "Skador på lastutrymme ska kontrolleras och bedömas med hänsyn till den last som fordonet är avsett för, det är lastutrymmets egenskaper att uppbära och kvarhålla last som ska vara avgörande. Lastutrymme som utsätts för punktbelastning ska ägnas särskild uppmärksamhet. Upptäcks skadat golv i t.ex. fordon för hästtransport görs, om möjligt, kontroll invändigt genom att lyfta på mattor. Låsanordning för lastbärare får inte vara i sådant skick att anordningen kan öppnas genom vibrationer eller annan oavsiktlig påverkan."
           },
           {
             "Id": "6.3.2",
-            "Name": "Pågyggnadsram"
+            "Name": "Pågyggnadsram",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": " underifrån och från sidan av fastsättning och skador. Vid tecken på brister som gäller fastsättning görs kontroll genom att krafter påförs infästningspunkten med hjälp av verktyg."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Description": "med kontrollverktyg utförs då rostangrepp konstaterats"
+              }
+            ]
           },
           {
             "Id": "6.3.3",
-            "Name": "Lastbegränsande anordning"
+            "Name": "Lastbegränsande anordning",
+            "Control": [
+              {
+                "Point": ["Fastsättning", "Skador"],
+                "Detail": "på framstam, lastförskjutningsskydd, sidoläm, bakläm, sidostötta m.m. Lyftplattform som utgör bakläm ska ha mekanisk eller hydraulisk låsanordning. Vid anmärkning mot låsanordning anges; Bakläm, lyftplattform, låsning osäker eller Bakläm, lyftplattform, låsning saknas."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "på sidoläm och bakläm får kontrollen begränsas till skador på fastsättningsanordningar."
+              }
+            ]
           },
           {
             "Id": "6.3.4",
-            "Name": "Lastsäkringsutrustning"
+            "Name": "Lastsäkringsutrustning",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fordonsmonterad utrustning på fordon med T > 3 500 kg. Kontrollen avser utvändig och invändig utrustning. I täckta karosserier görs kontroll om tillträde kan ske genom lastdörr, bakläm eller motsvarande och utan att utrustning demonteras."
+              }
+            ]
           },
           {
             "Id": "6.3.5",
-            "Name": "Lastanordning"
+            "Name": "Lastanordning",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Täthet"
+              },
+              {
+                "Detail": "I de fall lyftplattform utgör lastbegränsande anordning ska någon form av låsanordning finnas (hydraulisk eller mekanisk). Anmärkning ska föras på 6.3.3.5 Bakläm. Fordonsmonterade stödben för kran m.m. bedöms enligt 6.1.6 Parkeringsstöd."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "krafter påförs infästningspunkterna med hjälp av verktyg vid tecken på brister i fastsättningen."
+              }
+            ]
           }
         ]
       },
@@ -1906,7 +2124,19 @@
         "Subsystems": [
           {
             "Id": "6.4.1",
-            "Name": "Tillbehör"
+            "Name": "Tillbehör",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "underifrån och från sidan av tillbehör/utrustning såsom: verktygslåda, reservhjulshållare, spridningsaggregat, plogfäste, slangskåp, mätarskåp m.m. Krafter påförs infästningspunkterna med hjälp av verktyg vid tecken på brister i fastsättningen. Med värmare avses extra anordning för uppvärmning av motor- och passagerarutrymme."
+              }
+            ],
+            "Assessment": "Bränsle- eller avgasläckage för värmare bedöms enligt system 13 för buss och för övriga fordon enligt system 3."
           }
         ]
       },
@@ -1914,7 +2144,23 @@
       {
         "Id": "6.5",
         "Name": "Gasolkontroll",
-        "Subsystems": []
+        "Subsystems": [
+          {
+            "Id": "6.5.1",
+            "Name": "Gastank",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "underifrån av fastsättning."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1929,31 +2175,170 @@
         "Subsystems": [
           {
             "Id": "7.1.1",
-            "Name": "Rengörare"
+            "Name": "Rengörare",
+            "Control": [
+              {
+                "Point": ["Funktion", "Skador"],
+                "Detail": "som påverkar rengöringseffekten."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": ", funktionskontroll genom att rengöringseffekt, svephastighet och spolning observeras. Kontrollen sker med våt ruta. Vid tveksamhet om bedömning av svephastighet kontrolleras tiden för 5 dubbelslag. (Max 12 sek vid laddningsvarv.) Vindrutespolare kontrolleras inte vid kall väderlek (under ca 10 minusgrader)."
+              }
+            ]
           },
           {
             "Id": "7.1.2",
-            "Name": "Backspegel"
+            "Name": "Backspegel",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av skador och fastsättning. Fastsättning kontrolleras genom att känna på spegeln eller genom kontroll vid körning. "
+              }
+            ]
           },
           {
             "Id": "7.1.3",
-            "Name": "Huvudstrålkastate för hel- och halvljus"
+            "Name": "Huvudstrålkastate för hel- och halvljus",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Point": "Inställning"
+              },
+              {
+                "Point": "Antal"
+              },
+              {
+                "Detail": "Observera att utryckningsfordon och bussar i yrkesmässig linjetrafik får ha en extra strålkastare - undantaget gäller endast 1984 och tidigare årsmodeller."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av strålkastarens glas och reflektor. Fastsättning kontrolleras genom att känna på strålkastaren."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "utförs genom att på ljusmätningsinstrumentets mätskärm bedöma ljusbildens färg, ljusstyrka och form. I funktionskontroll ingår även reglage och omkopplare samt kontrollampa för helljus. Funktionskontroll och mätning enligt nedan ska ske med strålkastarna manuellt påslagna (inte i automatiskt läge). Vid tveksamhet om ljusstyrka sker bästa kontrollen visuellt på några meters avstånd (med generator på laddningsvarv). Gasurladdningslampa (xenon) med en styrka > 2000 lumen: Funktionskontroll på automatisk ljusnivåreglering anses vara utförd om strålkastarna har rätt inställning. Upptäcks brister spontant på utrustning för nivåreglering som innebär att den inte fungerar eller har möjlighet att fungera görs bedömning enligt 'Grund för bedömning' nedan. "
+              },
+              {
+                "Type": "Mätning",
+                "Description": "med ljusmätningsinstrument utförs för att kontrollera strålkastarens inställning. Inställningen bedöms med hänsyn till strålkastarens höjd enligt nedan. Strålkastarens höjd mäts från markplanet till ljusmörkergränsens horisontella del. Bil med strålkastarhöjd från 0,8 – 1,0 m och med uppgift (på bilen) om grundinställning av halvljus i intervallet 1,5 – 2,0 %, bedöms enligt regler för strålkastarhöjd > 1,0 m (se 'Bedömning'). "
+              }
+            ]
           },
           {
             "Id": "7.1.4",
-            "Name": "Dimstrålkastare"
+            "Name": "Dimstrålkastare",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Point": "Inställning"
+              },
+              {
+                "Point": "Inkoppling"
+              },
+              {
+                "Point": "Antal"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "Fastsättning kontrolleras genom att känna på strålkastaren. "
+              },
+              {
+                "Type": "Inkoppling",
+                "Description": "avser kontroll av att - dimstrålkastare inte kan lysa utan att bakre positionslyktor samtidigt lyser, och - dimstrålkastare kan släckas när bilens halvljusstrålkastare lyser. "
+              },
+              {
+                "Type": "Färg",
+                "Description": "kontrolleras i samband med 'mätning'."
+              },
+              {
+                "Type": "Mätning",
+                "Description": "med ljusmätningsinstrument utförs för att kontrollera dimstrålkastares inställning (bländning). "
+              }
+            ]
           },
           {
             "Id": "7.1.5",
-            "Name": "Fjärrstrålkastare"
+            "Name": "Fjärrstrålkastare",
+            "Control": [
+              {
+                "Point": "Inkoppling",
+                "Detail": "Avser kontroll av att fjärrstrålkastare inte kan lysa tillsammans med halvljus."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "7.1.6",
-            "Name": "Backningsstrålkastare"
+            "Name": "Backningsstrålkastare",
+            "Control": [
+              {
+                "Point": "Inkoppling"
+              },
+              {
+                "Point": "Funktion"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "på lätt bil och lätt släp från 1984 kontrolleras att backljuset inte lyser då friläge eller växel framåt är ilagd. "
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av kontrollampa på tung lastbil, när backningsstrålkastare kan tändas med separat strömbrytare. "
+              }
+            ]
           },
           {
             "Id": "7.1.7",
-            "Name": "Arbetsbelysning"
+            "Name": "Arbetsbelysning",
+            "Control": [
+              {
+                "Point": "Funktion",
+                "Detail": "på kontrollampa för arbetsbelysning (1984) samt kontroll av att arbetsbelysning går att släcka."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ],
+            "Assessment": "Bländande För bilar med en strålkastarhöjd upp till 1 m ska halvljuset anses bländande om nedvinklingen är < 5 cm/10 m, samt för bilar med en strålkastarhöjd högre än 1 m ska halvljuset anses bländande om nedvinklingen är < 10 cm/10 m. För bilar med en strålkastarhöjd från 0,8 m och upp till 1 m där grundinställningen enligt tillverkarens uppgift är mellan 1,5 – 2,0 % ska halvljuset också anses bländande om nedvinklingen är < 10 cm/10 m. Dimstrålkastare anses bländande om nedvinklingen är < 10 cm/10 m. Om bristen felaktig ljusbild/felriktad i sidled samtidigt ger bländande ljus ska dessutom ”Bländande ljus” med bedömning 2 anges. Nedvinkling För bilar med en strålkastarhöjd upp till 1 m ska halvljusets nedvinkling anses för stor om nedvinklingen är > 25 cm/10 m samt för bilar med strålkastarhöjd högre än 1 m ska halvljusets nedvinkling anses för stor om nedvinklingen är > 30 cm/10 m. För bilar med en strålkastarhöjd från 0,8 m och upp till 1 m där grundinställningen enligt tillverkarens uppgift är mellan 1,5 – 2,0 % ska halvljuset nedvinkling anses vara för stor om nedvinklingen är > 30 cm/10 m. Ändrat utförande Avser avsiktlig ändring av det godkända utförandet exempelvis - strålkastaren förses tape som skymmer del av ljusöppningen, - montering av stenskottsskydd som ger påtagligt svagt ljus (färgat stenskottsskydd ska inte godkännas), eller - när det klart kan konstaterats att konventionella strålkastare (halv- och dimstrålkastare) har bytts mot xenonstrålkastare. Vattenfylld strålkastare anses som ”glas/reflektor påtagligt skadad”."
           }
         ]
       },
@@ -1964,31 +2349,159 @@
         "Subsystems": [
           {
             "Id": "7.2.1",
-            "Name": "Positionslykta"
+            "Name": "Positionslykta",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Inkoppling"
+              },
+              {
+                "Detail": "Positionslykta fram - Färg: vitt eller gult ljus. - Befintlighet bil: från årsmodell 1976. - Befintlighet släp: vagnar vars bredd är > 160 cm, från årsmodell 1977. "
+              }
+            ],
+            "Method": [
+              {
+                "Type": ["Okulärkontroll", "Funktionskontroll"],
+                "Description": "Bakre positionslykta ska kontrolleras med tända huvudstrålkastare, stopplyktor och körvisare. Vid bedömning av fel som kan bero på spänningsfall ska motorn startas och köras på tomgång. Kontroll av inkoppling innebär kontroll av att bakre positionslykta lyser samtidigt med huvudstrålkastare (7.1.4 Dimstrålkastare). Observera att kontrollen även avser automatiska och spänningsreducerade huvudstrålkastare. "
+              }
+            ]
           },
           {
             "Id": "7.2.2",
-            "Name": "Sidomarkering"
+            "Name": "Sidomarkering",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Inkoppling"
+              },
+              {
+                "Detail": "Befintlighetskrav - Lykta krävs på lastbil/buss/släpvagn vars längd är > 6 m. - Reflex krävs på personbil/lastbil/buss vars längd är > 6 m samt på släpvagn oavsett längd. Observera att - sidomarkering ska ha orangegul färg, - bakre sidomarkeringslykta och bakre sidomarkeringsreflex får vara röda (grupperade/kombinerade med bakre positionslykta). Vidare tillåter EG-reglerna att - markeringen placeras 3 m från fordonets främre del och 1 m från fordonets bakre del (nationella krav = 2 m), och - avståndet mellan markeringarna får högst vara 3 resp. 4 m beroende på konstruktion (nationella krav = 6 m)."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av färg på lykta och reflex samt av skador på reflex. Kontroll av inkoppling innebär kontroll av att sidomarkeringslykta lyser samtidigt med positionslyktor."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "på släpvagn oavsett längd samt på lastbil och buss > 6 m."
+              }
+            ]
           },
           {
             "Id": "7.2.3",
-            "Name": "Skyltlykta"
+            "Name": "Skyltlykta",
+            "Control": [
+              {
+                "Point": "Funktion"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Funktionskontroll"
+              }
+            ]
           },
           {
             "Id": "7.2.4",
-            "Name": "Reflex"
+            "Name": "Reflex",
+            "Control": [
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Point": "Typ"
+              },
+              {
+                "Detail": "Med typ av reflex avses - triangulär eller icke triangulär reflex, - EG-reflex, och - LGF-skylt. Observera att släp, utöver triangulär typ, även får ha reflex av typ ”icke triangulär”. Rätt typ av rektangulär reflexanordning baktill på tung lastbil respektive tung släpvagn. Krav på rektangulära EG-reflexer gäller inte - lastbil och släpvagn med totalvikt < 3 500 kg, - lastbil och släpvagn av 1950 eller tidigare årsmodell, - utryckningsfordon och släpvagn kopplad till sådant fordon, - lastbil med karosserikod 76 eller 91 (bärgningsfordon), eller - styraxel för påhängsvagn. Krav på konturmärkning gäller inte - lastbil med totalvikt < 7 500 kg, - släpvagn med totalvikt < 3 500 kg, - dragbil för påhängsvagn, - icke färdigbyggda fordon, och - chassi med hytt."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "7.2.5",
-            "Name": "Bakre dimlykta"
+            "Name": "Bakre dimlykta",
+            "Control": [
+              {
+                "Point": "Funktion",
+                "Detail": "på kontrollampa, färg på ljuset från bakre dimlyktan samt att den bakre dimlyktan går att släcka."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "7.2.6",
-            "Name": "Varsellykta"
+            "Name": "Varsellykta",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Detail": "Vitt eller gult ljus. På bil av 1979 eller senare års modell ska föreskrivna lyktor bak och på sidan vara tända. Detta krav gäller inte varsellykta på bil som uppfyller kraven i ECE-reglemente 48 eller bil av 1978 års modell eller tidigare. Varsellykta (DRL) ska släckas eller gå ner i ljusstyrka när föreskriven strålkastare tänds."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Funktionskontroll"
+              }
+            ]
           },
           {
             "Id": "7.2.7",
-            "Name": "Annan lykta"
+            "Name": "Annan lykta",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Typ"
+              },
+              {
+                "Detail": "Främre breddmarkeringslykta och identifieringslykta ska ha vitt eller gult ljus. Fordon av 1983 och tidigare årsmodell får ha orangegult ljus."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           }
         ]
       },
@@ -1999,23 +2512,93 @@
         "Subsystems": [
           {
             "Id": "7.3.1",
-            "Name": "Körriktningsvisare"
+            "Name": "Körriktningsvisare",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Färg"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Detail": "Observera att - körriktningsvisare ska avge orangegult ljus, - för flyttsak och för 1975 och tidigare årsmodell godtas vitt ljus framåt och rött bakåt, - separat sidokörriktningsvisare krävs från 1986 års modell (undantag flyttsak), och att - bilar av årsmodell 1983 och tidigare kan ha fällbara körriktningsvisare med fast sken på fordonets sida."
+              }
+            ],
+            "Method": [
+              {
+                "Type": ["Okulärkontroll", "Funktionskontroll"],
+                "Description": "Körriktningsvisare ska kontrolleras med tända huvudstrålkastare och stopplyktor. Vid bedömning av fel som kan bero på spänningsfall ska motorn startas och köras på tomgång. Vid tveksamhet om bedömning av blinkfrekvens kontrolleras antalet blinkningar/15 sek.(10 – 35 blinkningar på 15 sek vid tomgångs- och laddningsvarv.) Kontrollanordning ska vara optisk eller akustisk."
+              }
+            ],
+            "Assessment": "Reglage som inte kvarstår i påslaget läge (vid körning rakt fram) bedöms som 'funktion osäker' enligt ”Grund för bedömning”"
           },
           {
             "Id": "7.3.2",
-            "Name": "Stopplykta"
+            "Name": "Stopplykta",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Färg",
+                "Detail": "Rött ljus samt för 1975 och tidigare års modell godtas gult ljus."
+              },
+              {
+                "Point": "Fastsättning"
+              }
+            ],
+            "Method": [
+              {
+                "Type": ["Okulärkontroll", "Funktionskontroll"],
+                "Description": "Stopplykta ska kontrolleras med tända huvudstrålkastare och körriktningsvisare. Vid bedömning av fel som kan bero på spänningsfall ska motorn startas och köras på tomgång. I funktionskontroll ingår också kontroll av att stopplyktan tänds vid låg retardation (< 2 m/s² ). Vid tecken på att högt pedaltryck fordras för att tända stopplyktan ska kontrollen utföras i bromsprovare."
+              }
+            ]
           },
           {
             "Id": "7.3.3",
-            "Name": "Signalanordning"
+            "Name": "Signalanordning",
+            "Control": [
+              {
+                "Point": "Funktion"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av föreskriven ljudsignalanordning."
+              }
+            ]
           },
           {
             "Id": "7.3.4",
-            "Name": "Varningstriangel"
+            "Name": "Varningstriangel",
+            "Control": [
+              {
+                "Point": ["Befintlighet", "Skador"]
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "7.3.5",
-            "Name": "Larmanordning"
+            "Name": "Larmanordning",
+            "Control": [
+              {
+                "Point": "Funktion"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Funktionskontroll"
+              }
+            ]
           }
         ]
       }
@@ -2035,18 +2618,18 @@
             "Name": "Hastighetsmätare",
             "Control": [
               {
-                "Type": "Funktion",
-                "Info": ", även skalgradering"
+                "Point": "Funktion",
+                "Detail": ", även skalgradering"
               }
             ],
             "Method": [
               {
                 "Type": "Okulärkontroll",
-                "Info": "vid enkel provkörning. Ingen särskild kontroll av att hastighetsmätare går att avläsa i mörker - anmärkning enligt nedan görs när detta upptäcks spontant."
+                "Description": "vid enkel provkörning. Ingen särskild kontroll av att hastighetsmätare går att avläsa i mörker - anmärkning enligt nedan görs när detta upptäcks spontant."
               },
               {
                 "Type": "Funktionskontroll",
-                "Info": "vid enkel provkörning. Ingen särskild kontroll av att hastighetsmätare går att avläsa i mörker - anmärkning enligt nedan görs när detta upptäcks spontant."
+                "Description": "vid enkel provkörning. Ingen särskild kontroll av att hastighetsmätare går att avläsa i mörker - anmärkning enligt nedan görs när detta upptäcks spontant."
               }
             ]
           }
@@ -2065,51 +2648,333 @@
         "Subsystems": [
           {
             "Id": "9.1.1",
-            "Name": "Kulkoppling"
+            "Name": "Kulkoppling",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Description": "med verktyg utförs när rostangrepp konstaterats."
+              },
+              {
+                "Type": "Mätning",
+                "Description": "utförs då slitage konstateras."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av låsning på fällbar, vridbar och demonterbar kopplingsdel."
+              }
+            ]
           },
           {
             "Id": "9.1.2",
-            "Name": "Bygelkoppling"
+            "Name": "Bygelkoppling",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage. Fastsättning gäller också kopplingsdelar – t.ex. låsmekanismens fastsättning i bygel."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "på kopplingens manöver- och låsanordning genom att manövrera kopplingen till öppet och låst läge samt genom att kopplingsbulten trycks uppåt med verktyg. I låsanordning ingår första- och andralåsning. "
+              },
+              {
+                "Type": "Mätning",
+                "Description": "utförs då slitage konstaterats."
+              }
+            ]
           },
           {
             "Id": "9.1.3",
-            "Name": "Krokkoppling"
+            "Name": "Krokkoppling",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage. "
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "på kopplingens manöver- och låsanordning. I låsanordning ingår första- och andralåsning."
+              },
+              {
+                "Type": "Mätning",
+                "Description": "utförs då slitage konstaterats."
+              }
+            ]
           },
           {
             "Id": "9.1.4",
-            "Name": "Vändskiva"
+            "Name": "Vändskiva",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage. Särskild uppmärksamhet ska ägnas åt vändskivans infästning i fordon. "
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "på kopplingens manöver- och låsanordning genom att tillkoppla släpvagn eller manövrera kopplingen med hjälp av särskilt verktyg. Slitage i låsanordning kontrolleras genom att gunga dragbilen eller genom att anbringa krafter i längdled på verktyget. I låsanordning ingår första- och andralåsning."
+              },
+              {
+                "Type": "Mätning",
+                "Description": "utförs vid osäkerhet om bedömning."
+              }
+            ],
+            "Assessment": "I vändskivans lagringar, finns konstruktivt en relativt stor rörelse. Anmärkning mot glapp i vändskivans lagringar görs endast i uppenbara fall. Vändskiva monterad på kulvändkrans ska ha stopp som begränsar vridrörelsen till högst ± 20º i förhållande till fordonets längdriktning. För en kulvändkrans som är ca 1 m i diameter innebär ± 20º att rörelsen vid kransens periferi får vara högst 35 – 40 cm"
           },
           {
             "Id": "9.1.5",
-            "Name": "Dragbalk"
+            "Name": "Dragbalk",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning och skador."
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Description": "med verktyg utförs när rostangrepp konstaterats. "
+              }
+            ]
           },
           {
             "Id": "9.1.6",
-            "Name": "Släpvagnskontakt"
+            "Name": "Släpvagnskontakt",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "Kontaktens funktion kontrolleras i de fall släpvagn medföljer vid besiktningen."
+              }
+            ]
           },
           {
             "Id": "9.1.7",
-            "Name": "Kulhandske"
+            "Name": "Kulhandske",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage med frånkopplad släpvagn."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av kopplingens manöver- och låsanordning. I låsanordning ingår första- och andralåsning och i vissa fall kontrollanordning. Låsfunktionen kontrolleras genom att manövrera kopplingen till öppet och låst läge samt genom att med lämpligt verktyg anbringa krafter i kulhandskens kulskål. När kulhandsken är i låst läge får inte låsning öppnas när denna belastas. Slitage, såsom glapp mellan kula och kulhandske, kontrolleras vid lyft under dragstång. "
+              }
+            ]
           },
           {
             "Id": "9.1.8",
-            "Name": "Dragögla"
+            "Name": "Dragögla",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Täthet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "med fastsättning avses öglans fastsättning i dragstången och slitringens fastsättning i dragöglan."
+              },
+              {
+                "Type": "Mätning",
+                "Description": "utförs då slitage konstaterats"
+              }
+            ]
           },
           {
             "Id": "9.1.9",
-            "Name": "Dragstång"
+            "Name": "Dragstång",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              },
+              {
+                "Point": "Glapp"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning skador och slitage. "
+              },
+              {
+                "Type": "Rostskadekontroll",
+                "Description": "med verktyg utförs när rostangrepp konstaterats."
+              },
+              {
+                "Type": "Glappkontroll",
+                "Description": "av dragstångslagring och förlängningsmekanism. Kontrollen sker genom att släpvagnen bromsas och gungas med dragbilen."
+              }
+            ]
           },
           {
             "Id": "9.1.10",
-            "Name": "Tapp"
+            "Name": "Tapp",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage med frånkopplad släpvagn. Fastsättning kontrolleras också genom att knacka på tappen och fastsättningsskruvar som är möjliga att komma åt utan demontering. "
+              },
+              {
+                "Type": "Mätning",
+                "Description": "av ovalitet utförs då slitage konstaterats. Tappens längd under slitplåt mäts om skador på tapp eller vändskiva (mekanism) tyder på att tappen har fel längd. Anordning som kan vara monterad på 2'-tapp för att passa i vändskiva för 3,5' ska demonteras för kontroll av tappens slitage."
+              }
+            ]
           },
           {
             "Id": "9.1.11",
-            "Name": "Kopplingsklasskylt"
+            "Name": "Kopplingsklasskylt",
+            "Control": [
+              {
+                "Point": "Skador"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av skyltens läsbarhet."
+              }
+            ]
           },
           {
             "Id": "9.1.12",
-            "Name": "Multifunktionskoppling"
+            "Name": "Multifunktionskoppling",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Slitage"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av fastsättning, skador och slitage."
+              },
+              {
+                "Type": "Funktionskontroll",
+                "Description": "på kopplingens manöver- och låsanordning genom att manövrera kopplingen till öppet och låst läge. "
+              }
+            ],
+            "Assessment": "Har kopplingsanordning (baktill) sådana brister att släpvagn inte med säkerhet kan tillkopplas anges på besiktningsprotokollet: ”risk - släpvagn får inte tillkopplas”."
           }
         ]
       },
@@ -2120,7 +2985,24 @@
         "Subsystems": [
           {
             "Id": "9.2.1",
-            "Name": "Utskjutande detalj"
+            "Name": "Utskjutande detalj",
+            "Control": [
+              {
+                "Point": "Fastsättning"
+              },
+              {
+                "Point": "Skaderisk"
+              },
+              {
+                "Detail": "Med utskjutande detalj avses fästen, skadade fordonsdelar och eftermonterad utrustning som vid påkörning påtagligt ökar risken för personskada på oskyddad trafikant Observera att - förbudet omfattar inte husvagnsspoiler, smutsavvisare för bakruta, fästen och skydd för extraljus samt fästanordning och avbärare för frontmonterad vinsch, - det för prydnadsföremål finns ett generellt undantag som gäller originalmonterat 'ornament' på huv och originalmonterad spoiler för personbil av 1972 års modell eller tidigare, och att - vingmuttrar för hjuls fastsättning är tillåtna t.o.m. 1967 års modell."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "Att avgöra om en s.k. spoiler eller viltfångare är godkänd är inte enkelt eftersom de kan vara nationellt godkända, godkända enligt ECE-reglemente, uppfylla direktiv 92/114/EEG eller ingå i ett helfordonsgodkännande (direktiv 70/156/EEG, direktiv 2007/46/EG eller förordning (EU) 2018/858). Någon förteckning över konstruktioner som godkänts finns inte. Spoiler och viltfångare ska därför underkännas enbart om de har en olämplig utformning som medför risk för personskada."
+              }
+            ]
           }
         ]
       },
@@ -2131,11 +3013,40 @@
         "Subsystems": [
           {
             "Id": "9.3.1",
-            "Name": "Identitet"
+            "Name": "Identitet",
+            "Control": [
+              {
+                "Detail": "Överensstämmelse beträffande chassi- och registreringsnummer samt översiktlig kontroll av fordonet."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "Identifiering ska ske genom kontroll av att - fordonets instansade fordonsidentifieringsnummer (skylt i vissa fall före 1982) överensstämmer med uppgift i vägtrafikregistret, - registreringsnumret tillhör fordonet, och - fordonet inte har ändrats i sådan omfattning att det väsentligt avviker från tidigare godkänt utförande (översiktlig kontroll). Fordon med personlig skylt ska även ha 'identifieringsmärke', dvs. uppgift om fordonets ordinarie registreringsnummer. För personbil ska denna uppgift (normalt) finnas på insidan av bilens bakre högra sidoruta. "
+              }
+            ],
+            "Assessment": "Om fordonet kan identifieras på ett tillfredsställande sätt trots att instansad fordonsidentifieringsnummer är svåravläst ska fordonet föreläggas enligt 6 kap. 18 § fordonsförordningen (2009:211). Om fordonsidentifieringsnummer inte kan hittas, ska fordonet underkännas enligt 6 kap. 20 § fordonsförordningen (2009:211). Fordonsägaren ska Detailrmeras om lämplig plats för åsättande av inslaget fordonsidentifieringsnummer samt att fordonet ska genomgå en registreringsbesiktning för åsättande av textkod T16A och placering. Detailrmationen ska framgå av besiktningsprotokollet. Om fordonet inte kan identifieras på ett tillfredsställande sätt ska det underkännas. Det besiktade fordonet ska ges en tillfällig identitet i avvaktan på utredning. Fordon som inte kan identifieras ska föreläggas om registreringsbesiktning. "
           },
           {
             "Id": "9.3.2",
-            "Name": "Ändring"
+            "Name": "Ändring",
+            "Control": [
+              {
+                "Point": "Överensstämmelse/avvikelse",
+                "Detail": "mellan fordon och registrerade uppgifter beträffande - kopplingsanordning, - karosserikod, - drivmedel, - uppgifter i vägtrafikregistret som har betydelse för kontrollbesiktningen, och - färg. På bil ombyggd till traktor ska även förekomsten av växellådor samt barlastflak kontrolleras. "
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "vid färgavvikelse ska den rätta färgen rapporteras till vägtrafikregistret."
+              },
+              {
+                "Type": "Mätning",
+                "Description": "av fordonets högsta hastighet som det är konstruerat för att köras. "
+              }
+            ],
+            "Assessment": "Fordonet ska föreläggas om registreringsbesiktning när det visar sig att fordonet har ändrats i icke oväsentlig grad från identitets-, trafiksäkerhets- eller miljösynpunkt och i förhållande till tidigare godkänt utförande. Föreläggande om registreringsbesiktning behöver inte meddelas om ändringen resulterar i en bristfällighet, som fordonsägaren avser eller har möjlighet att enkelt återställa till tidigare godkänt utförande. Exempel på sådan ändring kan vara utbyte till hjul som inte täcks av fordonets stänkskydd (stänkskärm). Registreringsskyltar tillhandahålls av Transportstyrelsen. När det är uppenbart att registreringsskylt bytts mot skylt av annat utförande ska detta bedömas som registreringsskylt 'felaktig' enligt nedan. Registreringsskylt ska monteras framtill och baktill. Skylt som monterats innanför vindruta eller bakrutan ska därför inte accepteras (bedöms som svåravläst enligt nedan). "
           }
         ]
       },
@@ -2146,17 +3057,33 @@
         "Subsystems": [
           {
             "Id": "9.4.1",
-            "Name": "Funktioner"
+            "Name": "Funktioner",
+            "Control": [
+              {
+                "Point": "Funktion"
+              },
+              {
+                "Point": "Skador"
+              },
+              {
+                "Point": "Kärvning"
+              },
+              {
+                "Point": "Körbarhet"
+              },
+              {
+                "Detail": "Vid körning görs slutlig kontroll av system 1 - 8 med bland annat iakttagelser/felindikationer som grund. Om provkörning utförs före kontroll av system 1 - 8 ska iakttagelser/felindikationer ligga till grund för fortsatt kontroll. Brist som kan hänföras till viss position ska föras där. Exempel på brister som konstaterats vid besiktningen, och som därmed kan hänföras till en viss position, är - konstaterad skada/skevhet i stomme eller hjulupphängning som medför försämrad körbarhet, - påtaglig sneddragning vid bromsning på väg, eller - tecken på felaktig bromskraftfördelning som förstärks vid provkörning, pulserande bromsverkan som förstärks vid provkörning."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Enkel och fullständig provkörning"
+              }
+            ]
           }
         ]
       }
     ]
-  },
-  {
-    "Id": "13",
-    "Name": "Brandskyddskontroll",
-    "Image": "https://i.ytimg.com/vi/om8_4lFLAOE/maxresdefault.jpg",
-    "Subsystems": []
   },
   {
     "Id": "30",
@@ -2169,43 +3096,157 @@
         "Subsystems": [
           {
             "Id": "30.1.1",
-            "Name": "Vevhusventilation"
+            "Name": "Vevhusventilation",
+            "Control": [
+              {
+                "Point": ["Funktionsmöjlighet", "Täthet"],
+                "Detail": "på slutet system: Motorer med bensindrift – lätt bil fr.o.m. 1969. Motorer med dieseldrift - kravet gäller endast lätt bil fr.o.m. årsmodell 1989 med motor som avgascertifierats med vevhusventilation. Kontroll av vevhusventilation ska därför endast gälla bil som har sådan utrustning.  "
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "30.1.2",
-            "Name": "Katalysator"
+            "Name": "Katalysator",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet",
+                "Detail": "på katalysator."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ]
           },
           {
             "Id": "30.1.3",
-            "Name": "Syresensor"
+            "Name": "Syresensor",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet",
+                "Detail": "på syresensor."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "av syresensor med ledningar och anslutningar."
+              }
+            ]
           },
           {
             "Id": "30.1.4",
-            "Name": "EGR-system"
+            "Name": "EGR-system",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": ", översiktlig kontroll av EGR-ventil med ledningar och anslutningar."
+              }
+            ]
           },
           {
             "Id": "30.1.5",
-            "Name": "Luftpump"
+            "Name": "Luftpump",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": ", översiktlig kontroll av luftpump med ledningar och anslutningar."
+              }
+            ]
           },
           {
             "Id": "30.1.6",
-            "Name": "Pulsair-system"
+            "Name": "Pulsair-system",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": ", översiktlig kontroll av pulsair-system."
+              }
+            ]
           },
           {
             "Id": "30.1.7",
-            "Name": "Avdunstning"
+            "Name": "Avdunstning",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": ", översiktlig kontroll av komponenter med ledningar och anslutningar."
+              }
+            ]
           },
           {
             "Id": "30.1.9",
-            "Name": "Ombordsdiagnossystem (OBD)"
+            "Name": "Ombordsdiagnossystem (OBD)",
+            "Control": [
+              {
+                "Point": "Funktion",
+                "Detail": "på felindikator/varningslampa för motorelektronik och omborddiagnossystem, gäller - bensindriven personbil och lastbil med totalvikt av högst 3 500 kg fr.o.m. 2002, - dieseldriven personbil med högst 4 passagerare och med en totalvikt av högst 2 500 kg fr.o.m. 2004, - dieseldriven personbil med 5 passagerare eller fler och med en totalvikt av högst 2 500 kg fr.o.m. 2006, och - dieseldriven personbil med en totalvikt över 2 500 kg samt lastbil och buss med en totalvikt av högst 3 500 kg fr.o.m. 2008"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Funktionskontroll",
+                "Description": "av att felindikatorn/varningslampan tänds före start av motorn och att den släcks när motorn startat."
+              }
+            ],
+            "Assessment": "Underkännande genom avlästa emissionsrelaterade felkoder med OBD-utrustning, ska endast ske när felindikatorn/ varningslampan samtidigt indikerar för fel i systemet eller i samband med utsläppsvärden som överstiger gränsvärden i 30.2.1, 30.2.2 och 30.3.1. Underkännande enligt ovan ska endast ske av koderna P0001-P0499 samt P0650 enligt SS-ISO 15031-6:2015. "
           },
           {
             "Id": "30.1.10",
-            "Name": "System som använder förbrukningsbart reagens"
+            "Name": "System som använder förbrukningsbart reagens",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll"
+              }
+            ],
+            "Assessment": "Underkännande ska ske när reagensämne (t.ex. Urea) saknas, har frusit eller om systemet saknar möjlighet att fungera."
           },
           {
             "Id": "30.1.11",
-            "Name": "Partikelfilter"
+            "Name": "Partikelfilter",
+            "Control": [
+              {
+                "Point": "Funktionsmöjlighet",
+                "Detail": "på partikelfilter."
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "på bil som enligt föreskrivna miljökrav ska ha partikelfilter."
+              }
+            ]
           }
         ]
       },
@@ -2216,11 +3257,40 @@
         "Subsystems": [
           {
             "Id": "30.2.1",
-            "Name": "Tomgång"
+            "Name": "Tomgång",
+            "Control": [
+              {
+                "Point": "Halten koloxid vid tomgång"
+              },
+              {
+                "Point": "Halten Kolväten vid tomgång"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Mätning",
+                "Description": "utförs på bil som körs på bensin, bensin/etanolblandning eller enbart etanol. Bil som drivs av bensin/gas ska provas på bensin. Bil med enbart gas som drivmedel ska inte mätas. Mätning utförs inte vid påtagligt avgasläckage och inte på 2-taktsmotorer. Mätning ska ske utan inverkan av avgasutsuget. Vid mätningen ska sondslangen till mätare för avgaser vara instucken minst 30 cm i avgasröret. Bilens motor ska vara driftvarm och ha normalt tomgångsvarv. Mätaren ska avläsas när stabilt värde erhålls, dock senast efter 30 sek. Upptäcks ett påtagligt läckage efter mätning görs bedömning av CO- och HC i de fall mätningen visar för höga halter. Vid godkända värden (och läckande avgassystem) ska mätningen betraktas som ogiltig (Se bedömning 3.1.3; Avgassystem: - påtagligt läckage, avgasmätning inte utförd 2). Justering av CO-halt På en del äldre bilar kan justering av CO-halten utföras i samband med besiktningen. Justeringen kan utföras om följande förutsättningar är uppfyllda: - bilen är av 1975 års modell eller tidigare, - manuell växellåda och koppling, - enkelförgasare, och - vid normalt tomgångsvarvtal. Justering görs till omkring 4 %. Sänks CO-halten till ett för lågt värde kan allvarliga driftstörningar uppstå. För låg COhalt på äldre motorer kan även innebära att andra föroreningar i avgaserna ökar. "
+              }
+            ]
           },
           {
             "Id": "30.2.2",
-            "Name": "Förhöjd tomgång"
+            "Name": "Förhöjd tomgång",
+            "Control": [
+              {
+                "Point": "Halten koloxid vid rpm > 2000"
+              },
+              {
+                "Point": "Lambdavärde"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Mätning",
+                "Description": "utförs på bil med drivmedel bensin, bensin/etanolblandning eller enbart etanol. Bil som drivs av bensin/gas ska provas på bensin. Bil med enbart gas som drivmedel ska inte mätas. Mätning utförs inte vid påtagligt avgasläckage och inte på 2-taktsmotorer. Mätning utförs heller inte när det p.g.a. konstruktion finns risk för skador på motor/kraftöverföring. Kontrollera att avgassystem och eventuellt avgaskontrollsystem är komplett, i tillfredställande skick och att det inte finns några läckor. Konstateras påtagliga läckor som kan ge upphov till utspädning av avgaserna och leda till felaktigt mätresultat, ska mätning inte utföras. Mätning ska ske utan inverkan av avgasutsuget. Vid mätningen ska sondslangen till mätare för avgaser vara instucken minst 30 cm i avgasröret. Bilens motor ska vara driftvarm och ha normalt tomgångsvarv. Bilens motor ska vid mätning vid förhöjt motorvarvtal, arbeta med ett konstant varvtal inom intervallet 2 000 till 3 000 rpm eller enligt tillverkares anvisning. Vid mätning av manuellt växlade bilar ska växelspaken vid provet placeras i neutralläge och kopplingspedalen ska inte vara nedtryckt. Vid mätning av automatväxlade bilar ska växelväljaren ställas i neutral- eller parkeringsläge. Mätaren ska avläsas när stabilt värde erhålls, dock senast efter 30 sek. Har bilen flera avgasrör ska mätning utföras i de olika avgasrören var för sig eller förenas med en gemensam ledning med täta anslutningar i vilken mätning utförs. Mätresultatet utgörs av det sämsta värdet som erhållits i de olika avgasrören."
+              }
+            ],
+            "Assessment": "Upptäcks ett påtagligt läckage efter mätning görs bedömning av CO- och lambdavärde i de fall mätningen visar underkända värden. Vid godkända värden (och läckande avgassystem) ska mätningen betraktas som ogiltig (se bedömning 3.1.3 Avgassystem: - påtagligt läckage, avgasmätning inte utförd 2). Observera att redan mycket små avgasläckage eller sprickor i avgassystem kan påverka lambdavärdet avsevärt uppåt. Fordonet med totalvikt upp till 3500 Kg ska underkännas om gränsvärdet i tabellen nedan överskrids. I stället för kraven i tabellen nedan, får utsläppen i avgaserna vid tomgång inte överstiga 4,5 volymprocent kolmonoxid för - amatörbyggd bil (TSFS 2013:63, kap. 41), - tävlingsbil på väg, s.k. rallybil (TSFS 2013:63, kap.42), eller - bil som utgör flyttsak eller har förvärvats från utlandet - genom arv eller testamente (TSFS 2010:106, kap. 2). "
           }
         ]
       },
@@ -2231,7 +3301,23 @@
         "Subsystems": [
           {
             "Id": "30.3.1",
-            "Name": "Mätning"
+            "Name": "Mätning",
+            "Control": [
+              {
+                "Point": "Opacitetsmätning",
+                "Detail": "på avgaser."
+              },
+              {
+                "Detail": "Opacitetsmätning ska inte utföras om - motorns mekaniska skick med hänsyn till motorljud, funktion hos varvtalregulatorn eller dylikt bedöms vara sådant att en mätning inte kan genomföras utan betydande risk för motorhaveri, - motorn inte har uppnått arbetstemperatur, efter rimlig uppvärmningstid, eller - fordon av årsmodell från och med det kalenderår som infaller 20 år efter fordonsåret enligt vägtrafikregistret, eller äldre. - Mätning ska i dessa fall ersättas av okulärkontroll av de rökbegränsade anordningarna. Detta kan då inkludera en visuell bedömning av avgaserna. Fordonet ska underkännas om funktionen hos de rökbegränsande anordningarna bedöms vara bristfällig"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Opacitetsmätning",
+                "Description": "kontrollera att avgassystem och eventuellt avgaskontrollsystem är komplett, i tillfredställande skick och att det inte finns några läckor. Konstateras påtagliga läckor som kan ge upphov till utspädning av avgaserna och leda till felaktigt mätresultat, ska mätning inte utföras. Mätning får utföras på fordon utan konditionering, om motorn har uppnått arbetstemperatur och är i tillfredsställande mekaniskt skick. Vid mätning ska provsonden föras in så långt i avgasröret att utspädning av avgasprovet med luft via avgasrörsmynningen inte uppstår. Lämpligt insticksdjup är minst 300 mm. Kan tillräckligt insticksdjup inte åstadkommas ska en förlängningsledning med tät anslutning till avgasröret anordnas. Har bilen flera avgasrör ska mätning utföras i de olika avgasrören var för sig eller förenas med en gemensam ledning med täta anslutningar i vilken mätning utförs. Mätresultatet utgörs av det sämsta värdet som erhållits i de olika avgasrören. Motorn ska gå på tomgång innan varje fri accelerationscykel (uppvarvning) påbörjas. För tunga dieseldrivna fordon innebär detta minst 10 sek efter det att gaspedalen släppts upp. Den första accelerationscykeln bör ske långsamt för att bedöma om avregleringen av motorvarvet sker korrekt. Gaspedalen släpps efter det att avregleringsvarvtalet uppnåtts. För att igångsätta varje fri accelerationscykel ska gaspedalen snabbt och i en rörelse tryckas till fullgasläge för att uppnå maximal insprutning från insprutningspumpen. Under varje fri accelerationscykel och innan gaspedalen släpps upp ska motorn komma uppnå - maximivarvtal, - det varvtal som anges av tillverkaren när det gäller automatväxlade bilar, eller - 2/3 av maximivarvtalet. Antalet accelerationscykler får begränsas till en, om uppmätt värde ligger mycket under angivet gränsvärde. Antalet accelerationscykler får begränsas till två, om uppmätt värde ligger mycket över angivet gränsvärde. Är ett underkänt mätvärde påtagligt lägre än föregående mätvärde, ska tillfälle ges för urblåsning för att rensa avgassystemet före ett slutligt ställningstagande."
+              }
+            ],
+            "Assessment": "Upptäcks ett påtagligt läckage ska mätningen inte utföras och bilen underkännas (se bedömning 3.1.3 Avgassystem: - påtagligt läckage, avgasmätning inte utförd 2). Avgasernas röktäthet avseende opacitet (ljusabsorptionskoefficient) ska vid mätning under fri acceleration inte överstiga det värde som anges i tabellen. "
           }
         ]
       },
@@ -2242,7 +3328,19 @@
         "Subsystems": [
           {
             "Id": "30.4.1",
-            "Name": "Kontrollrapport"
+            "Name": "Kontrollrapport",
+            "Control": [
+              {
+                "Point": "Befintlighet"
+              }
+            ],
+            "Method": [
+              {
+                "Type": "Okulärkontroll",
+                "Description": "kontrollrapport ska uppvisas om aggregatet innehåller > 5 ton koldioxidekvivalenter f-gas eller HCFC. Mängden köldmedier och typ av f-gas framgår av skylt på aggregatet. Kontrollrapporten ska vara upprättad av certifierad personal och vara daterad under de senaste 12 månaderna. För fordon med besiktningsintervall enligt 6 kap. 6 § punkt 1 fordonsförordningen (2009:211) ska inte kontrollrapport krävas vid den första kontrollbesiktningen. "
+              }
+            ],
+            "Assessment": "För aggregat som enbart har koldioxid (beteckning CO2) som köldmedie krävs ingen kontrollrapport. Dessa aggregat har enbart en stor tank för koldioxid och saknar både motor och kompressor."
           }
         ]
       }
