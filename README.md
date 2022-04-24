@@ -34,9 +34,9 @@ The tool should be used to assist the inspection of a vehicle through step-by-st
 
 ## Design Guide & Wireframe (In Progress)
 
-# Design Guide
+### Design Guide
 
-# Wireframe + Prototype
+### Wireframe + Prototype
 
 ![Prototype](/Design/PrototypeDraft1.gif)
 
