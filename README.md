@@ -32,9 +32,11 @@ The tool should be used to assist the inspection of a vehicle through step-by-st
   - Build the application
   - Host the completed application 🥳
 
-## Design Guide & Wireframe (In Progress)
+## Design Guide & Wireframe (May be changed in the near future)
 
 ### Design Guide
+
+![Guideline](/Design/Guideline.png)
 
 ### Wireframe + Prototype
 
