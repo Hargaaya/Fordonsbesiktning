@@ -42,6 +42,16 @@ The tool should be used to assist the inspection of a vehicle through step-by-st
 
 ![Prototype](/Design/PrototypeDraft1.gif)
 
-## Platforms/Framework/Tools (To be written)
+## Platforms/Framework/Tools (May be updated)
+
+The premise of the project is to use the .NET framework to an extent that would be considered comprehensive. But also the ability to develop the frontend and backend separately. Therefore, the application will have a content delivery API coupled with a frontend application. ASP.NET Web API is undoubtedly the best choice for the backend in this situation, and that is what we are going with.
+
+The .NET framework provides Blazor, which utilizes WASM for frontend applications. This implies that the page requires the entire .NET runtime together with the application DLL libraries to be downloaded to the browser before the initial render. In contrast, React and Vue are built on Javascript and require lightweight JS files, which translates to faster initial render and load times. Thus, I see no significant reason to choose Blazor over React or Vue other than to satisfy the initial premise of comprehensive .NET usage.
+
+Because our application is mostly document-based, the only logical choice for a database would be a NoSQL one. There are numerous NoSQL alternatives available, but the most well-known ones are MongoDB, CouchDB, and RavenDB for documents. Without question, MongoDB is the most popular document store, with broad support and extensive documentation. Aside from its popularity, MongoDB offers a large toolbox that fits our needs.
+
+**Frontend**: React
+**Backend**: ASP.NET Core
+**Database**: MongoDB, MSQL (Accounts)
 
 ## Completed product (In progress)
