@@ -7,7 +7,7 @@ namespace FordonsbesiktningApp.Controllers
     public class BasicController : ControllerBase
     {
         [HttpGet("names")]
-        public ActionResult<List<string>> Index()
+        public List<string> Index()
         {
             var names = new List<string> { "Brahnen", "Jard", "Sauzie", "Erson" };
             return names;
