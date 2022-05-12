@@ -1,6 +1,7 @@
 ﻿using FordonsbesiktningApp.Models.DTOs;
 using MongoDB.Driver;
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
 
 namespace FordonsbesiktningApp.Services
 {
@@ -20,21 +21,15 @@ namespace FordonsbesiktningApp.Services
             _database = database;
         }
 
-        public SchemaDTO getSchema()
+        public List<SystemDTO> getSystems()
         {
-            var schema = _database.GetCollection<BsonDocument>("Systems");
-            Console.WriteLine(schema.Find(new BsonDocument()).FirstOrDefault().ToString());
-            throw new NotImplementedException();
-        }
+            var SystemCollection = _database.GetCollection<SystemDTO>("Protokoll");
 
-        public List<SubsystemDTO> getSubsystem(string Id)
-        {
-            throw new NotImplementedException();
-        }
+            return SystemCollection.Find(new BsonDocument()).Project(Builders<SystemDTO>.Projection.Exclude(fd => fd.Subsystems))
+                .ToList()
+                .Select(x => BsonSerializer.Deserialize<SystemDTO>(x))
+                .ToList();
 
-        public List<SystemDTO> getSystems(string Id)
-        {
-            throw new NotImplementedException();
         }
     }
 }
