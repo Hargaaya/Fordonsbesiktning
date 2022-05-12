@@ -31,5 +31,12 @@ namespace FordonsbesiktningApp.Services
                 .ToList();
 
         }
+
+        public List<SubsystemDTO> getSubsystems(string Id)
+        {
+            var SystemCollection = _database.GetCollection<SystemDTO>("Protokoll").AsQueryable();
+
+            return SystemCollection.Where(x => x.Id == Id).First().Subsystems.ToList();
+        }
     }
 }

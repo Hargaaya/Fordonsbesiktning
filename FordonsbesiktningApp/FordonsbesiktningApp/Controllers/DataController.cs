@@ -16,9 +16,15 @@ namespace FordonsbesiktningApp.Controllers
         }
 
         [HttpGet("systems")]
-        public List<SystemDTO> Index()
+        public List<SystemDTO> GetSystems()
         {
             return _ds.getSystems();
+        }
+
+        [HttpGet("subsystems/{Id}")]
+        public List<SubsystemDTO> GetSubsystems(string Id)
+        {
+            return _ds.getSubsystems(Id);
         }
     }
 }
