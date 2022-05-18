@@ -7,10 +7,18 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IDataService, DataService>();
+builder.Services.AddCors(opt => opt.AddPolicy(name: "Frontend", policy =>
+{
+    policy.AllowAnyOrigin();
+    policy.AllowAnyMethod();
+    policy.AllowAnyHeader();
+    policy.AllowCredentials();
+}));
 
 var app = builder.Build();
 
 app.UseRouting();
+app.UseCors();
 
 if (app.Environment.IsDevelopment())
 {
