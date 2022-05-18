@@ -12,7 +12,6 @@ builder.Services.AddCors(opt => opt.AddPolicy(name: "Frontend", policy =>
     policy.AllowAnyOrigin();
     policy.AllowAnyMethod();
     policy.AllowAnyHeader();
-    policy.AllowCredentials();
 }));
 
 var app = builder.Build();
