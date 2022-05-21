@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fcfdff;
   height: 100vh;
+  color: white;
+}
+
+.App {
+  @apply flex flex-row;
 }
 
 h1 {
@@ -43,4 +48,9 @@ h4 {
 
 .sidebar-button-number {
   @apply text-sm;
+}
+
+/* Content Box */
+.content-box {
+  @apply mx-5 mt-5 bg-primary w-full max-h-full;
 }

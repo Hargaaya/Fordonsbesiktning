@@ -1,52 +1,53 @@
 import React from "react";
 import Searchbar from "./Searchbar.js";
 
-function Sidebar() {
-  const schemeUrl = new URL("https://localhost:7125/api/");
-  const [scheme, setScheme] = React.useState(null);
-
-  function OnMount() {
-    let localScheme = sessionStorage.getItem("scheme");
-
-    if (localScheme != null) {
-      let parsedLocalScheme = JSON.parse(localScheme);
-      // move sorting out to Util??
-      parsedLocalScheme.sort((a, b) => a.id - b.id);
-      setScheme(parsedLocalScheme);
-    } else {
-      fetchScheme();
-    }
-  }
-
-  function fetchScheme() {
-    fetch(schemeUrl + "systems")
-      .then((res) => res.json())
-      .catch((err) => console.log(err))
-      .then((data) => {
-        sessionStorage.setItem("scheme", JSON.stringify(data));
-        // move sorting out to Util??
-        data.sort((a, b) => a.id - b.id);
-        setScheme(data);
-      });
-  }
+function Sidebar(props) {
+  const [systems, setSystems] = React.useState(null);
 
   React.useEffect(() => {
+    const systemsUrl = new URL("https://localhost:7125/api/");
+
+    function fetchSystems() {
+      fetch(systemsUrl + "systems")
+        .then((res) => res.json())
+        .catch((err) => console.log(err))
+        .then((data) => {
+          sessionStorage.setItem("systems", JSON.stringify(data));
+          // move sorting out to Util??
+          data.sort((a, b) => a.id - b.id);
+          setSystems(data);
+        });
+    }
+
+    function OnMount() {
+      let localSystems = sessionStorage.getItem("systems");
+
+      if (localSystems != null) {
+        let parsedLocalSystems = JSON.parse(localSystems);
+        // move sorting out to Util??
+        parsedLocalSystems.sort((a, b) => a.id - b.id);
+        setSystems(parsedLocalSystems);
+      } else {
+        fetchSystems();
+      }
+    }
+
     OnMount();
   }, []);
 
   return (
     <div className="sidebar">
       <Searchbar />
-      {scheme != null && scheme.map((elem, index) => <SidebarButton key={index} number={elem.id} text={elem.name} />)}
+      {systems && systems.map((elem, index) => <SidebarButton key={index} index={elem.id} text={elem.name} setScheme={props.setScheme} />)}
     </div>
   );
 }
 
-function SidebarButton({ number, text }) {
+function SidebarButton({ index, text, setScheme }) {
   return (
-    <div className="sidebar-button">
+    <div className="sidebar-button" onClick={() => setScheme(index)}>
       <p className="sidebar-button-text">
-        <sup className="sidebar-button-number">{number}</sup>
+        <sup className="sidebar-button-number">{index}</sup>
         {text}
       </p>
     </div>
