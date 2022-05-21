@@ -22,7 +22,7 @@ namespace FordonsbesiktningApp.Controllers
         }
 
         [HttpGet("subsystems/{Id}")]
-        public List<SubsystemDTO> GetSubsystems(string Id)
+        public List<SubsystemDTO>? GetSubsystems(string Id)
         {
             return _ds.getSubsystems(Id);
         }

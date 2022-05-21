@@ -6,6 +6,6 @@ namespace FordonsbesiktningApp.Services
     {
         public List<SystemDTO> getSystems();
 
-        public List<SubsystemDTO> getSubsystems(string Id);
+        public List<SubsystemDTO>? getSubsystems(string Id);
     }
 }
