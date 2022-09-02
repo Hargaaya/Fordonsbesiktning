@@ -52,5 +52,47 @@ h4 {
 
 /* Content Box */
 .content-box {
-  @apply mx-5 mt-5 bg-primary w-full max-h-full;
+  @apply mx-16 mt-20 w-full;
+}
+
+.header h3 {
+  @apply m-0 pl-3 py-1.5;
+}
+
+.header-big h3 {
+  @apply bg-primary text-2xl;
+}
+
+.header-small h3 {
+  @apply bg-secondary text-lg w-[80%] my-1;
+}
+
+.header-dropdown {
+  @apply bg-tertiary w-[50%] hover:bg-tertiary_lighter hover:cursor-pointer m-0;
+}
+
+.header-dropdown span {
+  @apply flex flex-row justify-between items-center min-h-full h-8 my-1 px-3 overflow-clip select-none;
+}
+
+.header-dropdown h4 {
+  @apply text-base;
+}
+
+.header-dropdown i {
+  transform-origin: center 55%;
+  @apply text-lg;
+}
+
+/* dropdown with details */
+.dropdown-details {
+  @apply text-black bg-white hidden transition;
+}
+
+.dropdown-details p {
+  @apply my-1;
+}
+
+.dropdown-details .bolden {
+  @apply text-lg font-semibold;
 }

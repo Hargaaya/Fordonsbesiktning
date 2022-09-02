@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function ContentBox(props) {
   const scheme = React.useRef(null);
@@ -18,7 +18,6 @@ function ContentBox(props) {
         });
     }
     if (props.systemId) fetchScheme(props.systemId);
-    console.log(props.systemId);
   }, [props.systemId]);
 
   if (isLoading) {
@@ -34,7 +33,9 @@ function ContentBox(props) {
     return (
       <div className="content-box">
         <Header type="big" index={props.systemId} title={scheme.current[0].name} />
-        <Header type="small" />
+        {scheme.current.map((elem, index) => (
+          <Header type="small" key={index} index={elem.id} title={elem.name} systemDetails={elem.subsystems} />
+        ))}
       </div>
     );
   }
@@ -44,7 +45,7 @@ function Header(props) {
   switch (props.type) {
     case "big":
       return (
-        <div className="header-big">
+        <div className="header header-big">
           <h3>
             {props.index} {props.title}
           </h3>
@@ -52,15 +53,53 @@ function Header(props) {
       );
     case "small":
       return (
-        <div className="header-small">
+        <div className="header header-small">
           <h3>
             {props.index} {props.title}
           </h3>
+          {props.systemDetails.map((elem, index) => (
+            <DropdownHeader key={index} details={elem} />
+          ))}
         </div>
       );
     default:
       return null;
   }
+}
+function DropdownHeader(props) {
+  function dropit(e) {
+    e.currentTarget.children[1].style.transform += "rotateX(180deg)";
+
+    let dropdown = e.currentTarget.nextElementSibling;
+
+    if (dropdown.style.display === "block") {
+      dropdown.style.display = "none";
+    } else {
+      dropdown.style.display = "block";
+    }
+  }
+
+  return (
+    <div className="header-dropdown">
+      <span onClick={dropit}>
+        <h4>
+          {props.details.id} {props.details.name}
+        </h4>
+        <i className="fa-solid fa-caret-down"></i>
+      </span>
+
+      <DropdownDetails assessment={props.details.assessment} />
+    </div>
+  );
+}
+
+function DropdownDetails(props) {
+  return (
+    <div className="dropdown-details">
+      <p className="bolden">Assessment</p>
+      <p> {props.assessment}</p>
+    </div>
+  );
 }
 
 export default ContentBox;
