@@ -1,7 +1,7 @@
 import "./index.css";
 import React from "react";
-import Sidebar from "./Components/Sidebar.js";
-import ContentBox from "./Components/ContentBox.js";
+import Sidebar from "./Components/Sidebar.jsx";
+import ContentBox from "./Components/ContentBox.jsx";
 
 function App() {
   const [currSystem, setCurrSystem] = React.useState(null);

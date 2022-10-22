@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
+import ComponentDetails from "./ComponentDetails";
 
 function ContentBox(props) {
   const scheme = React.useRef(null);
@@ -10,11 +11,11 @@ function ContentBox(props) {
       setIsLoading(true);
       fetch(schemeUrl + id)
         .then((res) => res.json())
-        .catch((err) => console.log(err))
+        .catch((err) => console.error("something went wrong", err))
         .then((data) => {
           scheme.current = data;
           setIsLoading(false);
-          console.log(scheme.current);
+          // console.log(scheme.current);
         });
     }
     if (props.systemId) fetchScheme(props.systemId);
@@ -67,7 +68,7 @@ function Header(props) {
   }
 }
 function DropdownHeader(props) {
-  function dropit(e) {
+  function dropElement(e) {
     e.currentTarget.children[1].style.transform += "rotateX(180deg)";
 
     let dropdown = e.currentTarget.nextElementSibling;
@@ -81,23 +82,13 @@ function DropdownHeader(props) {
 
   return (
     <div className="header-dropdown">
-      <span onClick={dropit}>
+      <span onClick={dropElement}>
         <h4>
           {props.details.id} {props.details.name}
         </h4>
         <i className="fa-solid fa-caret-down"></i>
       </span>
-
-      <DropdownDetails assessment={props.details.assessment} />
-    </div>
-  );
-}
-
-function DropdownDetails(props) {
-  return (
-    <div className="dropdown-details">
-      <p className="bolden">Assessment</p>
-      <p> {props.assessment}</p>
+      <ComponentDetails componentInformation={props.details} />
     </div>
   );
 }

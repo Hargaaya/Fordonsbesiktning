@@ -1,5 +1,5 @@
 import React from "react";
-import Searchbar from "./Searchbar.js";
+import Searchbar from "./Searchbar.jsx";
 
 function Sidebar(props) {
   return (
