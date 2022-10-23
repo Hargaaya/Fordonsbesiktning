@@ -95,7 +95,7 @@ h4 {
 
 /* dropdown with details */
 .component-details {
-  @apply text-black bg-gray-100 hidden transition py-1 px-2 rounded-xl my-2;
+  @apply text-black bg-gray-100 hidden transition p-4 rounded-xl my-2;
 }
 
 .component-details p {
@@ -104,4 +104,16 @@ h4 {
 
 .component-details .bolden {
   @apply text-lg font-semibold;
+}
+
+.component-details .control {
+  @apply mb-4;
+}
+
+.component-details .methods {
+  @apply mb-4;
+}
+
+.component-details .assessment {
+  @apply mb-4;
 }

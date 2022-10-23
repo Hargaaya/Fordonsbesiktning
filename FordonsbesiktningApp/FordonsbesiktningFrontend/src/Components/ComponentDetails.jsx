@@ -12,7 +12,7 @@ const ComponentDetails = ({ componentInformation }) => {
 
 const Control = ({ controlPoints }) => {
   return (
-    <div>
+    <div className="control">
       <p className="bolden">Att kontrollera</p>
       {controlPoints.map((control, index) => (
         <p key={index}>
@@ -25,7 +25,7 @@ const Control = ({ controlPoints }) => {
 
 const Methods = ({ controlMethods }) => {
   return (
-    <div>
+    <div className="methods">
       <p className="bolden">Kontrollmetoder</p>
       {controlMethods.map((method, index) => (
         <p key={index}>
