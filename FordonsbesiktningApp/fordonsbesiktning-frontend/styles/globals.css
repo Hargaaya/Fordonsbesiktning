@@ -1,3 +1,13 @@
+@tailwind utilities;
+
+@layer utilities {
+  .frosted {
+    backdrop-filter: blur(14px);
+    box-shadow: 3px 3px 6px #00000044;
+    border: 1px solid #ffffff99;
+  }
+}
+
 html,
 body {
   padding: 0;
