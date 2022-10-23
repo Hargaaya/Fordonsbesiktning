@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "stomme"
+  },
+  {
+    "id": 2,
+    "name": "hjulsystem"
+  },
+  {
+    "id": 3,
+    "name": "drivsystem"
+  },
+  {
+    "id": 4,
+    "name": "bromssystem"
+  },
+  {
+    "id": 5,
+    "name": "styrsystem"
+  },
+  {
+    "id": 6,
+    "name": "karosseri"
+  },
+  {
+    "id": 7,
+    "name": "kommunikation"
+  },
+  {
+    "id": 8,
+    "name": "instrumentering"
+  },
+  {
+    "id": 9,
+    "name": "övrigt"
+  },
+  {
+    "id": 30,
+    "name": "miljökontroll"
+  }
+]

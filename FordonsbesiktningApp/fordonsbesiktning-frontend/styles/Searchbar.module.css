@@ -1,0 +1,8 @@
+.searchbar {
+  @apply h-8 w-64 border-solid border-4 border-white mx-auto mb-20 object-contain px-2 rounded-lg;
+}
+
+.searchbar_field {
+  font-family: inherit;
+  @apply bg-inherit border-0 h-full w-[80%] focus:outline-none text-white font-medium text-lg mx-2;
+}

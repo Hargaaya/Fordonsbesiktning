@@ -1,0 +1,31 @@
+@tailwind utilities;
+
+@layer utilities {
+  .frosted {
+    backdrop-filter: blur(14px);
+    box-shadow: 3px 3px 6px #00000044;
+    border: 1px solid #ffffff99;
+  }
+}
+
+.sidebar {
+  @apply bg-primary text-white px-4 min-h-screen select-none max-w-xs m-0 py-20;
+}
+
+/* Sidebar buttons */
+.sidebar_button {
+  @apply mx-auto my-2 p-2 w-[88%] h-8 rounded-lg;
+  border: 1px solid transparent;
+}
+
+.sidebar_button:hover {
+  @apply bg-secondary frosted;
+}
+
+.sidebar_button_text {
+  @apply text-2xl font-bold uppercase m-0;
+}
+
+.sidebar_button_number {
+  @apply text-sm;
+}
