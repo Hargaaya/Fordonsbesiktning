@@ -1,12 +1,6 @@
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
-
-@layer utilities {
-  .frosted {
-    backdrop-filter: blur(14px);
-    box-shadow: 3px 3px 6px #00000044;
-    border: 1px solid #ffffff99;
-  }
-}
 
 html,
 body {
@@ -26,16 +20,52 @@ a {
   text-decoration: none;
 }
 
-/* * {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: #0d0016;
-  }
-} */
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
