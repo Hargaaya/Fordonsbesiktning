@@ -1,9 +1,9 @@
-﻿using FordonsbesiktningApp.Models.DTOs;
+﻿using FordonsbesiktningBackend.Models.DTOs;
 using MongoDB.Driver;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 
-namespace FordonsbesiktningApp.Services
+namespace FordonsbesiktningBackend.Services
 {
     public class DataService : IDataService
     {

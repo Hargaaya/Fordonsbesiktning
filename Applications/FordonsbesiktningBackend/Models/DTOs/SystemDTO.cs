@@ -1,4 +1,4 @@
-﻿namespace FordonsbesiktningApp.Models.DTOs
+﻿namespace FordonsbesiktningBackend.Models.DTOs
 {
     public class SystemDTO
     {

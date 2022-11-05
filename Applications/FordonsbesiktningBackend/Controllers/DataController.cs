@@ -1,5 +1,5 @@
-﻿using FordonsbesiktningApp.Models.DTOs;
-using FordonsbesiktningApp.Services;
+﻿using FordonsbesiktningBackend.Models.DTOs;
+using FordonsbesiktningBackend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FordonsbesiktningApp.Controllers

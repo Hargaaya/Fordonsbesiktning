@@ -1,6 +1,6 @@
-﻿using FordonsbesiktningApp.Models.DTOs;
+﻿using FordonsbesiktningBackend.Models.DTOs;
 
-namespace FordonsbesiktningApp.Services
+namespace FordonsbesiktningBackend.Services
 {
     public interface IDataService
     {
