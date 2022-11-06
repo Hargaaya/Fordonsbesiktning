@@ -1,14 +1,16 @@
 import GlobalStyle from "../layout/GlobalStyle";
 import Variables from "../layout/Variables";
-import Header from "../components/Header/Header";
+import Layout from "../layout/layout";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
-      <Variables />
-      <Header />
-      <Component {...pageProps} />
+      <Layout>
+        <GlobalStyle />
+        <Variables />
+
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

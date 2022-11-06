@@ -31,7 +31,7 @@ const Header = (props: Props) => {
           </HeaderIcon>
           <SelectionContainer show={showSystemMenu}>
             {systems.map((item, i) => (
-              <Link href="#" key={i}>
+              <Link href={`/system/${item.name}`} key={i}>
                 <MenuItem text={item.name} />
               </Link>
             ))}
@@ -52,7 +52,7 @@ const Header = (props: Props) => {
             <Image
               src={user}
               alt="user icon"
-              width={18}
+              width={20}
               height={20}
               onClick={() => {
                 console.log("user click");
