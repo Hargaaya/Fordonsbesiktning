@@ -1,4 +1,6 @@
-html,
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`html,
 body {
   padding: 0;
   margin: 0;
@@ -6,7 +8,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fcfdff;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -64,3 +66,6 @@ h6 {
 #__next {
   isolation: isolate;
 }
+`;
+
+export default GlobalStyle;
