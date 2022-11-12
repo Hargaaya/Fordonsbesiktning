@@ -2,6 +2,7 @@ import Head from "next/head";
 import styled from "styled-components";
 
 export default function Home() {
+  // TODO: Remove title and implement a real front page. Maybe a guide?
   return (
     <div>
       <Head>

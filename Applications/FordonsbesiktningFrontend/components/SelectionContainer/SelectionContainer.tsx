@@ -7,6 +7,9 @@ type Props = {
   right?: number;
 };
 
+/* Selection container for menu buttons, might be
+ usable for other buttons to. */
+
 const SelectionContainer = ({ show, right, children }: Props) => {
   return <>{show && <Container style={{ right }}>{children}</Container>}</>;
 };

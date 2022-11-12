@@ -1,6 +1,6 @@
 import GlobalStyle from "../layout/GlobalStyle";
 import Variables from "../layout/Variables";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (

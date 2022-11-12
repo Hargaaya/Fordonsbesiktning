@@ -5,6 +5,9 @@ type Props = {
   text: string;
 };
 
+/* Regular menu item that goes into-
+SelectionsContainer, integrate link too? */
+
 const MenuItem = ({ text }: Props) => {
   return <Item>{text}</Item>;
 };

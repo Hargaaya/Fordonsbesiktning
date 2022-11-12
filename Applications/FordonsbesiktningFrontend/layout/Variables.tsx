@@ -6,6 +6,7 @@ const Variables = createGlobalStyle`
     --background-fade: linear-gradient(90deg, rgba(211,211,211,0.35) 0%, rgba(229,229,229,0.2) 100%);
     --border-color: rgba(129, 129, 129, 0.2);
     --text-fade: linear-gradient(160deg, #a932e0 0%, #e914a2 100%);
+    --purple-fade: linear-gradient(120deg, #7b10ce 0%, #9711AC 100%);
     --dark-grey: rgba(195, 195, 195, 0.6);
 
     /* Box shadows */
