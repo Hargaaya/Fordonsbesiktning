@@ -11,13 +11,24 @@ type Props = {
   systemName: string;
 };
 
+// TODO: Move interface into util directory
 export interface SystemData {
   id: string;
   name: string;
-  subsystems: object[];
-  control: object[];
-  method: object[];
+  subsystems?: SystemData[];
+  control: Control[];
+  method: Method[];
   assessment: string;
+}
+
+interface Control {
+  point: string;
+  description?: string;
+}
+
+interface Method {
+  type: string;
+  description?: string;
 }
 
 const SystemPage = ({ data, systemName }: Props) => {
