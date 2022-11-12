@@ -1,19 +1,63 @@
 import React from "react";
 import { useRouter } from "next/router";
 import styled from "styled-components";
+import Head from "next/head";
+import { capitalize } from "../../../util/helpers";
+import systems from "../../../util/systems.json";
+import SystemDropdown from "../../../components/SystemDropdown/SystemDropdown";
 
-type Props = {};
+type Props = {
+  data: SystemData[];
+  systemName: string;
+};
 
-const SystemPage = (props: Props) => {
-  const router = useRouter();
-  const system = router.query.system;
+export interface SystemData {
+  id: string;
+  name: string;
+  subsystems: object[];
+  control: object[];
+  method: object[];
+  assessment: string;
+}
+
+const SystemPage = ({ data, systemName }: Props) => {
+  const titleText = capitalize(systemName) + " - Fordonsbesiktning";
 
   return (
     <Container>
-      <Title>{system}</Title>
+      <Head>
+        <title>{titleText}</title>
+      </Head>
+      <Title>{systemName}</Title>
+      <SystemDropdown data={data} />
     </Container>
   );
 };
+
+export async function getStaticPaths() {
+  const params = [];
+  systems.forEach((item, index) => (params[index] = { params: { system: item.name } }));
+
+  return {
+    paths: params,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps(context) {
+  const systemName = context.params.system;
+  const systemId = systems.filter((item) => item.name === systemName)[0].id;
+
+  const res = await fetch(`http://localhost:5125/api/subsystems/${systemId}`);
+  const data = await res.json();
+
+  return {
+    props: {
+      systemName,
+      data,
+    },
+  };
+}
 
 const Container = styled.div`
   width: 90%;
