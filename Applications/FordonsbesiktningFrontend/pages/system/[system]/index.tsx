@@ -1,35 +1,15 @@
 import React from "react";
-import { useRouter } from "next/router";
 import styled from "styled-components";
 import Head from "next/head";
 import { capitalize } from "../../../util/helpers";
 import systems from "../../../util/systems.json";
 import SystemDropdown from "../../../components/SystemDropdown/SystemDropdown";
+import { ControlProgram } from "../../../util/types";
 
 type Props = {
-  data: SystemData[];
+  data: ControlProgram[];
   systemName: string;
 };
-
-// TODO: Move interface into util directory
-export interface SystemData {
-  id: string;
-  name: string;
-  subsystems?: SystemData[];
-  control: Control[];
-  method: Method[];
-  assessment: string;
-}
-
-interface Control {
-  point: string;
-  description?: string;
-}
-
-interface Method {
-  type: string;
-  description?: string;
-}
 
 const SystemPage = ({ data, systemName }: Props) => {
   const titleText = capitalize(systemName) + " - Fordonsbesiktning";
