@@ -1,35 +1,29 @@
-import Image from "next/image";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import arrowUrl from "../../public/assets/arrow.svg";
 import { useRouter } from "next/router";
 import { hasComponentData } from "../../util/helpers";
 import Assessment from "./Assessment";
 import Methods from "./Methods";
 import Controls from "./Controls";
 import { Wrapper } from "../../style/styles";
+import Arrow from "../../assets/Arrow";
 
 type Props = {
   data: ControlProgram[];
 };
 
-const SystemDropdown = ({ data }: Props) => {
-  return (
-    <Container>
-      {data.map((item) => (
-        <Dropdown size="big" itemData={item} key={item.id} />
-      ))}
-    </Container>
-  );
-};
-
-const Container = styled.div``;
+const SystemDropdown = ({ data }: Props) => (
+  <>
+    {data.map((item) => (
+      <Dropdown size="big" itemData={item} key={item.id} />
+    ))}
+  </>
+);
 
 //
 // Dropdown
 //
 
-// TODO: Add animation to arrow icon, check and fix arrow state bug.
 type DropdownProps = {
   itemData: ControlProgram;
   size: "big" | "small";
@@ -39,11 +33,10 @@ const Dropdown = ({ itemData, size }: DropdownProps) => {
   const dynamicRoute = useRouter().asPath;
   const [toggleContent, setToggleContent] = useState(false);
   const [hasData, setHasData] = useState(false);
-  const [spin, setSpin] = useState(false);
-  const toggleArrow = useRef(null);
+  const [expand, setExpand] = useState(false);
 
   function toggle() {
-    setSpin(!spin);
+    setExpand(!expand);
     setToggleContent(!toggleContent);
   }
 
@@ -56,17 +49,36 @@ const Dropdown = ({ itemData, size }: DropdownProps) => {
     <DropdownContainer size={size}>
       <DropDownHeader onClick={hasData ? () => toggle() : undefined} size={size} clickable={hasData}>
         <DropdownTitle size={size}>{itemData.id + " " + itemData.name}</DropdownTitle>
-        {hasData && (
-          <ImageWrapper ref={toggleArrow} spin={spin}>
-            <Image src={arrowUrl} alt="arrow" />
-          </ImageWrapper>
-        )}
+        {hasData && <Arrow spin={expand} />}
       </DropDownHeader>
       {hasData && <DropdownContent show={toggleContent} data={itemData} />}
       {itemData.subsystems.map((item, index) => (
         <Dropdown size="small" itemData={item} key={index} />
       ))}
     </DropdownContainer>
+  );
+};
+
+//
+// DropdownContent
+//
+
+type DropdownContentProps = {
+  show: boolean;
+  data: ControlProgram;
+};
+
+const DropdownContent = ({ show, data }: DropdownContentProps) => {
+  return (
+    <>
+      {show && (
+        <Wrapper>
+          <Controls controlpoints={data.control} />
+          <Methods methods={data.method} />
+          <Assessment assessment={data.assessment} />
+        </Wrapper>
+      )}
+    </>
   );
 };
 
@@ -94,34 +106,5 @@ const DropdownTitle = styled.h3`
   font-weight: ${(props) => (props.size === "small" ? 400 : 500)};
   font-size: ${(props) => (props.size === "small" ? "1em" : "1.1em")}; ;
 `;
-
-const ImageWrapper = styled.span`
-  transform: ${(props) => (props.spin ? "scale(1, -1)" : "scale(-1, 1)")};
-`;
-
-//
-// DropdownContent
-//
-
-type DropdownContentProps = {
-  show: boolean;
-  data: ControlProgram;
-};
-
-// TODO: More abstractions? Move out some components, rename directory.
-
-const DropdownContent = ({ show, data }: DropdownContentProps) => {
-  return (
-    <>
-      {show && (
-        <Wrapper>
-          <Controls controlpoints={data.control} />
-          <Methods methods={data.method} />
-          <Assessment assessment={data.assessment} />
-        </Wrapper>
-      )}
-    </>
-  );
-};
 
 export default SystemDropdown;
