@@ -3,8 +3,7 @@ import styled from "styled-components";
 import Head from "next/head";
 import { capitalize } from "../../../util/helpers";
 import systems from "../../../util/systems.json";
-import SystemDropdown from "../../../components/SystemDropdown/SystemDropdown";
-import { ControlProgram } from "../../../util/types";
+import SystemDropdown from "../../../components/Systems/Dropdown";
 
 type Props = {
   data: ControlProgram[];

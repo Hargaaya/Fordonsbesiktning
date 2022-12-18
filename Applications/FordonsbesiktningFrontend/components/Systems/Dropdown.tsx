@@ -1,10 +1,13 @@
 import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
-import { ControlProgram, Controls, Methods } from "../../util/types";
 import arrowUrl from "../../public/assets/arrow.svg";
 import { useRouter } from "next/router";
-import { hasComponentData, isEmpty, isNull, readableList } from "../../util/helpers";
+import { hasComponentData } from "../../util/helpers";
+import Assessment from "./Assessment";
+import Methods from "./Methods";
+import Controls from "./Controls";
+import { Wrapper } from "../../style/styles";
 
 type Props = {
   data: ControlProgram[];
@@ -112,99 +115,13 @@ const DropdownContent = ({ show, data }: DropdownContentProps) => {
     <>
       {show && (
         <Wrapper>
-          <Control controlpoints={data.control} />
-          <Method methods={data.method} />
+          <Controls controlpoints={data.control} />
+          <Methods methods={data.method} />
           <Assessment assessment={data.assessment} />
         </Wrapper>
       )}
     </>
   );
 };
-
-// TODO: Add icon helper class and determine icons for controls & methods.
-type ControlProps = {
-  controlpoints: Controls[];
-};
-
-const Control = ({ controlpoints }: ControlProps) => {
-  return (
-    <>
-      {!isEmpty(controlpoints) && (
-        <Wrapper>
-          <Header>Kontroll</Header>
-          {controlpoints.map((item, index) => (
-            <ItemWrapper key={index}>
-              <Bolden>
-                {!isNull(item.point) && item.point} {!isNull(item.points) && readableList(item.points)}
-              </Bolden>
-              <p>{item.detail}</p>
-            </ItemWrapper>
-          ))}
-        </Wrapper>
-      )}
-    </>
-  );
-};
-
-// TODO: complete methods component
-type MethodProps = {
-  methods: Methods[];
-};
-
-const Method = ({ methods }: MethodProps) => {
-  return (
-    <>
-      {!isEmpty(methods) && (
-        <Wrapper>
-          <Header>Metoder</Header>
-          {methods.map((item, index) => (
-            <ItemWrapper key={index}>
-              <Bolden>{item.type}</Bolden>
-              <p>{item.description}</p>
-            </ItemWrapper>
-          ))}
-        </Wrapper>
-      )}
-    </>
-  );
-};
-
-// TODO: complete assessment component
-type AssessmentProps = {
-  assessment: string;
-};
-
-const Assessment = ({ assessment }: AssessmentProps) => {
-  return (
-    <>
-      {!isNull(assessment) && (
-        <Wrapper>
-          <Header>Bedömning</Header>
-          <p>{assessment}</p>
-        </Wrapper>
-      )}
-    </>
-  );
-};
-
-const Wrapper = styled.div`
-  margin: 10px;
-`;
-
-const Header = styled.h2`
-  background-image: var(--text-fade);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.2em;
-`;
-
-const Bolden = styled.b`
-  font-weight: 500;
-`;
-
-const ItemWrapper = styled.p`
-  margin-bottom: 4px;
-`;
 
 export default SystemDropdown;
