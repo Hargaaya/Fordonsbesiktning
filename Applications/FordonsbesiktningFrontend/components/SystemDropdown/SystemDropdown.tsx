@@ -133,23 +133,18 @@ const Control = ({ controlpoints }: ControlProps) => {
         <Wrapper>
           <Header>Kontroll</Header>
           {controlpoints.map((item, index) => (
-            <ControlWrapper key={index}>
+            <ItemWrapper key={index}>
               <Bolden>
                 {!isNull(item.point) && item.point} {!isNull(item.points) && readableList(item.points)}
               </Bolden>
               <p>{item.detail}</p>
-            </ControlWrapper>
+            </ItemWrapper>
           ))}
         </Wrapper>
       )}
     </>
   );
 };
-
-const ControlWrapper = styled.p`
-  display: flex;
-  flex-direction: row;
-`;
 
 // TODO: complete methods component
 type MethodProps = {
@@ -162,6 +157,12 @@ const Method = ({ methods }: MethodProps) => {
       {!isEmpty(methods) && (
         <Wrapper>
           <Header>Metoder</Header>
+          {methods.map((item, index) => (
+            <ItemWrapper key={index}>
+              <Bolden>{item.type}</Bolden>
+              <p>{item.description}</p>
+            </ItemWrapper>
+          ))}
         </Wrapper>
       )}
     </>
@@ -186,11 +187,6 @@ const Assessment = ({ assessment }: AssessmentProps) => {
   );
 };
 
-const Bolden = styled.b`
-  font-weight: 500;
-  margin-right: 2px;
-`;
-
 const Wrapper = styled.div`
   margin: 10px;
 `;
@@ -201,6 +197,14 @@ const Header = styled.h2`
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2em;
+`;
+
+const Bolden = styled.b`
+  font-weight: 500;
+`;
+
+const ItemWrapper = styled.p`
+  margin-bottom: 4px;
 `;
 
 export default SystemDropdown;
