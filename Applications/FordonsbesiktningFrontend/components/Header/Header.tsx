@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import hamburger from "../../public/assets/hamburger-menu.svg";
 import user from "../../public/assets/user.svg";
 import search from "../../public/assets/search.svg";
 import styled from "styled-components";
@@ -8,10 +7,11 @@ import SelectionContainer from "../SelectionContainer/SelectionContainer";
 import MenuItem from "../MenuItem/MenuItem";
 import systems from "../../util/systems.json";
 import Link from "next/link";
+import Hamburger from "../../assets/Hamburger";
+import User from "../../assets/User";
+import Magnifier from "../../assets/Magnifier";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   const [showSystemMenu, setShowSystemMenu] = React.useState(false);
   const [showUserMenu, setShowUserMenu] = React.useState(false);
 
@@ -27,7 +27,7 @@ const Header = (props: Props) => {
           }}
         >
           <HeaderIcon>
-            <Image src={hamburger} alt="menu icon" width={19} height={15} />
+            <Hamburger />
           </HeaderIcon>
           <SelectionContainer show={showSystemMenu}>
             {systems.map((item, i) => (
@@ -38,7 +38,7 @@ const Header = (props: Props) => {
           </SelectionContainer>
         </HeaderSelection>
         <SearchbarPlaceholder>
-          Sök <Image src={search} alt="search icon" height={16} width={16} />
+          Sök <Magnifier />
         </SearchbarPlaceholder>
         <HeaderSelection
           onMouseOver={() => {
@@ -49,15 +49,7 @@ const Header = (props: Props) => {
           }}
         >
           <HeaderIcon>
-            <Image
-              src={user}
-              alt="user icon"
-              width={20}
-              height={20}
-              onClick={() => {
-                console.log("user click");
-              }}
-            />
+            <User />
           </HeaderIcon>
           <SelectionContainer right={0} show={showUserMenu}>
             <Link href="#">
