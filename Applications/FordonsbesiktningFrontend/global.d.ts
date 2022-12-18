@@ -1,4 +1,4 @@
-export interface ControlProgram {
+interface ControlProgram {
   id: string;
   name: string;
   subsystems?: ControlProgram[];
@@ -7,13 +7,13 @@ export interface ControlProgram {
   assessment: string;
 }
 
-export interface Controls {
+interface Controls {
   point?: string;
   points?: Array<string>;
   detail?: string;
 }
 
-export interface Methods {
+interface Methods {
   type: string;
   description?: string;
 }
