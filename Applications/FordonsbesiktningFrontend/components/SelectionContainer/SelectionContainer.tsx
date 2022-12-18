@@ -10,9 +10,7 @@ type Props = {
 /* Selection container for menu buttons, might be
  usable for other buttons to. */
 
-const SelectionContainer = ({ show, right, children }: Props) => {
-  return <>{show && <Container style={{ right }}>{children}</Container>}</>;
-};
+const SelectionContainer = ({ show, right, children }: Props) => <>{show && <Container style={{ right }}>{children}</Container>}</>;
 
 const Container = styled.section`
   position: absolute;

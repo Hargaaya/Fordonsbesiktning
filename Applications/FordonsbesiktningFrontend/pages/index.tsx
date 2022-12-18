@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Fordonsbesiktning</title>
+        <title>Fordonsbesiktning - Din hjälp under besiktningen</title>
         <meta name="description" content="Web app that helps you with inspecting vehicles according to TSFS 2017:54" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

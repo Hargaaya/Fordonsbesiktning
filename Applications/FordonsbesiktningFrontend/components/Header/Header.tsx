@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import user from "../../public/assets/user.svg";
-import search from "../../public/assets/search.svg";
 import styled from "styled-components";
 import SelectionContainer from "../SelectionContainer/SelectionContainer";
 import MenuItem from "../MenuItem/MenuItem";
@@ -32,7 +29,7 @@ const Header = () => {
           <SelectionContainer show={showSystemMenu}>
             {systems.map((item, i) => (
               <Link href={`/system/${item.name}`} key={i}>
-                <MenuItem text={item.name} />
+                <MenuItem text={item.id + " " + item.name} />
               </Link>
             ))}
           </SelectionContainer>

@@ -48,7 +48,9 @@ const Dropdown = ({ itemData, size }: DropdownProps) => {
   return (
     <DropdownContainer size={size}>
       <DropDownHeader onClick={hasData ? () => toggle() : undefined} size={size} clickable={hasData}>
-        <DropdownTitle size={size}>{itemData.id + " " + itemData.name}</DropdownTitle>
+        <DropdownTitle size={size}>
+          {itemData.id} {itemData.name}
+        </DropdownTitle>
         {hasData && <Arrow spin={expand} />}
       </DropDownHeader>
       {hasData && <DropdownContent show={toggleContent} data={itemData} />}
